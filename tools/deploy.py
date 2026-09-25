@@ -89,15 +89,23 @@ def main():
     shipped = {p.relative_to(DIST).as_posix() for p in files}
     gone = 0
     for d in SWEPT:
+        # MLSD says outright which entries are files; NLST is the fallback for servers without it.
         try:
-            remote = ftp.nlst(d)
-        except ftplib.error_perm:
-            continue                                # the directory does not exist on the server yet
-        for entry in remote:
-            rel = entry.split("/", 1)[1] if entry.startswith("/") else entry
-            rel = rel if rel.startswith(d) else f"{d}/{rel.rsplit('/', 1)[-1]}"
-            if rel in shipped or rel in PROTECTED or remote_size(rel) is None:
-                continue                            # still built, protected, or a subdirectory
+            names = [n for n, facts in ftp.mlsd(d) if facts.get("type") == "file"]
+        except (ftplib.error_perm, ftplib.error_proto):
+            try:
+                names = ftp.nlst(d)
+            except ftplib.error_perm:
+                print("sweep: cannot list", d)
+                continue
+        print(f"sweep: {d} holds {len(names)} remote files")
+        for entry in names:
+            rel = f"{d}/{entry.rsplit('/', 1)[-1]}"   # NLST may answer with paths, MLSD with bare names
+            if rel in shipped or rel in PROTECTED:
+                continue
+            if remote_size(rel) is None:
+                print("sweep: not a plain file, left alone:", rel)
+                continue
             if not DRY:
                 try:
                     ftp.delete(rel)
