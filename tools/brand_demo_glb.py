@@ -21,8 +21,10 @@ SRC = ROOT / "src" / "models" / "montari.glb"
 OUT = ROOT / "src" / "models" / "montari-branding.glb"
 FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
-# The board sits just behind the torso shell, which ends at x = -0.067 in the link's own frame.
-BOARD = {"x": -0.073, "half_width": 0.085, "z_bottom": 0.145, "z_top": 0.275}
+# A real A3 sheet, 297 by 420 mm, mounted just behind the torso shell, which ends at x = -0.067 in the
+# link's own frame. The torso is only 208 mm across, so an A3 board overhangs it, exactly as it would in life.
+A3_W, A3_H = 0.297, 0.420
+BOARD = {"x": -0.075, "half_width": A3_W / 2, "z_top": 0.29, "z_bottom": 0.29 - A3_H}
 
 
 # ---------------------------------------------------------------- textures
@@ -91,7 +93,7 @@ chest_view = gltf["bufferViews"][gltf["images"][0]["bufferView"]]
 chest_view_i = gltf["images"][0]["bufferView"]
 
 chest_png = png_bytes(placeholder((2048, 422), "YOUR LOGO", pad=6, radius=40, tracking=26))
-board_png = png_bytes(placeholder((1024, 768), "YOUR AD", pad=8, radius=28, tracking=22))
+board_png = png_bytes(placeholder((1754, 2480), "YOUR AD", pad=10, radius=34, tracking=26))   # A3 at 150 dpi
 
 # Repack every existing bufferView in place, substituting the chest texture, then append the new data.
 order = sorted(range(len(gltf["bufferViews"])), key=lambda i: gltf["bufferViews"][i].get("byteOffset", 0))
