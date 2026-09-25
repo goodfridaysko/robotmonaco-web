@@ -39,20 +39,56 @@
     "h1": "L'invité que votre salle va filmer.",
     "lead": "MONTARI est un humanoïde Unitree G1, conçu pour la salle. Il circule parmi vos invités, serre des mains, pose, danse et dit les répliques écrites avec vous. Notre opérateur reste avec lui du début à la fin : vous avez le spectacle et aucun des risques.",
     "specs": [
-      ["Taille", "1,32 m"],
-      ["Poids", "environ 35 kg"],
-      ["Batterie", "environ 2 h de show"],
-      ["Langues", "français et anglais"]
+      [
+        "Taille",
+        "1,32 m"
+      ],
+      [
+        "Poids",
+        "35 kg"
+      ],
+      [
+        "Batterie",
+        "2 h"
+      ],
+      [
+        "Langues",
+        "FR, EN"
+      ]
     ],
     "does": {
       "h2": "Ce que MONTARI fait le soir même.",
       "items": [
-        { "icon": "party-popper", "h": "Il fait l'entrée", "p": "Il entre au signal, avant le discours ou derrière le rideau. La salle se retourne, les téléphones se lèvent et votre soirée a sa première image." },
-        { "icon": "scan-face", "h": "Il travaille la foule", "p": "Le robot circule dans la salle au lieu d'attendre dans un coin. Il salue, serre des mains, incline la tête et réagit aux personnes en face de lui." },
-        { "icon": "mic", "h": "Il dit votre texte", "p": "Les mots d'ouverture, le message de marque, le nom du lauréat. Écrits avec vous en amont et prononcés en français, en anglais ou dans les deux langues." },
-        { "icon": "camera", "h": "Il pose pour les photos", "p": "Il tient la pose, reste immobile à côté d'un invité et attend le déclenchement. Chaque photo quitte le lieu avec votre logo sur son torse." },
-        { "icon": "box", "h": "Il remet les objets", "p": "Un trophée, une clé, une bouteille, un petit cadeau. La remise marque davantage venant d'un robot que d'un animateur avec son porte-bloc." },
-        { "icon": "flag", "h": "Il porte votre marque", "p": "Le logo sur le torse est un adhésif imprimé que nous remplaçons par le vôtre : le robot devient un élément de la campagne plutôt qu'un accessoire loué." }
+        {
+          "icon": "party-popper",
+          "h": "Il fait l'entrée",
+          "p": "Il entre au signal, avant le discours ou derrière le rideau. La salle se retourne, les téléphones se lèvent et votre soirée a sa première image."
+        },
+        {
+          "icon": "scan-face",
+          "h": "Il travaille la foule",
+          "p": "Le robot circule dans la salle au lieu d'attendre dans un coin. Il salue, serre des mains, incline la tête et réagit aux personnes en face de lui."
+        },
+        {
+          "icon": "mic",
+          "h": "Il dit votre texte",
+          "p": "Les mots d'ouverture, le message de marque, le nom du lauréat. Écrits avec vous en amont et prononcés en français, en anglais ou dans les deux langues."
+        },
+        {
+          "icon": "camera",
+          "h": "Il pose pour les photos",
+          "p": "Il tient la pose, reste immobile à côté d'un invité et attend le déclenchement. Chaque photo quitte le lieu avec votre logo sur son torse."
+        },
+        {
+          "icon": "box",
+          "h": "Il remet les objets",
+          "p": "Un trophée, une clé, une bouteille, un petit cadeau. La remise marque davantage venant d'un robot que d'un animateur avec son porte-bloc."
+        },
+        {
+          "icon": "flag",
+          "h": "Il porte votre marque",
+          "p": "Le logo sur le torse est un adhésif imprimé que nous remplaçons par le vôtre : le robot devient un élément de la campagne plutôt qu'un accessoire loué."
+        }
       ]
     },
     "fit": {
@@ -101,20 +137,56 @@
     "h1": "L'humanoïde que vous pouvez programmer.",
     "lead": "NOVA, c'est l'Unitree G1 EDU : le même corps que MONTARI, avec le kit de développement complet ouvert. Nos ingénieurs écrivent de nouveaux comportements, ou votre équipe s'en charge. C'est le robot des démonstrations qui doivent être exactes, de la recherche et de tous ceux qui développent sur ROS 2 et le SDK Unitree.",
     "specs": [
-      ["Taille", "1,32 m"],
-      ["Batterie", "environ 2 h de show"],
-      ["Logiciel", "SDK Unitree complet"],
-      ["Langues", "français et anglais"]
+      [
+        "Taille",
+        "1,32 m"
+      ],
+      [
+        "Batterie",
+        "2 h"
+      ],
+      [
+        "Logiciel",
+        "SDK Unitree"
+      ],
+      [
+        "Langues",
+        "FR, EN"
+      ]
     ],
     "does": {
       "h2": "Ce que le SDK rend possible.",
       "items": [
-        { "icon": "code-2", "h": "Comportements sur mesure", "p": "Séquences de mouvement, gestes et réactions écrits pour votre scénario plutôt que choisis dans un répertoire figé." },
-        { "icon": "cpu", "h": "ROS 2 et le SDK Unitree", "p": "Nos ingénieurs travaillent en Python et C++ sur ROS 2 : ce que vous payez est lisible, testable et vous appartient." },
-        { "icon": "workflow", "h": "Conduite de show", "p": "Des tops depuis la console lumière, un timecode ou un simple bouton en coulisses. Le robot arrive sur sa marque en même temps que la musique." },
-        { "icon": "mic", "h": "Voix et parole", "p": "Répliques écrites ou réponses en direct, en français et en anglais, avec le rythme et les pauses réglés pour la salle." },
-        { "icon": "plug", "h": "Intégrations", "p": "Une base produits, un système de réservation, un écran, un parc lumière ou votre API. Le robot cesse d'être une boîte fermée." },
-        { "icon": "graduation-cap", "h": "Recherche et enseignement", "p": "Universités et équipes R et D louent NOVA pour tester locomotion, perception et interaction sur du matériel réel sans l'acheter." }
+        {
+          "icon": "code-2",
+          "h": "Comportements sur mesure",
+          "p": "Séquences de mouvement, gestes et réactions écrits pour votre scénario plutôt que choisis dans un répertoire figé."
+        },
+        {
+          "icon": "cpu",
+          "h": "ROS 2 et le SDK Unitree",
+          "p": "Nos ingénieurs travaillent en Python et C++ sur ROS 2 : ce que vous payez est lisible, testable et vous appartient."
+        },
+        {
+          "icon": "workflow",
+          "h": "Conduite de show",
+          "p": "Des tops depuis la console lumière, un timecode ou un simple bouton en coulisses. Le robot arrive sur sa marque en même temps que la musique."
+        },
+        {
+          "icon": "mic",
+          "h": "Voix et parole",
+          "p": "Répliques écrites ou réponses en direct, en français et en anglais, avec le rythme et les pauses réglés pour la salle."
+        },
+        {
+          "icon": "plug",
+          "h": "Intégrations",
+          "p": "Une base produits, un système de réservation, un écran, un parc lumière ou votre API. Le robot cesse d'être une boîte fermée."
+        },
+        {
+          "icon": "graduation-cap",
+          "h": "Recherche et enseignement",
+          "p": "Universités et équipes R et D louent NOVA pour tester locomotion, perception et interaction sur du matériel réel sans l'acheter."
+        }
       ]
     },
     "fit": {
@@ -163,20 +235,56 @@
     "h1": "L'accueil devant lequel personne ne passe.",
     "lead": "ORYX est un Unitree Go2 : quatre pattes et pas de mains. Il accueille les invités à la porte, trotte sur un tapis rouge, conduit un groupe jusqu'à la salle et porte une petite charge à vos couleurs. Il est rapide, il est près du sol et il fait s'accroupir les gens, téléphone à la main.",
     "specs": [
-      ["Poids", "environ 15 kg"],
-      ["Batterie", "environ 2 h de show"],
-      ["Pattes", "quatre, marche et trot"],
-      ["Voix", "français et anglais"]
+      [
+        "Poids",
+        "15 kg"
+      ],
+      [
+        "Batterie",
+        "2 h"
+      ],
+      [
+        "Pattes",
+        "4"
+      ],
+      [
+        "Voix",
+        "FR, EN"
+      ]
     ],
     "does": {
       "h2": "Ce que fait le chien robot.",
       "items": [
-        { "icon": "party-popper", "h": "Il ouvre la soirée", "p": "Il attend à la porte, salue les arrivants et donne le ton avant même la première coupe de champagne." },
-        { "icon": "camera", "h": "Il marche sur le tapis", "p": "Une montée de tapis rouge aux côtés de votre invité d'honneur transforme les photos d'arrivée en images que la presse utilise vraiment." },
-        { "icon": "box", "h": "Il porte une petite charge", "p": "Une mallette à vos couleurs, une bouteille, une enveloppe ou le trophée sur le dos. Charges légères uniquement : c'est un spectacle, pas un porteur." },
-        { "icon": "radar", "h": "Il ouvre la voie", "p": "Il conduit les invités de l'entrée à la salle, le long d'un couloir ou entre deux stands, sans qu'aucune signalétique ne soit nécessaire." },
-        { "icon": "flag", "h": "Il porte vos couleurs", "p": "Une selle personnalisée, un adhésif et votre palette sur les coques. Le chien se lit comme le vôtre d'un bout à l'autre de la salle." },
-        { "icon": "sparkles", "h": "Il enchaîne de courtes routines", "p": "S'asseoir, donner la patte, danser quelques mesures sur la musique. Des séquences brèves, répétées là où la foule est la plus dense." }
+        {
+          "icon": "party-popper",
+          "h": "Il ouvre la soirée",
+          "p": "Il attend à la porte, salue les arrivants et donne le ton avant même la première coupe de champagne."
+        },
+        {
+          "icon": "camera",
+          "h": "Il marche sur le tapis",
+          "p": "Une montée de tapis rouge aux côtés de votre invité d'honneur transforme les photos d'arrivée en images que la presse utilise vraiment."
+        },
+        {
+          "icon": "box",
+          "h": "Il porte une petite charge",
+          "p": "Une mallette à vos couleurs, une bouteille, une enveloppe ou le trophée sur le dos. Charges légères uniquement : c'est un spectacle, pas un porteur."
+        },
+        {
+          "icon": "radar",
+          "h": "Il ouvre la voie",
+          "p": "Il conduit les invités de l'entrée à la salle, le long d'un couloir ou entre deux stands, sans qu'aucune signalétique ne soit nécessaire."
+        },
+        {
+          "icon": "flag",
+          "h": "Il porte vos couleurs",
+          "p": "Une selle personnalisée, un adhésif et votre palette sur les coques. Le chien se lit comme le vôtre d'un bout à l'autre de la salle."
+        },
+        {
+          "icon": "sparkles",
+          "h": "Il enchaîne de courtes routines",
+          "p": "S'asseoir, donner la patte, danser quelques mesures sur la musique. Des séquences brèves, répétées là où la foule est la plus dense."
+        }
       ]
     },
     "fit": {

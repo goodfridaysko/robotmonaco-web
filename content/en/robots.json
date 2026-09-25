@@ -39,20 +39,56 @@
     "h1": "The guest your room will film.",
     "lead": "MONTARI is a Unitree G1 humanoid, built for the floor of an event. It walks among your guests, shakes hands, poses, dances and says the lines you wrote together. Our operator is with it the whole time, so you get the spectacle and none of the risk.",
     "specs": [
-      ["Height", "1.32 m"],
-      ["Weight", "about 35 kg"],
-      ["Battery", "about 2 h of show"],
-      ["Languages", "English and French"]
+      [
+        "Height",
+        "1.32 m"
+      ],
+      [
+        "Weight",
+        "35 kg"
+      ],
+      [
+        "Battery",
+        "2 h"
+      ],
+      [
+        "Languages",
+        "EN, FR"
+      ]
     ],
     "does": {
       "h2": "What MONTARI does on the night.",
       "items": [
-        { "icon": "party-popper", "h": "Makes the entrance", "p": "It walks in on cue, ahead of the speech or behind the curtain. The room turns, the phones come up and your evening has a first image." },
-        { "icon": "scan-face", "h": "Works the crowd", "p": "The robot moves through the room instead of standing in a corner. It waves, shakes hands, tilts its head and reacts to the people in front of it." },
-        { "icon": "mic", "h": "Delivers your lines", "p": "Opening words, the brand message, the winner's name. Written with you beforehand and spoken in English, French or both." },
-        { "icon": "camera", "h": "Poses for photographs", "p": "It holds a pose, stands still beside a guest and waits for the shot. Every picture leaves the venue with your logo on its chest." },
-        { "icon": "box", "h": "Hands things over", "p": "A trophy, a key, a bottle, a small gift. The handover lands better from a robot than from a host with a clipboard." },
-        { "icon": "flag", "h": "Wears your brand", "p": "The wordmark on the chest is a printed decal we replace with your logo, so the robot becomes part of the campaign rather than a rented prop." }
+        {
+          "icon": "party-popper",
+          "h": "Makes the entrance",
+          "p": "It walks in on cue, ahead of the speech or behind the curtain. The room turns, the phones come up and your evening has a first image."
+        },
+        {
+          "icon": "scan-face",
+          "h": "Works the crowd",
+          "p": "The robot moves through the room instead of standing in a corner. It waves, shakes hands, tilts its head and reacts to the people in front of it."
+        },
+        {
+          "icon": "mic",
+          "h": "Delivers your lines",
+          "p": "Opening words, the brand message, the winner's name. Written with you beforehand and spoken in English, French or both."
+        },
+        {
+          "icon": "camera",
+          "h": "Poses for photographs",
+          "p": "It holds a pose, stands still beside a guest and waits for the shot. Every picture leaves the venue with your logo on its chest."
+        },
+        {
+          "icon": "box",
+          "h": "Hands things over",
+          "p": "A trophy, a key, a bottle, a small gift. The handover lands better from a robot than from a host with a clipboard."
+        },
+        {
+          "icon": "flag",
+          "h": "Wears your brand",
+          "p": "The wordmark on the chest is a printed decal we replace with your logo, so the robot becomes part of the campaign rather than a rented prop."
+        }
       ]
     },
     "fit": {
@@ -101,20 +137,56 @@
     "h1": "The humanoid you can programme.",
     "lead": "NOVA is the Unitree G1 EDU: the same body as MONTARI, with the full software development kit open. Our engineers write new behaviour for it, or your team does. It is the robot for demonstrations that have to be exact, for research and for anyone building on ROS 2 and the Unitree SDK.",
     "specs": [
-      ["Height", "1.32 m"],
-      ["Battery", "about 2 h of show"],
-      ["Software", "full Unitree SDK"],
-      ["Languages", "English and French"]
+      [
+        "Height",
+        "1.32 m"
+      ],
+      [
+        "Battery",
+        "2 h"
+      ],
+      [
+        "Software",
+        "Unitree SDK"
+      ],
+      [
+        "Languages",
+        "EN, FR"
+      ]
     ],
     "does": {
       "h2": "What the SDK makes possible.",
       "items": [
-        { "icon": "code-2", "h": "Custom behaviour", "p": "Motion sequences, gestures and reactions written for your scenario rather than chosen from a fixed repertoire." },
-        { "icon": "cpu", "h": "ROS 2 and the Unitree SDK", "p": "Our engineers work in Python and C++ on top of ROS 2, so the work you pay for is readable, testable and yours to keep." },
-        { "icon": "workflow", "h": "Show control", "p": "Cues from the lighting desk, a timecode or a single button backstage. The robot hits its mark when the music does." },
-        { "icon": "mic", "h": "Voice and speech", "p": "Scripted lines or live answers, in English and French, with the timing and the pauses set to the room." },
-        { "icon": "plug", "h": "Integrations", "p": "A product database, a booking system, a screen, a lighting rig or an API of yours. The robot stops being a closed box." },
-        { "icon": "graduation-cap", "h": "Research and teaching", "p": "Universities and R and D teams hire NOVA to test locomotion, perception and interaction on real hardware without buying it." }
+        {
+          "icon": "code-2",
+          "h": "Custom behaviour",
+          "p": "Motion sequences, gestures and reactions written for your scenario rather than chosen from a fixed repertoire."
+        },
+        {
+          "icon": "cpu",
+          "h": "ROS 2 and the Unitree SDK",
+          "p": "Our engineers work in Python and C++ on top of ROS 2, so the work you pay for is readable, testable and yours to keep."
+        },
+        {
+          "icon": "workflow",
+          "h": "Show control",
+          "p": "Cues from the lighting desk, a timecode or a single button backstage. The robot hits its mark when the music does."
+        },
+        {
+          "icon": "mic",
+          "h": "Voice and speech",
+          "p": "Scripted lines or live answers, in English and French, with the timing and the pauses set to the room."
+        },
+        {
+          "icon": "plug",
+          "h": "Integrations",
+          "p": "A product database, a booking system, a screen, a lighting rig or an API of yours. The robot stops being a closed box."
+        },
+        {
+          "icon": "graduation-cap",
+          "h": "Research and teaching",
+          "p": "Universities and R and D teams hire NOVA to test locomotion, perception and interaction on real hardware without buying it."
+        }
       ]
     },
     "fit": {
@@ -163,20 +235,56 @@
     "h1": "The entrance nobody walks past.",
     "lead": "ORYX is a Unitree Go2, four legs and no hands. It meets guests at the door, trots a red carpet, leads a group to the room and carries a small branded load. It is quick, it is close to the ground and it makes people crouch down with a phone.",
     "specs": [
-      ["Weight", "about 15 kg"],
-      ["Battery", "about 2 h of show"],
-      ["Legs", "four, walks and trots"],
-      ["Voice", "English and French"]
+      [
+        "Weight",
+        "15 kg"
+      ],
+      [
+        "Battery",
+        "2 h"
+      ],
+      [
+        "Legs",
+        "4"
+      ],
+      [
+        "Voice",
+        "EN, FR"
+      ]
     ],
     "does": {
       "h2": "What the robot dog does.",
       "items": [
-        { "icon": "party-popper", "h": "Opens the evening", "p": "It waits at the door, greets arrivals and sets the tone before anyone reaches the first glass of champagne." },
-        { "icon": "camera", "h": "Walks the carpet", "p": "A red carpet run alongside your guest of honour turns the arrival photographs into something the press actually uses." },
-        { "icon": "box", "h": "Carries a small load", "p": "A branded case, a bottle, an envelope or the award on its back. Light loads only: it is a show, not a porter." },
-        { "icon": "radar", "h": "Leads the way", "p": "It walks guests from the entrance to the room, down a corridor or between two stands, so nobody needs a sign." },
-        { "icon": "flag", "h": "Carries your colours", "p": "A branded saddle, a decal and your palette on the panels. The dog reads as yours from across the room." },
-        { "icon": "sparkles", "h": "Performs short routines", "p": "Sitting, shaking a paw, dancing a few bars with the music. Short beats, repeated where the crowd is thickest." }
+        {
+          "icon": "party-popper",
+          "h": "Opens the evening",
+          "p": "It waits at the door, greets arrivals and sets the tone before anyone reaches the first glass of champagne."
+        },
+        {
+          "icon": "camera",
+          "h": "Walks the carpet",
+          "p": "A red carpet run alongside your guest of honour turns the arrival photographs into something the press actually uses."
+        },
+        {
+          "icon": "box",
+          "h": "Carries a small load",
+          "p": "A branded case, a bottle, an envelope or the award on its back. Light loads only: it is a show, not a porter."
+        },
+        {
+          "icon": "radar",
+          "h": "Leads the way",
+          "p": "It walks guests from the entrance to the room, down a corridor or between two stands, so nobody needs a sign."
+        },
+        {
+          "icon": "flag",
+          "h": "Carries your colours",
+          "p": "A branded saddle, a decal and your palette on the panels. The dog reads as yours from across the room."
+        },
+        {
+          "icon": "sparkles",
+          "h": "Performs short routines",
+          "p": "Sitting, shaking a paw, dancing a few bars with the music. Short beats, repeated where the crowd is thickest."
+        }
       ]
     },
     "fit": {
