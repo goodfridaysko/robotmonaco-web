@@ -233,7 +233,7 @@ body.is-loading{overflow:hidden}
 #referencie::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(255,255,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.045) 1px,transparent 1px);background-size:56px 56px;mask-image:radial-gradient(70% 60% at 70% 30%,#000 20%,transparent 100%);-webkit-mask-image:radial-gradient(70% 60% at 70% 30%,#000 20%,transparent 100%)}
 @media (max-width:860px){.faces{grid-template-columns:1fr}.face,.face-copy{min-height:440px}.row{grid-template-columns:1fr}.row.flip .ph{order:0}.row .ph{aspect-ratio:4/3;max-height:none}}
 
-.band{position:relative;border-radius:var(--r-l);overflow:hidden;aspect-ratio:21/9;min-height:360px}
+.band{position:relative;width:100%;border-radius:var(--r-l);overflow:hidden;aspect-ratio:21/9;min-height:360px}
 .band .ph{position:absolute;inset:0;aspect-ratio:auto;border-radius:0;height:100%}
 .band-copy{position:absolute;left:0;right:0;bottom:0;z-index:1;padding:clamp(24px,4vw,56px);color:#fff;background:linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,.7))}
 .band-copy h3{font-size:clamp(26px,3.2vw,44px);letter-spacing:-.03em;line-height:1.05;max-width:640px}

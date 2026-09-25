@@ -393,9 +393,8 @@ def build_home():
     tiles = "".join(
         f"""<article class="tile{' is-dark' if r['tone'] == 'dark' else ''} reveal" style="--i:{i}">
 <div class="tile-copy"><p class="t-eyebrow">{e(r['model'])}</p><h3>{e(T['robots'][r['slug']]['name'])}</h3><p>{e(T['robots'][r['slug']]['tagline'])}</p>
-<p class="from"><span>{e(T['ui']['rentFrom'])}</span> <b>{e(T['ui']['prices'][r['priceKind']])}</b> <span>{e(T['ui']['perDayShort'])}</span></p>
-<p class="t-small">{e(T['ui']['robotValue'])} {e(T['ui']['values'][r['slug']])}</p>
-<div class="actions"><a class="btn" href="{lp('/contact')}">{e(T['ui']['rentCta'])}</a><a class="link" href="{lp('/robots/' + r['slug'])}">{e(T['ui']['discover'])}</a></div></div>
+<div class="actions"><a class="btn" href="{lp('/robots/' + r['slug'])}">{e(T['ui']['rentFrom'])} {e(T['ui']['prices'][r['priceKind']])}</a></div>
+<p class="t-small">{e(T['ui']['perDayOperator'])} · {e(T['ui']['robotValue'])} {e(T['ui']['values'][r['slug']])}</p></div>
 {photo(r['slug'] + '-tile', T['robots'][r['slug']]['alt'], 'r-43', cls='on-dark' if r['tone'] == 'dark' else '')}
 </article>""" for i, r in enumerate(CONFIG["robots"]))
     uses = [{"path": "/use-cases/" + s, "label": T["use-cases"][s]["label"], "teaser": T["use-cases"][s]["teaser"]}

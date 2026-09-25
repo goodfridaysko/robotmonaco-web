@@ -12,6 +12,7 @@
   "seePricing": "See pricing",
   "rentFrom": "Rent from",
   "perDayShort": "per day",
+  "perDayOperator": "Per day with an operator",
   "robotValue": "Robot value",
   "values": {
     "montari": "€18,000",

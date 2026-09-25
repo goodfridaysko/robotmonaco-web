@@ -12,6 +12,7 @@
   "seePricing": "Voir les tarifs",
   "rentFrom": "À partir de",
   "perDayShort": "par jour",
+  "perDayOperator": "Par jour avec opérateur",
   "robotValue": "Valeur du robot",
   "values": {
     "montari": "18 000 €",
