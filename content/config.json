@@ -60,5 +60,8 @@
   "serviceOrder": [
     "robot-software-development",
     "ai-assistant-upgrade"
+  ],
+  "sameAs": [
+    "https://robotrental.sk/"
   ]
 }

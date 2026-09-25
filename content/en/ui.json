@@ -217,7 +217,7 @@
   },
   "gallery": {
     "h2": "The actual robot.",
-    "lead": "Not renders. This is the machine we bring, in the workshop, on test and in front of people.",
+    "lead": "The first cards are ours: the machine in the workshop, on test and in front of people. The rest are Unitree's own pictures of the platform we hire out.",
     "items": [
       {
         "file": "real-internals",
@@ -258,7 +258,59 @@
         "file": "real-venue",
         "alt": "Humanoid robot walking indoors at a venue, a four-legged robot behind it",
         "caption": "Indoors, on a hard floor, which is where it works best."
+      },
+      {
+        "file": "unitree-expo",
+        "alt": "A Unitree humanoid walking a trade-show aisle while a visitor films it",
+        "caption": "The platform on a show floor, filmed by everyone it passes."
+      },
+      {
+        "file": "unitree-stage",
+        "alt": "A Unitree humanoid on stage in front of an audience",
+        "caption": "On stage at a manufacturer launch."
+      },
+      {
+        "file": "unitree-launch",
+        "alt": "A Unitree humanoid in front of a lit product-launch backdrop",
+        "caption": "In front of the press at a product launch."
+      },
+      {
+        "file": "unitree-head",
+        "alt": "Close-up of the illuminated visor of a Unitree humanoid",
+        "caption": "The visor, close up. This is the face guests photograph."
+      },
+      {
+        "file": "unitree-studio",
+        "alt": "Studio portrait of a Unitree humanoid robot",
+        "caption": "The manufacturer's own studio portrait."
+      },
+      {
+        "file": "unitree-booth",
+        "alt": "A Unitree exhibition stand with a sparring demonstration on the screen behind",
+        "caption": "A manufacturer stand, with the sparring demo running behind."
+      },
+      {
+        "file": "unitree-kitchen",
+        "alt": "A Unitree humanoid gripping a pan with its articulated hand",
+        "caption": "Arms and hands: the platform lifting, holding and placing."
+      },
+      {
+        "file": "unitree-manipulation",
+        "alt": "A Unitree humanoid bending to pick something up using whole-body control",
+        "caption": "Whole-body manipulation, the part NOVA's development kit opens up."
       }
-    ]
-  }
+    ],
+    "credit": "Workshop, test and show photographs: ours. Studio and launch photographs: Unitree, who build the platform."
+  },
+  "prev": "Previous photos",
+  "next": "More photos",
+  "video": {
+    "id": "9p-5FuIwCOc",
+    "h2": "See it move.",
+    "lead": "Six minutes with the Unitree G1, the platform behind MONTARI and NOVA. The walk, the balance and the reach are the same ones your guests will see.",
+    "play": "Play the film",
+    "alt": "The Unitree G1 humanoid robot walking and balancing",
+    "credit": "Film by Mashable, on YouTube. It shows the G1 platform we hire out, not one of our own events."
+  },
+  "partner": "A RobotRental partner site"
 }

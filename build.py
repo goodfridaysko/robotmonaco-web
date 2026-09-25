@@ -188,6 +188,7 @@ def ld_org():
                     "addressCountry": "MC"},
         "areaServed": [{"@type": "Country", "name": a[0]}] + [{"@type": "City", "name": c} for c in a[1:]],
         "knowsLanguage": ["en", "fr"],
+        "sameAs": CONFIG.get("sameAs", []),
     }
 
 
@@ -255,7 +256,8 @@ def footer():
 <a class="footer-mark" href="{lp('/')}" aria-label="{e(CONFIG['brand'])}"><img src="/assets/img/logo-white.png" alt="{e(CONFIG['brand'])}" width="{LOGO[0]}" height="{LOGO[1]}" loading="lazy"></a>
 </div>
 <div class="wrap footer-company"><p><span>{e(A['street'])}, {e(A['zip'])} {e(A['city'])}</span> · <span>{e(A['region'])}</span> · <a href="tel:{e(CONFIG['phoneHref'])}">{e(CONFIG['phone'])}</a></p></div>
-<div class="wrap footer-legal"><span>© {year} {e(CONFIG['brand'])}</span><span>{e(u['tagline'])}</span><a href="{lp('/privacy')}">{e(u['privacy'])}</a><a href="mailto:{e(CONFIG['email'])}">{e(CONFIG['email'])}</a></div>
+<div class="wrap footer-legal"><span>© {year} {e(CONFIG['brand'])}</span><span>{e(u['tagline'])}</span>
+<a href="https://robotrental.sk/" rel="noopener">{e(u['partner'])}</a><a href="{lp('/privacy')}">{e(u['privacy'])}</a><a href="mailto:{e(CONFIG['email'])}">{e(CONFIG['email'])}</a></div>
 </footer>"""
 
 
@@ -283,21 +285,48 @@ def dir_tiles(items):
         for i, x in enumerate(items)) + "</div>"
 
 
-def gallery_strip(bg="tilebg", start=0, count=None):
-    """A rail of real photographs of the robot. Honest captions: workshop, test and expo, never a client claim."""
+def paddles(prev_label, next_label):
+    """The two round scroll buttons for a rail. app.js finds them by .paddle inside the same <section>."""
+    return (f'<button class="paddle" type="button" aria-label="{e(prev_label)}">{icon("arrow-left")}</button>'
+            f'<button class="paddle" type="button" aria-label="{e(next_label)}">{icon("arrow-right")}</button>')
+
+
+def video_section(dark=True):
+    """A click-to-play facade for the YouTube film. Nothing loads from YouTube until the visitor asks for it,
+    which keeps the page fast and sets no third-party cookie on arrival."""
+    v = T["ui"].get("video")
+    if not v:
+        return ""
+    src = f"https://www.youtube-nocookie.com/embed/{v['id']}?autoplay=1&rel=0&modestbranding=1"
+    return f"""
+<section class="section {'dark' if dark else ''}" id="video"><div class="wrap">
+<div class="section-head reveal center"><h2 class="t-h2">{e(v['h2'])}</h2><p class="t-lead">{e(v['lead'])}</p></div>
+<div class="video reveal" data-src="{e(src)}">
+<button class="video-play" type="button" aria-label="{e(v['play'])}">
+{photo('video-poster', v['alt'], 'r-169')}
+<span class="video-btn">{icon('play')}</span></button>
+</div>
+<p class="video-credit t-small">{e(v['credit'])}</p>
+</div></section>
+"""
+
+
+def gallery_strip(bg="tilebg"):
+    """A rail of photographs of the robot. The lead and the credit keep the two sources apart: our own
+    pictures come first, the manufacturer's follow, and neither is passed off as the other."""
     g = T["ui"].get("gallery")
     if not g:
         return ""
-    items = g["items"][start:] + g["items"][:start]
-    items = items[:count] if count else items
     cards = "".join(
         f'<figure class="card gal-card reveal">{photo(i["file"], i["alt"], "")}'
         f'<figcaption class="card-copy"><p class="t-small">{e(i["caption"])}</p></figcaption></figure>'
-        for i in items)
+        for i in g["items"])
     return f"""
 <section class="section {bg}" id="photos"><div class="wrap">
-<div class="section-head reveal"><h2 class="t-h2">{e(g['h2'])}</h2><p class="t-lead">{e(g['lead'])}</p></div>
-</div><div class="gallery"><div class="rail">{cards}</div></div></section>
+<div class="head-row reveal"><div class="section-head"><h2 class="t-h2">{e(g['h2'])}</h2><p class="t-lead">{e(g['lead'])}</p></div>
+<div class="paddles">{paddles(T['ui']['prev'], T['ui']['next'])}</div></div>
+</div><div class="gallery"><div class="rail">{cards}</div></div>
+<div class="wrap"><p class="rail-credit t-small">{e(g['credit'])}</p></div></section>
 """
 
 
@@ -453,6 +482,8 @@ def build_home():
 <div class="steps s4">{steps(d['how']['steps'])}</div>
 </div></section>
 
+{video_section()}
+
 <section class="section tilebg"><div class="wrap">
 <div class="band reveal">{photo('software', d['software']['alt'], 'r-219')}<div class="band-copy"><h3>{e(d['software']['h3'])}</h3><p>{e(d['software']['p'])}</p>
 <div class="actions"><a class="link" href="{lp('/services/robot-software-development')}">{e(d['software']['cta'])}</a></div></div></div>
@@ -500,7 +531,7 @@ def build_robot(r):
 
 <section class="section" style="padding-top:0"><div class="wrap"><div class="stats reveal">{specs}</div></div></section>
 
-{gallery_strip(start=0 if r['priceKind'] == 'dev' else 2)}
+{gallery_strip()}
 
 <section class="section dark" id="branding" style="padding-top:clamp(48px,6vw,88px)"><div class="wrap">
 <div class="section-head reveal center"><h2 class="t-h2">{e(T['ui']['branding']['h2'])}</h2><p class="t-lead">{e(T['ui']['branding']['p'])}</p></div>
@@ -517,6 +548,8 @@ def build_robot(r):
 {photo(r['slug'] + '-hero', d['alt'], 'r-45')}
 <div class="row-copy"><h2 class="t-h2">{e(d['fit']['h2'])}</h2><p class="t-lead">{e(d['fit']['lead'])}</p>
 <ul class="ticks">{''.join(f'<li>{e(x)}</li>' for x in d['fit']['list'])}</ul></div></div></div></section>
+
+{video_section()}
 
 {faq_section(d['faq'], bg='tilebg')}
 {contact_section(preset=d.get('preset', ''), dark=True)}"""

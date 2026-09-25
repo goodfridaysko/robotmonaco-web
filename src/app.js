@@ -190,6 +190,20 @@
     }
   }
 
+  // video: swap the poster for the real player only when somebody asks for it
+  document.querySelectorAll('.video[data-src]').forEach(v => {
+    const btn = v.querySelector('.video-play');
+    if (!btn) return;
+    btn.addEventListener('click', () => {
+      const f = document.createElement('iframe');
+      f.src = v.dataset.src;
+      f.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+      f.allowFullscreen = true;
+      f.title = btn.getAttribute('aria-label') || 'Video';
+      v.replaceChildren(f);
+    }, { once: true });
+  });
+
   // gallery paddles
   document.querySelectorAll('.gallery').forEach(g => {
     const rail = g.querySelector('.rail');

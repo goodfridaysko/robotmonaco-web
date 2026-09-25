@@ -217,7 +217,7 @@
   },
   "gallery": {
     "h2": "Le robot, en vrai.",
-    "lead": "Pas des images de synthèse. Voici la machine que nous amenons, à l'atelier, en test et devant le public.",
+    "lead": "Les premières images sont les nôtres : la machine à l'atelier, en test et devant le public. Les suivantes sont les images de Unitree, le constructeur de la plateforme que nous louons.",
     "items": [
       {
         "file": "real-internals",
@@ -258,7 +258,59 @@
         "file": "real-venue",
         "alt": "Robot humanoïde en intérieur dans un lieu d'événement, un robot quadrupède derrière lui",
         "caption": "En intérieur, sur sol dur, là où il travaille le mieux."
+      },
+      {
+        "file": "unitree-expo",
+        "alt": "Un humanoïde Unitree dans une allée de salon, filmé par un visiteur",
+        "caption": "La plateforme en salon, filmée par tous ceux qu'elle croise."
+      },
+      {
+        "file": "unitree-stage",
+        "alt": "Un humanoïde Unitree sur scène devant un public",
+        "caption": "Sur scène lors d'un lancement du constructeur."
+      },
+      {
+        "file": "unitree-launch",
+        "alt": "Un humanoïde Unitree devant un décor de lancement produit",
+        "caption": "Devant la presse, lors d'un lancement produit."
+      },
+      {
+        "file": "unitree-head",
+        "alt": "Gros plan sur la visière lumineuse d'un humanoïde Unitree",
+        "caption": "La visière, de près. C'est ce visage que les invités photographient."
+      },
+      {
+        "file": "unitree-studio",
+        "alt": "Portrait studio d'un robot humanoïde Unitree",
+        "caption": "Le portrait studio du constructeur."
+      },
+      {
+        "file": "unitree-booth",
+        "alt": "Un stand Unitree avec une démonstration de combat à l'écran",
+        "caption": "Un stand du constructeur, avec la démo de combat à l'écran."
+      },
+      {
+        "file": "unitree-kitchen",
+        "alt": "Un humanoïde Unitree saisissant une poêle avec sa main articulée",
+        "caption": "Bras et mains : la plateforme soulève, tient et repose."
+      },
+      {
+        "file": "unitree-manipulation",
+        "alt": "Un humanoïde Unitree se penchant pour ramasser un objet",
+        "caption": "Manipulation corps entier, ce que le kit de développement de NOVA ouvre."
       }
-    ]
-  }
+    ],
+    "credit": "Photos d'atelier, de test et de salon : les nôtres. Photos studio et lancement : Unitree, le constructeur."
+  },
+  "prev": "Photos précédentes",
+  "next": "Plus de photos",
+  "video": {
+    "id": "9p-5FuIwCOc",
+    "h2": "Voyez-le bouger.",
+    "lead": "Six minutes avec l'Unitree G1, la plateforme de MONTARI et NOVA. La marche, l'équilibre et le geste sont exactement ceux que vos invités verront.",
+    "play": "Lancer la vidéo",
+    "alt": "Le robot humanoïde Unitree G1 en marche et en équilibre",
+    "credit": "Vidéo de Mashable, sur YouTube. Elle montre la plateforme G1 que nous louons, et non l'un de nos événements."
+  },
+  "partner": "Site partenaire de RobotRental"
 }
