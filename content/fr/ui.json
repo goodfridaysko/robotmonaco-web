@@ -214,5 +214,51 @@
       "Projet d'assistant IA",
       "Autre demande"
     ]
+  },
+  "gallery": {
+    "h2": "Le robot, en vrai.",
+    "lead": "Pas des images de synthèse. Voici la machine que nous amenons, à l'atelier, en test et devant le public.",
+    "items": [
+      {
+        "file": "real-internals",
+        "alt": "Robot humanoïde Unitree G1 ouvert sur l'établi, cartes électroniques et refroidissement visibles",
+        "caption": "Ouvert sur l'établi. Chaque robot est révisé et contrôlé avant de partir."
+      },
+      {
+        "file": "real-lab",
+        "alt": "Robot humanoïde au repos dans l'atelier entre deux prestations",
+        "caption": "À l'atelier, entre deux prestations."
+      },
+      {
+        "file": "real-demo-hand",
+        "alt": "Un visiteur tend la main vers un robot humanoïde",
+        "caption": "Une main se tend, un téléphone se lève. Tout le moment est là."
+      },
+      {
+        "file": "real-expo-floor",
+        "alt": "Robot humanoïde marchant dans une allée de salon devant des visiteurs",
+        "caption": "En marche dans une allée de salon."
+      },
+      {
+        "file": "real-audience",
+        "alt": "Robot humanoïde devant un public lors d'un événement robotique",
+        "caption": "Face au public."
+      },
+      {
+        "file": "real-testing",
+        "alt": "Robot humanoïde lors d'un test de marche en intérieur",
+        "caption": "Tests de marche en intérieur, avant tout déplacement."
+      },
+      {
+        "file": "real-rig",
+        "alt": "Robot humanoïde suspendu au portique de maintenance pendant un contrôle",
+        "caption": "Au portique, pour un contrôle."
+      },
+      {
+        "file": "real-venue",
+        "alt": "Robot humanoïde en intérieur dans un lieu d'événement, un robot quadrupède derrière lui",
+        "caption": "En intérieur, sur sol dur, là où il travaille le mieux."
+      }
+    ]
   }
 }

@@ -71,7 +71,7 @@ JOBS = [
     ("montari-hero", "montari-wave-4k", "dark", P, 0.9, 0, 0),
     ("nova-hero", "montari-4k", "light", P, 0.92, 0, 0),
     ("oryx-hero", "oryx-side-4k", "dark", P, 0.55, 0, -0.12),
-    ("software", "montari-walk-4k", "dark", W, 0.86, -0.22, 0),
+    ("software", "montari-walk-4k", "dark", W, 0.86, 0.26, 0),
     ("brand-activations", "montari-wave-4k", "dark", P, 0.9, 0, 0),
     ("product-launches", "montari-4k", "light", P, 0.92, 0, 0),
     ("corporate-events", "montari-wave-4k", "light", P, 0.88, 0, 0),

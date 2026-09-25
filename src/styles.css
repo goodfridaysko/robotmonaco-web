@@ -238,6 +238,8 @@ body.is-loading{overflow:hidden}
 .band-copy{position:absolute;left:0;right:0;bottom:0;z-index:1;padding:clamp(24px,4vw,56px);color:#fff;background:linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,.7))}
 .band-copy h3{font-size:clamp(26px,3.2vw,44px);letter-spacing:-.03em;line-height:1.05;max-width:640px}
 .band-copy p{margin-top:12px;color:rgba(255,255,255,.8);max-width:560px}
+.band-copy .link{color:#fff}
+.band-copy .link::after{color:#fff}
 @media (max-width:700px){.band{aspect-ratio:4/5}}
 
 /* ---------- gallery: real photos ---------- */

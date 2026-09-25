@@ -283,6 +283,24 @@ def dir_tiles(items):
         for i, x in enumerate(items)) + "</div>"
 
 
+def gallery_strip(bg="tilebg", start=0, count=None):
+    """A rail of real photographs of the robot. Honest captions: workshop, test and expo, never a client claim."""
+    g = T["ui"].get("gallery")
+    if not g:
+        return ""
+    items = g["items"][start:] + g["items"][:start]
+    items = items[:count] if count else items
+    cards = "".join(
+        f'<figure class="card gal-card reveal">{photo(i["file"], i["alt"], "")}'
+        f'<figcaption class="card-copy"><p class="t-small">{e(i["caption"])}</p></figcaption></figure>'
+        for i in items)
+    return f"""
+<section class="section {bg}" id="photos"><div class="wrap">
+<div class="section-head reveal"><h2 class="t-h2">{e(g['h2'])}</h2><p class="t-lead">{e(g['lead'])}</p></div>
+</div><div class="gallery"><div class="rail">{cards}</div></div></section>
+"""
+
+
 def faq_section(faq, h2=None, bg=""):
     rows = "".join(f"<details><summary>{e(f['q'])}</summary><p>{e(f['a'])}</p></details>" for f in faq)
     u = T["ui"]
@@ -428,6 +446,8 @@ def build_home():
 <div class="actions reveal" style="margin-top:32px"><a class="link" href="{lp('/use-cases')}">{e(d['uses']['cta'])}</a></div>
 </div></section>
 
+{gallery_strip()}
+
 <section class="section"><div class="wrap">
 <div class="section-head reveal"><h2 class="t-h2">{e(d['how']['h2'])}</h2></div>
 <div class="steps s4">{steps(d['how']['steps'])}</div>
@@ -479,6 +499,8 @@ def build_robot(r):
 </div></section>
 
 <section class="section" style="padding-top:0"><div class="wrap"><div class="stats reveal">{specs}</div></div></section>
+
+{gallery_strip(start=0 if r['priceKind'] == 'dev' else 2)}
 
 <section class="section dark" id="branding" style="padding-top:clamp(48px,6vw,88px)"><div class="wrap">
 <div class="section-head reveal center"><h2 class="t-h2">{e(T['ui']['branding']['h2'])}</h2><p class="t-lead">{e(T['ui']['branding']['p'])}</p></div>

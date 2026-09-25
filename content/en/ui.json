@@ -214,5 +214,51 @@
       "AI assistant project",
       "Something else"
     ]
+  },
+  "gallery": {
+    "h2": "The actual robot.",
+    "lead": "Not renders. This is the machine we bring, in the workshop, on test and in front of people.",
+    "items": [
+      {
+        "file": "real-internals",
+        "alt": "Unitree G1 humanoid robot opened on a workbench, showing its computer boards and cooling",
+        "caption": "Open on the bench. Every robot is serviced and checked before it travels."
+      },
+      {
+        "file": "real-lab",
+        "alt": "Humanoid robot resting in a workshop between bookings",
+        "caption": "In the workshop between bookings."
+      },
+      {
+        "file": "real-demo-hand",
+        "alt": "Visitor reaching out to take the hand of a humanoid robot",
+        "caption": "A hand goes out, a phone comes up. That is the whole moment."
+      },
+      {
+        "file": "real-expo-floor",
+        "alt": "Humanoid robot walking an exhibition floor past visitors",
+        "caption": "Walking an exhibition floor."
+      },
+      {
+        "file": "real-audience",
+        "alt": "Humanoid robot in front of a crowd of visitors at a robotics event",
+        "caption": "Working a crowd."
+      },
+      {
+        "file": "real-testing",
+        "alt": "Humanoid robot on a walking test indoors",
+        "caption": "Walking tests indoors, before it goes anywhere."
+      },
+      {
+        "file": "real-rig",
+        "alt": "Humanoid robot held on a service rig during a check",
+        "caption": "On the rig for a check."
+      },
+      {
+        "file": "real-venue",
+        "alt": "Humanoid robot walking indoors at a venue, a four-legged robot behind it",
+        "caption": "Indoors, on a hard floor, which is where it works best."
+      }
+    ]
   }
 }
