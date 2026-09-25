@@ -1,0 +1,553 @@
+{
+  "_hub": {
+    "crumb": "Où il intervient",
+    "eyebrow": "Cas d'usage · Monaco et la Côte d'Azur",
+    "h1": "Dix salles qu'un robot peut s'approprier.",
+    "lead": "Un lancement sur une terrasse, un stand au Grimaldi Forum, un pont de superyacht en septembre, un gala en fin de longue saison. Choisissez la soirée que vous préparez et voyez précisément ce que le robot y fait.",
+    "title": "Location de robot à Monaco : cas d'usage",
+    "desc": "Découvrez comment nos clients utilisent un robot humanoïde à Monaco et sur la Côte d'Azur : activations, lancements, salons nautiques, galas et retail.",
+    "faq": [
+      { "q": "Pour quels types d'événements faites-vous venir un robot à Monaco ?", "a": "Activations de marque, lancements de produit, soirées d'entreprise, salons professionnels, salons nautiques, réceptions du week-end de Grand Prix, ouvertures de boutique, galas et dîners de remise de prix, soirées privées et congrès. Si votre événement ne figure pas dans cette liste, décrivez-le et nous vous dirons franchement si un robot y apporte quelque chose." },
+      { "q": "Combien coûte la location d'un robot pour un événement à Monaco ?", "a": "À partir de 2 000 € par jour avec un opérateur, au tarif plusieurs jours, hors TVA, pour l'humanoïde événementiel ou le chien robot. NOVA, l'humanoïde développeur, démarre à 3 000 € par jour aux mêmes conditions. Les journées isolées, les scripts sur mesure, les déplacements et la scénographie sont chiffrés à part." },
+      { "q": "Un opérateur est-il inclus dans chaque réservation ?", "a": "Oui. Le robot n'évolue jamais sans surveillance. Un opérateur se déplace avec lui, conduit le spectacle, maintient une distance de sécurité avec les invités et peut arrêter le robot instantanément. C'est ainsi que vous obtenez l'effet sans porter le risque." },
+      { "q": "Combien de temps le robot évolue-t-il pendant un événement ?", "a": "Environ deux heures de spectacle actif sur une batterie. Notre opérateur change les batteries sur place : une soirée complète est donc une question de découpage, pas d'autonomie. La plupart des clients utilisent trois ou quatre séquences de vingt minutes." },
+      { "q": "Quel robot convient à mon événement ?", "a": "MONTARI, l'humanoïde événementiel, travaille la foule et la scène. NOVA est le même corps avec le SDK complet, pour les clients qui veulent des comportements sur mesure ou un robot qu'ils peuvent programmer. ORYX, le robot à quatre pattes, excelle sur les arrivées, les tapis rouges et les photos. Nous en recommandons un dès que nous connaissons la salle." }
+    ]
+  },
+  "brand-activations": {
+    "label": "Activations de marque",
+    "teaser": "Un humanoïde qui travaille la foule, porte votre logo et transforme chaque invité en caméra.",
+    "eyebrow": "Activations de marque · Monaco",
+    "h1": "Une activation pour laquelle on fait la queue.",
+    "lead": "Placez un robot humanoïde au centre de votre activation à Monaco et la file se forme d'elle-même. Il accueille, il pose, il dit vos phrases et chaque visiteur repart avec une vidéo qui porte votre logo.",
+    "title": "Activation de marque avec robot à Monaco",
+    "desc": "Louez un robot humanoïde pour une activation de marque à Monaco et sur la Côte d'Azur. Opéré, floqué et scripté pour que les invités filment et partagent.",
+    "photo": "brand-activations",
+    "photo2": "montari-tile",
+    "alt": "Robot humanoïde accueillant des invités sur un espace d'activation de marque à Monaco",
+    "intro": {
+      "h2": "Pourquoi une activation de marque avec robot fonctionne à Monaco.",
+      "p": [
+        "Une activation de marque à Monaco doit rivaliser avec une ville qui ressemble déjà à une campagne. Les invités passent devant des cubes miroirs, des comptoirs de dégustation et des murs LED sans ralentir. Un robot humanoïde casse cette habitude. Il bouge, il regarde les gens, il leur répond, et la première personne qui le filme en attire vingt autres.",
+        "La valeur n'est pas dans la machine, elle est dans le comportement que nous écrivons autour de votre marque. Avant le jour J, nous fixons ensemble ce que le robot dit, où il se tient, comment il accueille un visiteur et à quoi ressemble le moment fort. Votre logo remplace le marquage sur sa poitrine. Les phrases sont les vôtres, en français ou en anglais, ou dans les deux langues selon le public.",
+        "Vous obtenez un résultat mesurable plutôt qu'une curiosité. Une journée complète d'activation produit en général des centaines de vidéos d'invités, toutes cadrées sur votre identité, filmées et publiées par les personnes que vous vouliez toucher. Notre opérateur pilote l'ensemble, fait avancer la file et maintient les invités à bonne distance sans jamais donner l'impression d'un espace sous contrôle."
+      ]
+    },
+    "ideas": {
+      "h2": "Ce que le robot fait sur un espace d'activation.",
+      "items": [
+        { "icon": "megaphone", "h": "Capte le flux", "p": "Le robot travaille la façade de l'espace, salue les passants et transforme un stand que l'on longe en stand que l'on rejoint." },
+        { "icon": "camera", "h": "Pose pour chaque photo", "p": "Il tient la pose, incline la tête et attend. Les invités repartent avec le cliché voulu, votre logo dans le cadre sur sa poitrine." },
+        { "icon": "mic", "h": "Porte le message", "p": "Votre phrase clé, dite par le robot en français ou en anglais, répétée proprement des centaines de fois sans jamais s'affaisser." },
+        { "icon": "box", "h": "Remet l'échantillon", "p": "Il glisse un petit produit, une carte ou un cadeau dans la main d'un invité. Cette remise est le moment que l'on filme et que l'on poste." },
+        { "icon": "party-popper", "h": "Enchaîne les séquences", "p": "De courtes séquences chorégraphiées toutes les vingt ou trente minutes, pour qu'une foule se reforme et que l'espace ne paraisse jamais vide." },
+        { "icon": "scan-face", "h": "Anime la file", "p": "Entre deux séquences, il remonte la file et salue ceux qui patientent : l'attente devient elle-même une partie de l'attraction." }
+      ]
+    },
+    "included": {
+      "h2": "Ce que comprend la réservation.",
+      "lead": "Un prix, une équipe, aucune ligne de production cachée.",
+      "list": [
+        "Le robot livré, installé et remballé par nos soins",
+        "Un opérateur avec le robot pendant toute l'activation, toujours",
+        "Votre logo imprimé et posé en sticker sur la poitrine",
+        "Un déroulé écrit et validé avec vous avant le jour J",
+        "Des prises de parole en français, en anglais ou dans les deux langues",
+        "Les changements de batterie sur place, pour que le spectacle ne s'arrête pas",
+        "Une reconnaissance du sol, du cheminement et de l'éclairage",
+        "Les attestations d'assurance et une note de méthode pour le lieu"
+      ]
+    },
+    "faq": [
+      { "q": "Combien coûte une activation de marque avec robot à Monaco ?", "a": "À partir de 2 000 € par jour avec un opérateur, au tarif plusieurs jours, hors TVA. Les journées isolées, un script sur mesure, les déplacements et la scénographie sont chiffrés à part. Envoyez-nous les dates et le lieu : vous avez un prix ferme sous 24 heures." },
+      { "q": "Le robot peut-il porter notre identité visuelle ?", "a": "Oui. Le marquage sur la poitrine est un sticker imprimé que nous remplaçons par votre logo, et les panneaux autour peuvent reprendre vos couleurs. Le script, les gestes et le déroulé sont écrits autour de votre campagne, pas de la nôtre." },
+      { "q": "De quelle surface le robot a-t-il besoin sur un stand ?", "a": "Environ trois mètres sur trois de sol plat, sec et ferme pour évoluer, plus un petit espace derrière pour l'opérateur et la caisse de batteries. Moquette, plancher bois et béton ciré conviennent tous. Le gravier instable et les escaliers, non." },
+      { "q": "Combien d'heures peut-il fonctionner dans la journée ?", "a": "Environ deux heures de spectacle actif par batterie, et notre opérateur change les batteries sur place. Sur une journée complète, nous prévoyons en général des séquences de vingt minutes toutes les demi-heures, ce qui garde le robot frais et renouvelle le public." },
+      { "q": "Un robot humanoïde est-il sûr au milieu du public ?", "a": "Il est piloté en permanence et n'évolue jamais sans surveillance. Notre opérateur maintient une distance de travail entre le robot et les invités et peut l'arrêter instantanément. Le robot ne soulève pas de charges lourdes et ne remplace pas votre personnel de stand." }
+    ],
+    "related": ["product-launches", "luxury-retail", "trade-shows"],
+    "preset": "Activation de marque"
+  },
+  "product-launches": {
+    "label": "Lancements de produit",
+    "teaser": "Le robot porte votre produit jusque dans la salle et les caméras le suivent du début à la fin.",
+    "eyebrow": "Lancements de produit · Monaco",
+    "h1": "Une révélation que personne ne filme distraitement.",
+    "lead": "Un robot humanoïde amène votre produit sur scène, dit la phrase que vous avez écrite et le remet à votre fondateur. Monaco, Monte-Carlo et la Côte d'Azur, avec un opérateur aux commandes à chaque seconde.",
+    "title": "Robot pour lancement de produit à Monaco",
+    "desc": "Louez un robot humanoïde pour un lancement de produit à Monaco ou sur la Côte d'Azur. Il porte la révélation, dit votre phrase et capte toutes les caméras.",
+    "photo": "product-launches",
+    "photo2": "hero",
+    "alt": "Robot humanoïde présentant un produit sur scène lors d'un lancement à Monaco",
+    "intro": {
+      "h2": "Le moment de la révélation, construit autour d'un robot.",
+      "p": [
+        "Un robot pour lancement de produit à Monaco résout le plus vieux problème de la salle : la seconde qui précède le dévoilement. Les invités ont déjà vu le compte à rebours, le film et le voile que l'on retire. Ce qu'ils n'ont pas vu, c'est un humanoïde qui descend l'allée centrale avec le produit et le dépose dans les mains du fondateur.",
+        "Nous construisons ce moment avec vous, pas à votre place. Vous nous dites ce qu'est le produit, comment il doit être tenu et qui le reçoit. Nous écrivons l'approche, la pause, la phrase et la remise, puis nous répétons sur votre plateau avant l'ouverture des portes. Si le produit est lourd, nous concevons la révélation autrement : le robot ne porte que des objets légers, et nous le disons tôt plutôt que le soir même.",
+        "Ensuite, le robot continue de travailler. Il va vers le public pour les photos, répète le message principal à de petits groupes et offre aux photographes un second angle. Les invités le filment sans qu'on le leur demande, si bien que le lancement continue d'apparaître dans les fils longtemps après la fin de votre film. Une seule réservation couvre à la fois la minute de scène dont votre production a besoin et les deux heures de contenu que votre équipe marketing attend de la salle."
+      ]
+    },
+    "ideas": {
+      "h2": "Comment le robot porte un lancement.",
+      "items": [
+        { "icon": "sparkles", "h": "Amène le produit", "p": "Il porte l'objet jusqu'à la scène ou au socle, le présente et recule. La révélation a un personnage, pas seulement un voile." },
+        { "icon": "mic", "h": "Dit la première phrase", "p": "La phrase d'ouverture de votre lancement, dite par le robot en français ou en anglais avant que votre orateur prenne le relais." },
+        { "icon": "clapperboard", "h": "Lance le film", "p": "Un geste sur le temps, calé avec votre régie, pour que l'écran et le robot fassent atterrir le même instant ensemble." },
+        { "icon": "camera", "h": "Alimente le mur presse", "p": "Après la révélation, il pose avec le produit et votre porte-parole et donne aux photographes un cadre que personne d'autre n'a." },
+        { "icon": "megaphone", "h": "Répète le message", "p": "Pendant le cocktail, il travaille les petits groupes et redit vos trois points, mot pour mot à chaque fois." },
+        { "icon": "flag", "h": "Porte la campagne", "p": "Votre logo sur la poitrine, vos couleurs sur les panneaux : chaque extrait de la révélation est un extrait de votre marque." }
+      ]
+    },
+    "included": {
+      "h2": "Ce que vous avez le jour du lancement.",
+      "lead": "Tout ce qu'il faut pour réussir une minute, et les deux heures qui la suivent.",
+      "list": [
+        "Livraison, installation, répétition et démontage par notre équipe",
+        "Un opérateur aux commandes du robot en permanence, toujours",
+        "Une séquence de révélation écrite et répétée avec vous",
+        "Votre logo posé en sticker sur la poitrine avant l'ouverture des portes",
+        "Des prises de parole en français, en anglais ou dans les deux langues",
+        "Une répétition technique avec votre régie ou votre prestataire audiovisuel",
+        "Les changements de batterie sur place entre les séquences"
+      ]
+    },
+    "faq": [
+      { "q": "Un robot peut-il remettre notre produit lors d'un lancement à Monaco ?", "a": "Oui, si le produit est assez léger et stable pour être tenu d'une main ou posé sur un petit plateau. Le robot ne soulève pas de charges lourdes. Envoyez-nous le poids et la forme et nous vous dirons franchement ce qui est possible avant que vous construisiez le spectacle autour." },
+      { "q": "Combien coûte la location d'un robot pour un lancement de produit ?", "a": "À partir de 2 000 € par jour avec un opérateur, au tarif plusieurs jours, hors TVA. Une séquence de révélation sur mesure, les déplacements et la scénographie sont chiffrés en plus. Donnez-nous la date et le lieu et vous recevez un plan et un prix sous 24 heures." },
+      { "q": "Le robot travaillera-t-il avec notre équipe technique ?", "a": "Oui. Notre opérateur participe à votre répétition technique, prend les tops de votre régie et cale les timings sur le plateau. Le robot peut être tenu sur une marque et lancé sur votre décompte pour que la révélation tombe avec la musique et l'écran." },
+      { "q": "Peut-il parler français à un public monégasque ?", "a": "Oui. Le robot parle français et anglais, et un script de lancement est souvent écrit dans les deux langues, la phrase d'ouverture étant dite deux fois ou partagée entre les langues. Nous validons les formulations avec vous avant le jour J." },
+      { "q": "Qu'est-ce qui peut mal tourner le soir même ?", "a": "Très peu de choses, puisqu'un opérateur est toujours aux commandes et que nous répétons sur votre plateau. Les vraies contraintes sont physiques : le robot a besoin d'environ trois mètres sur trois de surface plate, sèche et ferme, il n'emprunte pas d'escaliers en routine et ne marche pas sous la pluie." }
+    ],
+    "related": ["brand-activations", "corporate-events", "conferences"],
+    "preset": "Lancement de produit"
+  },
+  "corporate-events": {
+    "label": "Événements d'entreprise",
+    "teaser": "Un hôte humanoïde pour vos soirées clients, vos fêtes internes et vos anniversaires sur la Côte.",
+    "eyebrow": "Événements d'entreprise · Monaco",
+    "h1": "La soirée dont on reparle.",
+    "lead": "Dîners clients, soirées collaborateurs, anniversaires et voyages d'incentive à Monaco et sur la Côte d'Azur, avec un robot humanoïde qui accueille les arrivées, travaille la salle et referme la soirée.",
+    "title": "Robot pour événement d'entreprise à Monaco",
+    "desc": "Louez un robot humanoïde pour un événement d'entreprise à Monaco ou sur la Côte d'Azur. Il accueille, travaille la salle et donne son moment à la soirée.",
+    "photo": "corporate-events",
+    "photo2": "oryx-tile",
+    "alt": "Robot humanoïde accueillant des invités lors d'une soirée d'entreprise à Monaco",
+    "intro": {
+      "h2": "Ce qu'un robot change à une soirée d'entreprise.",
+      "p": [
+        "Louez un robot pour une animation événementielle à Monaco et vous réglez la partie qui inquiète tous les producteurs : les trente premières minutes. Les invités arrivent en ordre dispersé, personne ne sait où se placer et la salle paraît vide. Un humanoïde qui accueille à la porte donne aux premiers arrivés quelque chose autour de quoi se réunir, et quelque chose à envoyer aux collègues encore en taxi.",
+        "Pendant la soirée, il continue de justifier sa présence. Il circule entre les tables, il pose pour les photos que les gens gardent vraiment, et il peut prononcer les premiers mots de votre direction générale ou la présenter nommément. Comme le script est écrit avec vous, le ton reste le vôtre : sobre et retenu pour un dîner d'associés, plus enlevé pour un lancement commercial.",
+        "Il gère aussi très bien les tâches ingrates. Annoncer un lauréat, lancer un toast, souligner une ancienneté, refermer la soirée avant que le groupe prenne la scène. Ce sont les moments que l'on confie d'ordinaire à un animateur, et un robot les fait atterrir sans obliger quiconque à être drôle sur commande. Notre opérateur reste avec le robot du début à la fin, le pilote et surveille la salle : rien ne dépend de la prudence des invités après le deuxième verre."
+      ]
+    },
+    "ideas": {
+      "h2": "Six moments que le robot peut prendre.",
+      "items": [
+        { "icon": "scan-face", "h": "Accueille les arrivées", "p": "À la porte, il salue les invités au nom de l'entreprise, brise la glace et donne un point d'ancrage à la première heure." },
+        { "icon": "mic", "h": "Présente l'orateur", "p": "Une courte présentation scriptée de votre direction ou de votre hôte, en français ou en anglais, avec le nom prononcé proprement." },
+        { "icon": "party-popper", "h": "Annonce un lauréat", "p": "Trophées internes, ancienneté, chiffre commercial. Le robot lit le nom et remet la récompense." },
+        { "icon": "camera", "h": "Crée le moment photo", "p": "Il pose avec les équipes et les tables : la soirée se termine par des images qui partent dans une conversation de groupe, pas dans un dossier." },
+        { "icon": "megaphone", "h": "Porte le thème", "p": "Si la soirée a un message, le robot le répète à petites doses dans la salle plutôt qu'en un long discours." },
+        { "icon": "sparkles", "h": "Referme la soirée", "p": "Une dernière séquence courte avant la musique, pour que la soirée ait un point final au lieu de s'éteindre doucement." }
+      ]
+    },
+    "included": {
+      "h2": "Inclus dans une réservation entreprise.",
+      "lead": "Nous arrivons tôt, nous pilotons, nous rendons le lieu tel que nous l'avons trouvé.",
+      "list": [
+        "Le robot livré, installé et retiré par notre équipe",
+        "Un opérateur avec le robot pendant tout l'événement, toujours",
+        "Votre logo posé en sticker imprimé sur la poitrine",
+        "Un déroulé validé avec vous et avec votre lieu",
+        "Des contenus parlés en français, en anglais ou dans les deux langues",
+        "Une reconnaissance du sol et du cheminement avant l'arrivée des invités",
+        "Les changements de batterie sur place entre les séquences",
+        "Les attestations d'assurance pour le dossier du lieu"
+      ]
+    },
+    "faq": [
+      { "q": "Combien coûte la location d'un robot pour un événement d'entreprise à Monaco ?", "a": "À partir de 2 000 € par jour avec un opérateur, au tarif plusieurs jours, hors TVA. Les journées isolées, les scripts sur mesure, les déplacements et la scénographie sont chiffrés à part. Donnez-nous la date, le lieu et le déroulé et vous avez un prix sous 24 heures." },
+      { "q": "Le robot peut-il prononcer correctement le nom de notre dirigeant ?", "a": "Oui. Nous écrivons les prises de parole avec vous et nous testons la prononciation avant l'événement, y compris pour les noms que le robot lirait autrement de travers. Il parle français et anglais." },
+      { "q": "Fonctionne-t-il dans un restaurant ou une salle de bal d'hôtel ?", "a": "En général oui. Il lui faut environ trois mètres sur trois de sol plat, sec et ferme, et un cheminement dégagé pour y accéder. La moquette épaisse convient, les marches ne font pas partie de sa routine : nous préparons donc le parcours avec votre lieu en amont." },
+      { "q": "Le robot peut-il servir des boissons aux invités ?", "a": "Non. Il ne porte pas de plateaux de verres, ne soulève pas de charges lourdes et ne remplace pas votre personnel. Il peut remettre un seul objet léger, un trophée ou une carte, et c'est de là que viennent les photos de toute façon." },
+      { "q": "Combien de temps à l'avance faut-il réserver ?", "a": "Le plus tôt possible pendant la haute saison monégasque, où les dates autour des salons et de la semaine du Grand Prix partent en premier. Nous répondons à chaque demande sous 24 heures et vous dirons immédiatement si votre date est libre." }
+    ],
+    "related": ["galas-and-awards", "conferences", "product-launches"],
+    "preset": "Événement d'entreprise"
+  },
+  "trade-shows": {
+    "label": "Salons professionnels",
+    "teaser": "Le stand vers lequel on marche. Un humanoïde qui capte l'allée et prépare la file.",
+    "eyebrow": "Salons professionnels · Monaco",
+    "h1": "Le stand le plus fréquenté du hall.",
+    "lead": "Un robot humanoïde sur votre stand sort les visiteurs de l'allée, explique ce que vous faites et garde l'espace plein pendant que votre équipe parle aux personnes qui comptent.",
+    "title": "Robot pour salon professionnel à Monaco",
+    "desc": "Louez un robot humanoïde pour un stand de salon à Monaco ou sur la Côte d'Azur. Il capte l'allée, explique votre offre et maintient le flux toute la journée.",
+    "photo": "trade-shows",
+    "photo2": "nova-tile",
+    "alt": "Robot humanoïde attirant des visiteurs vers un stand d'exposition à Monaco",
+    "intro": {
+      "h2": "Un robot de salon rentabilise sa place au sol.",
+      "p": [
+        "Louez un robot de salon à Monaco et vous achetez la seule chose qu'un stand ne peut pas obtenir par le design : une raison pour un visiteur fatigué de tourner la tête. Au Grimaldi Forum et dans les halls d'exposition de la Côte d'Azur, les allées sont pleines de beaux graphismes. Un humanoïde qui évolue en façade de votre espace change le flux en quelques minutes.",
+        "Il fait ensuite un travail utile, pas seulement un travail d'attention. Le robot délivre proprement votre argumentaire à chaque groupe qui s'arrête, en français ou en anglais, de sorte que votre équipe commerciale rejoint une conversation déjà commencée. Avec l'option assistant IA, il répond aux questions simples sur votre catalogue et passe le relais à une personne dès qu'il atteint la limite de ce qu'il sait.",
+        "Nous organisons la journée autour de l'endurance, des deux côtés. Des séquences de vingt minutes avec changement de batterie entre elles gardent le robot frais de l'ouverture à la fermeture et donnent à vos équipes des pauses prévisibles. L'opérateur reste avec le robot toute la journée, gère la foule autour de lui et maintient l'allée praticable pour l'organisateur."
+      ]
+    },
+    "ideas": {
+      "h2": "Ce qu'il fait sur une journée de salon.",
+      "items": [
+        { "icon": "radar", "h": "Arrête l'allée", "p": "Il travaille le premier mètre du stand, salue et se tourne vers les passants : les visiteurs arrivent déjà curieux devant votre équipe." },
+        { "icon": "mic", "h": "Délivre l'argumentaire", "p": "Votre explication de trente secondes, dite à l'identique à chaque groupe, en français ou en anglais, toute la journée sans faiblir." },
+        { "icon": "monitor", "h": "Montre la démonstration", "p": "Il désigne votre écran ou votre produit et confie le visiteur à un collègue au bon moment." },
+        { "icon": "scan-barcode", "h": "Amorce le contact", "p": "Il invite les visiteurs à scanner, à prendre une carte ou un échantillon, ce qui donne à votre équipe une entrée en matière naturelle." },
+        { "icon": "headset", "h": "Répond aux questions", "p": "Avec l'option assistant IA, il traite les questions simples et transmet immédiatement les plus complexes à un humain." },
+        { "icon": "camera", "h": "Crée du contenu partagé", "p": "Les visiteurs se filment avec lui et publient depuis le hall : votre stand apparaît dans des fils que vous n'avez pas payés." }
+      ]
+    },
+    "included": {
+      "h2": "Ce que couvre une réservation de salon.",
+      "lead": "Les expositions sur plusieurs jours sont notre rythme normal, pas une exception.",
+      "list": [
+        "Livraison au hall, installation le jour du montage et démontage",
+        "Un opérateur avec le robot à chaque heure d'exploitation, toujours",
+        "Votre logo en sticker imprimé sur la poitrine pour tout le salon",
+        "Un argumentaire scripté écrit avec votre équipe marketing",
+        "Un rythme quotidien de séquences validé avec votre chef de stand",
+        "Les changements de batterie sur place, pour que le stand ne retombe jamais",
+        "Analyse des risques et attestations d'assurance pour l'organisateur"
+      ]
+    },
+    "faq": [
+      { "q": "Combien coûte la location d'un robot pour un salon à Monaco ?", "a": "À partir de 2 000 € par jour avec un opérateur, au tarif plusieurs jours, hors TVA. Une exposition sur plusieurs jours correspond exactement à ce tarif. Les scripts sur mesure, les déplacements et la scénographie sont chiffrés à part et vous obtenez un montant ferme sous 24 heures." },
+      { "q": "Quelle surface de stand le robot demande-t-il ?", "a": "Environ trois mètres sur trois de sol plat, sec et ferme pour évoluer, plus un coin discret pour l'opérateur et la caisse de batteries. Une moquette de salon sur un sol de niveau est idéale. Il n'emprunte ni escaliers ni rampes en routine." },
+      { "q": "Le robot peut-il expliquer nos produits aux visiteurs ?", "a": "Il délivre un argumentaire scripté d'origine. Si vous voulez qu'il réponde à de vraies questions sur votre catalogue, l'option assistant IA lui permet d'écouter, de comprendre et de répondre, puis de passer le relais à votre équipe quand il ne sait pas. Cette option est chiffrée par projet." },
+      { "q": "Peut-il tenir une exposition entière de trois jours ?", "a": "Oui, par séquences. Une batterie donne environ deux heures de spectacle actif et notre opérateur les change sur place. Nous prévoyons en général des séquences de vingt minutes pendant les heures d'ouverture, ce qui donne aussi un rythme à votre équipe de stand." },
+      { "q": "L'organisateur acceptera-t-il un robot sur le stand ?", "a": "D'après notre expérience oui, une fois le dossier fourni. Nous remettons une analyse des risques et les attestations d'assurance, et le robot est piloté en permanence, jamais laissé en fonctionnement sans surveillance dans un hall ouvert au public." }
+    ],
+    "related": ["brand-activations", "conferences", "yacht-shows"],
+    "preset": "Salon professionnel"
+  },
+  "yacht-shows": {
+    "label": "Salons nautiques",
+    "teaser": "Un humanoïde sur le quai ou le pont arrière pendant la semaine du Monaco Yacht Show.",
+    "eyebrow": "Salons nautiques · Port Hercule",
+    "h1": "Le pont devant lequel tout le monde s'arrête.",
+    "lead": "Pendant le Monaco Yacht Show, le port est un mur de coques blanches. Un robot humanoïde sur votre stand ou votre pont arrière donne aux visiteurs une raison d'arrêter de marcher et de commencer à parler.",
+    "title": "Robot au Monaco Yacht Show : location",
+    "desc": "Louez un robot humanoïde pour le Monaco Yacht Show ou un événement nautique sur la Côte d'Azur. Sur le quai ou le pont arrière, opéré et à vos couleurs.",
+    "photo": "yacht-shows",
+    "photo2": "montari-hero",
+    "alt": "Robot humanoïde sur le pont d'un superyacht pendant un salon nautique à Monaco",
+    "intro": {
+      "h2": "Un robot au Monaco Yacht Show.",
+      "p": [
+        "Un robot au Monaco Yacht Show n'a qu'une mission : interrompre un visiteur qui a déjà vu quarante annexes, vingt intérieurs et toutes les brochures du quai. Un humanoïde qui se tourne, salue et parle y parvient en une seconde, et il le fait exactement auprès du public qu'un chantier, un courtier ou une marque nautique paie pour rencontrer.",
+        "Le cadre demande de la préparation et nous sommes directs là-dessus. Le robot a besoin d'une zone plate, sèche et ferme d'environ trois mètres sur trois. Un pont arrière, un beach club ou un stand couvert sur le quai conviennent en général. Les passerelles, le teck mouillé, la houle et le plein air exposé, non : nous regardons donc l'espace avec vous d'abord et nous disons clairement où le robot peut se tenir et où il ne le peut pas.",
+        "Bien utilisé, il vend deux choses à la fois. Il donne à votre marque l'emplacement le plus filmé de la rangée, et il signale que le chantier ou la marque derrière lui est à l'aise avec la technologie avancée. Pour des propriétaires et des clients en charter, ce second message compte souvent plus que les photos. Le même robot peut ensuite animer votre cocktail du soir sur le pont, une fois le quai vidé, au moment où se tiennent les conversations qui comptent vraiment."
+      ]
+    },
+    "ideas": {
+      "h2": "Comment il travaille un salon nautique.",
+      "items": [
+        { "icon": "scan-face", "h": "Accueille sur le quai", "p": "Il travaille la façade de votre stand, se tourne vers les visiteurs et les invite à entrer avant qu'ils ne dérivent vers la coque suivante." },
+        { "icon": "globe", "h": "Parle au public", "p": "Français et anglais, scripté avec vous pour un public de propriétaires, de courtiers, de commandants et de clients en charter." },
+        { "icon": "camera", "h": "Pose sur le pont arrière", "p": "Sur un pont adapté, il devient la photo de la semaine, avec votre chantier ou votre marque sur sa poitrine dans chaque cadre." },
+        { "icon": "sparkles", "h": "Ouvre une visite privée", "p": "Une courte séquence d'arrivée pour des invités conviés : la visite commence par un moment plutôt que par une poignée de main à la passerelle." },
+        { "icon": "flag", "h": "Porte la marque du chantier", "p": "Votre logo remplace le marquage sur sa poitrine : le robot se lit comme votre technologie, pas comme une attraction louée." },
+        { "icon": "party-popper", "h": "Anime le cocktail du soir", "p": "Quand le salon ferme et que le pont se remplit d'invités, le robot travaille la foule pendant l'heure dorée." }
+      ]
+    },
+    "included": {
+      "h2": "Ce que comprend la semaine.",
+      "lead": "Une semaine de salon, c'est de la logistique. Nous retirons cette part de votre liste.",
+      "list": [
+        "Livraison au quai et installation calées sur le planning du salon",
+        "Un opérateur avec le robot à chaque heure d'exploitation, toujours",
+        "Une reconnaissance du pont ou du stand avant l'ouverture du salon",
+        "Votre logo posé en sticker imprimé sur la poitrine",
+        "Des contenus parlés en français, en anglais ou dans les deux langues",
+        "Les changements de batterie sur place entre les séquences",
+        "Analyse des risques et attestations d'assurance pour l'organisateur",
+        "Un avis honnête sur les endroits où le robot ne peut pas travailler en sécurité"
+      ]
+    },
+    "faq": [
+      { "q": "Pouvez-vous amener un robot au Monaco Yacht Show ?", "a": "Oui, sur un stand ou à bord lorsque l'espace le permet. Il nous faut une zone plate, sèche et ferme d'environ trois mètres sur trois et l'accord de l'organisateur. Réservez tôt : c'est la semaine la plus chargée de notre année sur la Côte d'Azur." },
+      { "q": "Le robot peut-il marcher sur le pont d'un yacht ?", "a": "Sur un pont adapté, oui. Il lui faut une surface ferme, de niveau et sèche, avec un cheminement dégagé. Le teck mouillé, une passerelle, une plage arrière immergée, les escaliers et un pont qui bouge dans la houle sortent de son domaine. Nous visitons le bateau avec vous avant de nous engager." },
+      { "q": "Combien coûte la location d'un robot pendant la semaine du salon nautique ?", "a": "À partir de 2 000 € par jour avec un opérateur, au tarif plusieurs jours, hors TVA, pour l'humanoïde événementiel ou le chien robot. Les déplacements, la scénographie et tout script sur mesure sont chiffrés à part. Vous avez un prix ferme sous 24 heures." },
+      { "q": "Fonctionnera-t-il en extérieur sur le quai ?", "a": "Sous abri, oui. Le robot ne fonctionne pas sous la pluie et ne marche pas sur du gravier instable ou un sol irrégulier. Un stand couvert ou un pont ombragé est la réponse habituelle pour un salon de septembre à Monaco." },
+      { "q": "Peut-il s'adresser à une clientèle internationale ?", "a": "Il parle français et anglais. Pour le public mixte d'un salon nautique, nous écrivons en général de courtes phrases dans les deux langues et laissons l'opérateur choisir celle qu'il lance à l'arrivée de chaque groupe." }
+    ],
+    "related": ["grand-prix-hospitality", "trade-shows", "private-parties"],
+    "preset": "Salon nautique"
+  },
+  "grand-prix-hospitality": {
+    "label": "Réceptions Grand Prix",
+    "teaser": "Une animation de semaine de course pour les suites et terrasses au-dessus du circuit.",
+    "eyebrow": "Réceptions Grand Prix · Monte-Carlo",
+    "h1": "Quelque chose à regarder entre les séances.",
+    "lead": "Vos invités ont la terrasse, le port et les voitures. Ils ont aussi quatre heures entre deux séances. Un robot humanoïde remplit ces heures et donne à la suite une histoire à elle.",
+    "title": "Animation Grand Prix Monaco avec robot",
+    "desc": "Animation du week-end de Grand Prix à Monaco : un robot humanoïde pour les suites et terrasses au-dessus du circuit, opéré et floqué à vos couleurs.",
+    "photo": "grand-prix-hospitality",
+    "photo2": "hero",
+    "alt": "Robot humanoïde animant une suite de réception pendant le Grand Prix à Monaco",
+    "intro": {
+      "h2": "La réception de semaine de course, au-delà de la vue.",
+      "p": [
+        "L'animation d'une réception de Grand Prix à Monaco pose un problème précis. La course elle-même n'occupe qu'une petite partie de la journée, la vue est spectaculaire pendant une heure, puis une terrasse pleine d'invités importants a besoin d'occupation. Un robot humanoïde qui circule parmi eux transforme ce creux en la partie qu'ils raconteront ensuite.",
+        "Il convient à ce public. Les invités de la semaine de course sont reçus en permanence et se laissent difficilement impressionner par la seule gastronomie et le champagne. Un robot qui les salue au nom de leur société, qui pose sur la terrasse avec le circuit derrière lui et qui délivre le message de votre hôte est un vrai sujet de conversation, et il photographie superbement face au port.",
+        "Le volet pratique est simple mais strict. Il nous faut environ trois mètres sur trois de sol plat, sec et ferme, ce dont disposent la plupart des suites et terrasses au-dessus du circuit, et nous calons les séquences sur les horaires des séances pour que le robot ne concurrence jamais les voitures. Notre opérateur est présent tout du long, habillé pour la circonstance, et travaille discrètement autour de vos équipes de service. Les fenêtres d'accès pendant la semaine de course sont étroites : nous fixons donc la livraison et le démontage avec votre immeuble bien avant le jeudi."
+      ]
+    },
+    "ideas": {
+      "h2": "Ce qu'il fait pendant la semaine de course.",
+      "items": [
+        { "icon": "scan-face", "h": "Accueille vos invités", "p": "À la porte de la suite, il salue les arrivants par leur nom ou celui de leur société, ce qui donne le ton avant le premier verre." },
+        { "icon": "party-popper", "h": "Comble les creux", "p": "De courtes séquences entre les séances, calées avec votre hôte, pour que le long milieu de journée ait une structure." },
+        { "icon": "camera", "h": "Pose sur la terrasse", "p": "Les invités se filment avec le robot et le circuit dans le même cadre. Cet extrait voyage plus loin que n'importe quelle invitation." },
+        { "icon": "mic", "h": "Porte le message de l'hôte", "p": "Un mot de bienvenue, un remerciement ou une phrase de sponsor, dits par le robot en français ou en anglais au bon moment." },
+        { "icon": "flag", "h": "Porte votre sponsor", "p": "Votre logo ou celui de votre sponsor est sur la poitrine, dans chaque photo prise dans la suite pendant tout le week-end." },
+        { "icon": "sparkles", "h": "Referme le week-end", "p": "Une dernière séquence après le drapeau à damier, pendant que les invités restent pour un verre, pour finir sur un moment." }
+      ]
+    },
+    "included": {
+      "h2": "Ce que couvre une réservation de semaine de course.",
+      "lead": "L'accès pendant la semaine de course est difficile. Nous l'anticipons avec vous.",
+      "list": [
+        "Livraison et installation calées sur les horaires d'accès au circuit",
+        "Un opérateur avec le robot à chaque heure d'exploitation, toujours",
+        "Une reconnaissance de la suite ou de la terrasse avant le week-end",
+        "Des séquences calées sur le programme des séances",
+        "Votre logo posé en sticker imprimé sur la poitrine",
+        "Des contenus parlés en français, en anglais ou dans les deux langues",
+        "Les changements de batterie sur place entre les séquences"
+      ]
+    },
+    "faq": [
+      { "q": "Pouvez-vous amener un robot dans une suite de réception du Grand Prix à Monaco ?", "a": "Oui, là où votre hôte ou votre immeuble accorde l'accès et où le sol convient. Il nous faut environ trois mètres sur trois de surface plate, sèche et ferme. Les fenêtres d'accès pendant la semaine de course sont serrées : nous planifions donc la livraison et le démontage avec vous bien à l'avance." },
+      { "q": "Combien coûte une animation de Grand Prix avec un robot ?", "a": "À partir de 2 000 € par jour avec un opérateur, au tarif plusieurs jours, hors TVA. Les week-ends de course se réservent en général sur plusieurs jours. Les déplacements, la scénographie et les scripts sur mesure sont chiffrés à part, avec un prix ferme sous 24 heures." },
+      { "q": "Fonctionnera-t-il sur une terrasse ouverte ?", "a": "Sur une terrasse sèche, de niveau et ferme, oui. Le robot ne fonctionne pas sous la pluie et ne marche pas sur des surfaces meubles ou irrégulières. Si la pluie est annoncée, nous convenons d'une position intérieure à l'avance plutôt que d'improviser le jour même." },
+      { "q": "Combien de temps le robot peut-il animer la suite ?", "a": "Environ deux heures de spectacle actif sur une batterie, changée sur place par notre opérateur. Sur une journée de course, nous enchaînons en général plusieurs séquences de vingt minutes entre les séances, ce qui correspond à la façon dont les invités circulent de toute façon." },
+      { "q": "Est-il trop bruyant pour une suite pendant la course ?", "a": "Non. Les prises de parole du robot passent par une petite enceinte que nous réglons sur la salle, et nous programmons les séquences pour qu'il ne concurrence jamais les voitures ni votre hôte quand il parle." }
+    ],
+    "related": ["yacht-shows", "private-parties", "corporate-events"],
+    "preset": "Réception Grand Prix"
+  },
+  "luxury-retail": {
+    "label": "Retail de luxe",
+    "teaser": "Un hôte humanoïde pour les boutiques du Carré d'Or, les ouvertures et les événements en magasin.",
+    "eyebrow": "Retail de luxe · Carré d'Or",
+    "h1": "Une vitrine devant laquelle on s'arrête.",
+    "lead": "Au Carré d'Or, le flux passe toute la journée devant de très belles vitrines. Un robot humanoïde dans la boutique ou à la porte transforme ce passage en arrêt, et cet arrêt en visite.",
+    "title": "Robot pour boutique de luxe à Monaco",
+    "desc": "Louez un robot humanoïde pour une boutique de luxe du Carré d'Or à Monaco ou sur la Côte d'Azur. Ouvertures, événements en magasin et vitrines, opérés.",
+    "photo": "luxury-retail",
+    "photo2": "montari-tile",
+    "alt": "Robot humanoïde accueillant des clients dans une boutique de luxe à Monaco",
+    "intro": {
+      "h2": "Un robot dans une boutique monégasque.",
+      "p": [
+        "Le retail de luxe à Monaco tient en quelques centaines de mètres autour du Carré d'Or, et chaque maison y dispute le même regard de passage. Un robot humanoïde en vitrine ou juste derrière la porte est la chose la plus rare de cette rue, et contrairement à un présentoir, il regarde en retour la personne qui s'est arrêtée.",
+        "Il sert des moments de vente précis plutôt que tous les jours d'ouverture. Une inauguration de boutique, une nouvelle collection, une soirée VIP, une collaboration ou une animation saisonnière sont les occasions où il justifie son coût. Le robot accueille les clientes et les clients, dit la phrase que la maison veut entendre et remet un cadeau ou une invitation avec un geste qui photographie bien.",
+        "La discrétion fait partie du brief. Nous validons le ton avec votre directeur de boutique, gardons l'opérateur proche mais effacé et calons les séquences pour que la surface de vente ne devienne jamais une foule que la clientèle évite. Le robot ne conclut pas de vente, ne touche pas au stock et ne remplace pas votre équipe. Il fait entrer les gens, leur donne une raison de rester une minute de plus, puis s'efface pour que vos conseillers fassent le travail pour lequel ils sont là."
+      ]
+    },
+    "ideas": {
+      "h2": "Les moments retail qui lui vont.",
+      "items": [
+        { "icon": "store", "h": "Inaugure une boutique", "p": "Le robot reçoit les premiers clients à la porte le jour de l'ouverture, ce qui transforme un ruban en événement que l'on filme." },
+        { "icon": "eye", "h": "Travaille la vitrine", "p": "Placé derrière la vitre, il joue pour la rue en boucle et arrête des passants qui n'auraient pas regardé deux fois." },
+        { "icon": "box", "h": "Présente une nouveauté", "p": "Il porte la nouvelle collection ou la désigne au moment où la maison veut l'attention dessus, en intérieur et sous contrôle." },
+        { "icon": "sparkles", "h": "Anime une soirée VIP", "p": "Pour une soirée clients privée, il accueille par le nom là où vous nous briefez, puis travaille la salle entre les conversations." },
+        { "icon": "camera", "h": "Offre la photo aux clients", "p": "Les invités repartent avec un extrait tourné dans votre boutique, partagé exactement au public qu'une maison veut toucher." },
+        { "icon": "flag", "h": "Porte la marque de la maison", "p": "Votre logo remplace le marquage sur sa poitrine : le robot se lit comme un élément de l'univers de la marque." }
+      ]
+    },
+    "included": {
+      "h2": "Ce qu'inclut une réservation retail.",
+      "lead": "Organisé autour de vos horaires d'ouverture et de votre équipe de vente.",
+      "list": [
+        "Livraison et installation avant l'ouverture, démontage après la fermeture",
+        "Un opérateur avec le robot pendant toute la durée, toujours",
+        "Une reconnaissance du sol de la boutique et de la position en vitrine",
+        "Votre logo posé en sticker imprimé sur la poitrine",
+        "Un script court validé avec votre directeur de boutique ou de marque",
+        "Des prises de parole en français, en anglais ou dans les deux langues",
+        "Les changements de batterie sur place entre les séquences"
+      ]
+    },
+    "faq": [
+      { "q": "Un robot peut-il travailler dans une boutique du Carré d'Or à Monaco ?", "a": "Oui, là où le sol offre environ trois mètres sur trois d'espace plat, sec et ferme et où l'accès se fait sans marche. Nous visitons la boutique avec vous d'abord et plaçons le robot là où il capte la rue sans encombrer la surface de vente." },
+      { "q": "Combien coûte la location d'un robot pour un événement en boutique ?", "a": "À partir de 2 000 € par jour avec un opérateur, au tarif plusieurs jours, hors TVA. Les journées isolées, un script sur mesure, les déplacements et la scénographie sont chiffrés à part. Envoyez la date et l'adresse : vous avez un prix sous 24 heures." },
+      { "q": "Le robot peut-il vendre ou manipuler le stock ?", "a": "Non. Il ne manipule pas la marchandise, n'encaisse pas et ne remplace pas votre équipe de vente. Il peut remettre un seul objet léger, un écrin, une carte ou une invitation, et il fait entrer les gens." },
+      { "q": "Pouvons-nous le placer en vitrine ?", "a": "Souvent oui, si le podium de vitrine est ferme, de niveau et assez profond. Il joue pour la rue derrière la vitre et l'opérateur reste à l'intérieur avec lui. Nous mesurons l'espace avant de confirmer." },
+      { "q": "Sera-t-il au ton d'une marque de luxe ?", "a": "Cela dépend entièrement du script, et c'est pourquoi nous l'écrivons avec vous. Le robot peut être calme et formel plutôt que démonstratif. Nous préférons quelques très bons moments dans une boutique à un spectacle continu." }
+    ],
+    "related": ["brand-activations", "product-launches", "private-parties"],
+    "preset": "Retail de luxe"
+  },
+  "galas-and-awards": {
+    "label": "Galas et remises de prix",
+    "teaser": "Le robot remet le trophée, et toute la salle lève son téléphone en même temps.",
+    "eyebrow": "Galas et remises de prix · Monaco",
+    "h1": "Le trophée arrive autrement.",
+    "lead": "Les galas de bienfaisance et les dîners de remise de prix à Monaco suivent la même structure chaque année. Un robot humanoïde qui remet la récompense donne à la soirée un moment que personne n'a encore vu.",
+    "title": "Animation de soirée de gala avec robot",
+    "desc": "Animation de soirée de gala à Monaco et sur la Côte d'Azur : un robot humanoïde qui remet les prix, travaille le dîner et donne son moment à la soirée.",
+    "photo": "galas-and-awards",
+    "photo2": "hero",
+    "alt": "Robot humanoïde remettant un prix lors d'un dîner de gala à Monaco",
+    "intro": {
+      "h2": "Une animation de gala qui respecte le format.",
+      "p": [
+        "Une soirée de gala à Monaco a une forme qui change rarement. Cocktail, placement, discours, la cause, les prix, la vente aux enchères et l'orchestre. Les invités qui en fréquentent plusieurs par saison connaissent cette forme par cœur. Un robot humanoïde n'a pas besoin de remplacer tout cela, et il ne doit pas essayer. Il prend simplement une partie du déroulé et la rend à nouveau inattendue.",
+        "La remise du prix est sa place naturelle. Le robot porte le trophée jusqu'à la scène, lit le nom du lauréat en français ou en anglais et le lui remet. Toute la salle lève son téléphone au même instant, ce qui est précisément la réaction qu'un comité attend quand la soirée sert aussi de film de collecte pour l'année suivante.",
+        "Autour de ce moment, il travaille discrètement. Il accueille les invités au champagne, pose pour le photographe entre les services et referme la soirée avant le début de la musique. Notre opérateur est habillé pour la salle, reste près du robot toute la soirée et maintient une distance de travail avec les invités : l'effet ne dépend jamais du discernement de quiconque après le dîner. Rien ne fonctionne sans surveillance, à aucun moment."
+      ]
+    },
+    "ideas": {
+      "h2": "Où le robot trouve sa place dans un gala.",
+      "items": [
+        { "icon": "party-popper", "h": "Remet le prix", "p": "Il porte le trophée jusqu'à la scène, lit le nom et le remet au lauréat pendant que la salle filme." },
+        { "icon": "scan-face", "h": "Travaille le cocktail", "p": "Pendant le champagne, il circule entre les groupes et salue les invités, réchauffant une salle qui cherche encore ses marques." },
+        { "icon": "mic", "h": "Ouvre la soirée", "p": "Un court mot de bienvenue scripté avant que votre animateur prenne le micro, en français, en anglais ou dans les deux langues." },
+        { "icon": "megaphone", "h": "Sert la cause", "p": "Pour un gala caritatif, il peut délivrer le chiffre clé ou le remerciement, écrit à l'avance avec le comité." },
+        { "icon": "camera", "h": "Crée l'image de presse", "p": "Les lauréats posent avec le robot et le trophée, ce qui donne à la soirée une image qui voyage plus loin qu'une photo de podium." },
+        { "icon": "sparkles", "h": "Referme avant l'orchestre", "p": "Une dernière séquence courte après le dessert, pour que la soirée bascule vers la piste sur une note haute." }
+      ]
+    },
+    "included": {
+      "h2": "Ce qu'inclut une réservation de gala.",
+      "lead": "Nous travaillons sur votre conducteur et sur les timings de votre production.",
+      "list": [
+        "Livraison, installation et démontage calés sur le planning du lieu",
+        "Un opérateur avec le robot toute la soirée, toujours",
+        "Une remise de prix répétée avec votre régisseur de scène",
+        "Votre logo ou la marque de la cause en sticker sur la poitrine",
+        "Des prises de parole en français, en anglais ou dans les deux langues",
+        "Les noms vérifiés et répétés avant la soirée",
+        "Les changements de batterie sur place entre les séquences",
+        "Les attestations d'assurance pour le dossier du lieu"
+      ]
+    },
+    "faq": [
+      { "q": "Un robot peut-il remettre les prix lors d'un gala à Monaco ?", "a": "Oui. Il porte un trophée léger jusqu'à la scène, lit le nom du lauréat et le lui remet. Nous répétons la remise avec votre régisseur en amont et nous vérifions tôt le poids et la forme du trophée pour que le moment soit sûr et net." },
+      { "q": "Combien coûte une animation de soirée de gala avec un robot à Monaco ?", "a": "À partir de 2 000 € par jour avec un opérateur, au tarif plusieurs jours, hors TVA. Une soirée isolée, un script sur mesure, les déplacements et la scénographie sont chiffrés à part. Envoyez la date et le lieu et vous recevez un plan et un prix sous 24 heures." },
+      { "q": "Peut-il lire correctement les noms des lauréats ?", "a": "Oui, et nous le testons à l'avance. Les noms sont écrits dans le script et répétés pour que la prononciation soit juste le soir même. Le robot parle français et anglais, ce qui couvre la plupart des listes d'invités à Monaco." },
+      { "q": "Fonctionnera-t-il sur une scène de salle de bal ?", "a": "Sur une scène ferme, de niveau et sèche, avec un accès sans marche, oui. Il lui faut environ trois mètres sur trois pour évoluer. Les marches menant à un praticable ne font pas partie de sa routine : nous convenons donc d'une rampe ou d'une remise au niveau du sol avec votre production." },
+      { "q": "Un robot est-il approprié à un dîner caritatif ?", "a": "Cela dépend du ton que vous voulez, et nous vous le dirons franchement. Bien écrit, il attire l'attention sur la cause et donne au comité un moment que l'on filme. Mal écrit, il en détourne. Nous construisons le script avec vous, pas à votre place." }
+    ],
+    "related": ["corporate-events", "private-parties", "product-launches"],
+    "preset": "Gala ou remise de prix"
+  },
+  "private-parties": {
+    "label": "Soirées privées",
+    "teaser": "Anniversaires, soirées en villa et célébrations à Monaco et sur toute la côte.",
+    "eyebrow": "Soirées privées · Monaco et la Côte d'Azur",
+    "h1": "L'invité que personne n'avait convié.",
+    "lead": "Un robot humanoïde qui arrive à une soirée privée à Monaco ou dans une villa au-dessus de la côte change la soirée en une minute. Discret, piloté et entièrement sous votre contrôle.",
+    "title": "Robot pour soirée privée à Monaco",
+    "desc": "Louez un robot humanoïde pour une soirée privée à Monaco ou sur la Côte d'Azur. Anniversaires, soirées en villa et célébrations, pilotées avec discrétion.",
+    "photo": "private-parties",
+    "photo2": "oryx-tile",
+    "alt": "Robot humanoïde animant une soirée privée dans une villa sur la Côte d'Azur",
+    "intro": {
+      "h2": "Un robot à une célébration privée.",
+      "p": [
+        "Un robot pour une soirée privée à Monaco ou sur la Côte d'Azur fonctionne pour une raison simple. Les invités de l'hôte ont déjà fait tous les restaurants, tous les clubs et toutes les villas de cette côte. Un humanoïde qui sort sur la terrasse avec un gâteau, un cadeau ou un message est la seule arrivée qu'ils ne peuvent pas anticiper.",
+        "Le brief est en général personnel plutôt que commercial. Un anniversaire où le robot porte le cadeau, une date où il délivre un message écrit par la famille, une demande en mariage où il apparaît exactement à la bonne seconde. Nous écrivons la séquence avec l'hôte et la répétons tranquillement avant l'arrivée des invités, pour que la surprise soit réelle et le timing exact.",
+        "La discrétion traverse toute la prestation. Nous arrivons sans marquage sauf si vous le demandez, notre opérateur s'habille pour la soirée et reste hors des photos, et rien de votre événement n'est publié par nous, à aucun moment. Le robot a besoin des mêmes conditions que partout ailleurs, une surface plate, sèche et ferme d'environ trois mètres sur trois et pas de pluie, ce qui pose rarement problème sur une terrasse d'été au-dessus de la côte. Nous vérifions le cheminement du portail à la terrasse avant l'arrivée de quiconque."
+      ]
+    },
+    "ideas": {
+      "h2": "Ce qu'il fait lors d'une soirée privée.",
+      "items": [
+        { "icon": "party-popper", "h": "Apporte le gâteau", "p": "Le robot porte le gâteau ou le cadeau jusqu'à l'invité d'honneur, et c'est l'extrait que toute la famille conserve." },
+        { "icon": "mic", "h": "Délivre un message", "p": "Des mots écrits par vous, dits par le robot en français ou en anglais, à l'instant précis où la salle se tait." },
+        { "icon": "scan-face", "h": "Accueille au portail", "p": "Il reçoit les invités à leur arrivée à la villa ou à l'appartement, pour que la soirée commence par une surprise." },
+        { "icon": "camera", "h": "Photographie avec tous", "p": "Entre les services et après le dîner, il pose avec les invités, qui repartent avec mieux qu'une photo de terrasse de plus." },
+        { "icon": "sparkles", "h": "Danse avec la salle", "p": "Une courte séquence chorégraphiée au lancement de la musique, moment où la fête commence vraiment." },
+        { "icon": "box", "h": "Remet la surprise", "p": "Un écrin, une enveloppe, une clé, un petit cadeau. La remise est préparée et répétée à la seconde près." }
+      ]
+    },
+    "included": {
+      "h2": "Ce qu'inclut une réservation privée.",
+      "lead": "Arrivée discrète, timing exact, rien de publié ensuite.",
+      "list": [
+        "Livraison et installation discrètes avant l'arrivée des invités",
+        "Un opérateur avec le robot toute la soirée, toujours",
+        "Une séquence surprise répétée et validée avec l'hôte",
+        "Des prises de parole en français, en anglais ou dans les deux langues",
+        "Un marquage optionnel, ou aucun marquage du tout",
+        "Une reconnaissance de la terrasse, du cheminement du jardin ou du salon",
+        "Les changements de batterie sur place entre les séquences",
+        "Une confidentialité totale sur votre événement"
+      ]
+    },
+    "faq": [
+      { "q": "Puis-je louer un robot pour un anniversaire à Monaco ?", "a": "Oui. Les anniversaires font partie des réservations privées les plus fréquentes, en général avec le robot qui porte le gâteau ou le cadeau. Dites-nous le moment que vous voulez créer et nous écrivons la séquence autour." },
+      { "q": "Combien coûte la location d'un robot pour une soirée privée ?", "a": "À partir de 2 000 € par jour avec un opérateur, au tarif plusieurs jours, hors TVA. Une soirée isolée, le déplacement le long de la côte et un script sur mesure sont chiffrés à part. Vous avez un prix ferme sous 24 heures." },
+      { "q": "Garderez-vous notre événement privé ?", "a": "Oui. Nous ne publions pas, ne postons pas et ne citons pas nos clients privés, et notre opérateur reste hors des photos. Si vous souhaitez des images pour vous, cette décision vous appartient entièrement." },
+      { "q": "Peut-il travailler en extérieur dans une villa ?", "a": "Sur une terrasse ou une plage de piscine sèche, de niveau et ferme, oui. Il ne fonctionne pas sous la pluie, ni sur l'herbe, le gravier instable ou les escaliers. Nous regardons l'espace en amont et convenons d'une position couverte si le temps tourne." },
+      { "q": "Vous déplacez-vous hors de Monaco pour des événements privés ?", "a": "Régulièrement. Nice, Cannes, Antibes, Saint-Tropez, Menton, Villefranche-sur-Mer et Èze sont des trajets courants, et plus loin sur arrangement. Le déplacement est chiffré séparément du tarif journalier." }
+    ],
+    "related": ["galas-and-awards", "grand-prix-hospitality", "corporate-events"],
+    "preset": "Soirée privée"
+  },
+  "conferences": {
+    "label": "Conférences et congrès",
+    "teaser": "Un moment d'ouverture de plénière et un hôte de foyer, pour les congrès à Monaco.",
+    "eyebrow": "Conférences · Monaco",
+    "h1": "Une plénière avec un co-présentateur.",
+    "lead": "Un robot humanoïde ouvre votre congrès, présente le premier intervenant, puis anime le foyer pendant chaque pause café. Une seule réservation, deux métiers très différents.",
+    "title": "Robot pour conférence et congrès à Monaco",
+    "desc": "Louez un robot humanoïde pour une conférence ou un congrès à Monaco et sur la Côte d'Azur. Ouverture de plénière, animation du foyer et pauses, avec opérateur.",
+    "photo": "conferences",
+    "photo2": "nova-hero",
+    "alt": "Robot humanoïde sur scène ouvrant une conférence à Monaco",
+    "intro": {
+      "h2": "Un robot de congrès, sur scène et dans le foyer.",
+      "p": [
+        "Louez un robot de conférence à Monaco et vous obtenez deux choses qu'un congrès doit d'ordinaire acheter séparément. Sur scène, il ouvre le programme, délivre un court mot de bienvenue scripté et présente votre premier intervenant, ce qui réveille une salle qui vient de s'asseoir après le café et s'attend à une nouvelle série de diapositives.",
+        "Dans le foyer, il fait le travail le plus difficile. Les pauses sont le moment où les participants consultent leur téléphone et partent tôt. Un humanoïde qui travaille l'espace café leur donne une raison de rester dans le bâtiment, et donne à vos partenaires un stand vers lequel on marche vraiment. Avec l'option assistant IA, il répond aux questions sur le programme et les salles, et transmet le reste à vos équipes.",
+        "La technologie elle-même est souvent dans le sujet. Lors d'un congrès médical, financier ou technologique, le robot n'est pas un gadget dans un coin, c'est un exemple vivant de ce que décrivent les intervenants. NOVA, le même corps avec le SDK complet, peut être programmé pour une démonstration qui appartient à la session plutôt qu'à sa périphérie, et nos ingénieurs écrivent ce comportement avec votre comité scientifique avant l'ouverture du congrès."
+      ]
+    },
+    "ideas": {
+      "h2": "Ce qu'il fait pendant un congrès.",
+      "items": [
+        { "icon": "mic", "h": "Ouvre le programme", "p": "Un mot de bienvenue scripté et une présentation nette du premier intervenant, en français ou en anglais, au top de votre régie." },
+        { "icon": "graduation-cap", "h": "Illustre le sujet", "p": "Lors d'un congrès technologique ou médical, le robot devient l'exemple vivant dont la session est en train de parler." },
+        { "icon": "headset", "h": "Anime le foyer", "p": "Pendant les pauses, il travaille l'espace café, ce qui retient les participants dans le bâtiment et près de vos partenaires." },
+        { "icon": "monitor", "h": "Oriente vers les salles", "p": "Il dirige les participants vers la bonne salle ou le bon atelier, en répétant les informations pratiques que personne ne lit sur le panneau." },
+        { "icon": "cpu", "h": "Répond sur le programme", "p": "Avec l'option assistant IA, il écoute et répond, puis passe le relais à un humain dès qu'il ne sait pas." },
+        { "icon": "camera", "h": "Donne sa publication au participant", "p": "Les participants se filment avec lui et publient depuis le lieu, ce qui promeut l'édition suivante à votre place." }
+      ]
+    },
+    "included": {
+      "h2": "Ce que couvre une réservation de congrès.",
+      "lead": "Conçu pour les programmes sur plusieurs jours et les timings de scène serrés.",
+      "list": [
+        "Livraison, installation le jour du montage et démontage par notre équipe",
+        "Un opérateur avec le robot à chaque heure d'exploitation, toujours",
+        "Une répétition technique avec votre régie et votre équipe audiovisuelle",
+        "Une ouverture scriptée écrite avec votre équipe programme",
+        "Votre logo ou la marque du congrès en sticker sur la poitrine",
+        "Des contenus parlés en français, en anglais ou dans les deux langues",
+        "Les changements de batterie sur place entre les sessions et les pauses",
+        "Analyse des risques et attestations d'assurance pour le lieu"
+      ]
+    },
+    "faq": [
+      { "q": "Un robot peut-il ouvrir une conférence à Monaco ?", "a": "Oui. Il entre en scène, délivre un court mot de bienvenue scripté et présente votre premier intervenant, en prenant son top auprès de votre régie. Nous répétons l'entrée et le timing sur votre scène pendant la répétition technique." },
+      { "q": "Combien coûte la location d'un robot pour une conférence ?", "a": "À partir de 2 000 € par jour avec un opérateur, au tarif plusieurs jours, hors TVA, pour l'humanoïde événementiel. NOVA, l'humanoïde développeur avec le SDK complet, démarre à 3 000 € par jour. Les scripts sur mesure, les déplacements et la scénographie sont chiffrés à part." },
+      { "q": "Le robot peut-il répondre aux questions des participants ?", "a": "Avec l'option assistant IA, oui. Il écoute, comprend et répond aux questions sur votre programme, vos salles ou votre organisation, en français et en anglais, et passe le relais à un humain quand il atteint la limite de ce qu'il sait." },
+      { "q": "Peut-il être programmé pour une démonstration technique ?", "a": "C'est exactement le rôle de NOVA. C'est le même corps avec le SDK complet, donc nos ingénieurs peuvent écrire des comportements sur mesure, des séquences de mouvement et des intégrations pour une session. Le développement logiciel est chiffré par projet, séparément de la location." },
+      { "q": "A-t-il besoin de quelque chose de particulier de la part du lieu ?", "a": "Une zone de travail plate, sèche et ferme d'environ trois mètres sur trois, un accès à la scène sans marche et une petite prise de courant pour la charge. Notre opérateur s'occupe du reste, y compris des changements de batterie entre les sessions." }
+    ],
+    "related": ["trade-shows", "corporate-events", "product-launches"],
+    "preset": "Conférence"
+  }
+}

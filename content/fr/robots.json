@@ -1,0 +1,218 @@
+{
+  "_hub": {
+    "crumb": "La flotte",
+    "eyebrow": "La flotte · Monaco et la Côte d'Azur",
+    "h1": "Deux humanoïdes et un chien robot.",
+    "lead": "MONTARI travaille la foule. NOVA est le même corps avec le SDK complet, pour les équipes qui veulent le programmer. ORYX est celui à quatre pattes, qui ouvre une soirée et marche sur le tapis rouge. Chaque location comprend un opérateur, votre logo sur le torse et un scénario écrit avec vous.",
+    "title": "Location de robot humanoïde et chien robot",
+    "desc": "Deux humanoïdes Unitree et un chien robot à louer à Monaco et sur la Côte d'Azur. Opérateur inclus, vos couleurs et un scénario écrit avec vous.",
+    "faq": [
+      {
+        "q": "Quel robot louer pour un événement à Monaco ?",
+        "a": "MONTARI pour presque tous les événements. C'est l'humanoïde événementiel : il circule dans la salle, accueille les invités, pose et dit votre texte. Choisissez NOVA lorsque vous voulez des comportements écrits sur mesure ou un robot que vos propres développeurs peuvent programmer. Choisissez ORYX, le chien robot, pour une arrivée, un tapis rouge ou une escorte à quatre pattes dans la foule."
+      },
+      {
+        "q": "Combien coûte la location d'un robot pour un événement à Monaco ?",
+        "a": "L'humanoïde événementiel et le chien robot démarrent à 2 000 € par jour avec opérateur, au tarif sur plusieurs jours et hors taxes. NOVA, l'humanoïde pour développeurs, démarre à 3 000 € par jour aux mêmes conditions. Journées isolées, textes sur mesure, déplacements et scénographie sont chiffrés séparément."
+      },
+      {
+        "q": "Puis-je louer plusieurs robots pour le même événement ?",
+        "a": "Oui. Le duo le plus courant associe ORYX à l'entrée et MONTARI à l'intérieur : les invités rencontrent le chien à l'arrivée, puis l'humanoïde une fois le verre en main. Chaque robot vient avec son propre opérateur, donnez-nous le déroulé et nous chiffrons les deux ensemble."
+      },
+      {
+        "q": "Quelle est la différence entre l'Unitree G1 et le G1 EDU ?",
+        "a": "Le corps est identique. La version EDU, que nous appelons NOVA, ouvre le kit de développement complet : nos ingénieurs ou les vôtres peuvent écrire de nouveaux mouvements, de nouvelles voix et des intégrations au lieu de dérouler un répertoire figé. Si personne n'écrit de code, MONTARI fait le même travail en salle pour moins cher."
+      },
+      {
+        "q": "Combien de temps chaque robot tient-il sur une batterie ?",
+        "a": "Environ deux heures de show actif. Notre opérateur change la batterie sur place entre les séquences, une soirée est donc une question de découpage des apparitions et non d'autonomie. Les trois robots ont besoin d'une surface plane, sèche et stable d'environ trois mètres sur trois pour évoluer."
+      }
+    ]
+  },
+  "montari": {
+    "name": "MONTARI",
+    "tagline": "La pièce maîtresse. Il entre, salue vos invités et donne à chacun quelque chose à filmer.",
+    "teaser": "L'humanoïde événementiel : il travaille la salle, pose pour les photos et dit votre texte.",
+    "alt": "MONTARI, robot humanoïde Unitree G1 à louer, accueillant les invités d'un événement à Monaco",
+    "title": "MONTARI · Location robot humanoïde Unitree G1",
+    "desc": "Louez MONTARI, notre robot humanoïde Unitree G1, avec opérateur à Monaco et sur la Côte d'Azur. À partir de 2 000 € par jour, à vos couleurs.",
+    "h1": "L'invité que votre salle va filmer.",
+    "lead": "MONTARI est un humanoïde Unitree G1, conçu pour la salle. Il circule parmi vos invités, serre des mains, pose, danse et dit les répliques écrites avec vous. Notre opérateur reste avec lui du début à la fin : vous avez le spectacle et aucun des risques.",
+    "specs": [
+      ["Taille", "1,32 m"],
+      ["Poids", "environ 35 kg"],
+      ["Batterie", "environ 2 h de show"],
+      ["Langues", "français et anglais"]
+    ],
+    "does": {
+      "h2": "Ce que MONTARI fait le soir même.",
+      "items": [
+        { "icon": "party-popper", "h": "Il fait l'entrée", "p": "Il entre au signal, avant le discours ou derrière le rideau. La salle se retourne, les téléphones se lèvent et votre soirée a sa première image." },
+        { "icon": "scan-face", "h": "Il travaille la foule", "p": "Le robot circule dans la salle au lieu d'attendre dans un coin. Il salue, serre des mains, incline la tête et réagit aux personnes en face de lui." },
+        { "icon": "mic", "h": "Il dit votre texte", "p": "Les mots d'ouverture, le message de marque, le nom du lauréat. Écrits avec vous en amont et prononcés en français, en anglais ou dans les deux langues." },
+        { "icon": "camera", "h": "Il pose pour les photos", "p": "Il tient la pose, reste immobile à côté d'un invité et attend le déclenchement. Chaque photo quitte le lieu avec votre logo sur son torse." },
+        { "icon": "box", "h": "Il remet les objets", "p": "Un trophée, une clé, une bouteille, un petit cadeau. La remise marque davantage venant d'un robot que d'un animateur avec son porte-bloc." },
+        { "icon": "flag", "h": "Il porte votre marque", "p": "Le logo sur le torse est un adhésif imprimé que nous remplaçons par le vôtre : le robot devient un élément de la campagne plutôt qu'un accessoire loué." }
+      ]
+    },
+    "fit": {
+      "h2": "Quand MONTARI est le bon robot.",
+      "lead": "C'est celui que nous envoyons neuf fois sur dix, parce qu'il est fait pour être vu et pour être filmé.",
+      "list": [
+        "Activations de marque et lancements de produit où le contenu doit être publié par les invités eux-mêmes",
+        "Galas et dîners de remise de prix où le trophée doit arriver dans des mains de robot",
+        "Soirées d'entreprise et réceptions clients qui ont besoin d'un moment inattendu",
+        "Stands de salons professionnels et nautiques qui doivent arrêter les visiteurs dans l'allée",
+        "Ouvertures de boutiques du Carré d'Or et dans le Golden Square",
+        "Tout lieu couvert avec un sol plan et sec d'environ trois mètres sur trois pour évoluer"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Combien coûte la location du robot humanoïde MONTARI à Monaco ?",
+        "a": "À partir de 2 000 € par jour avec opérateur, au tarif sur plusieurs jours et hors taxes. Une journée isolée, un texte sur mesure, un déplacement hors de Monaco et toute scénographie sont chiffrés en plus. Envoyez la date et le lieu, vous avez un prix ferme sous 24 heures."
+      },
+      {
+        "q": "Un robot humanoïde est-il sans danger pour les invités ?",
+        "a": "Oui, parce qu'il n'est jamais laissé seul. Notre opérateur mène le show, maintient une distance de travail entre le robot et le public et l'arrête immédiatement si quelqu'un s'approche trop. Il marche à un rythme calme, ne porte pas de charges lourdes et ne traverse jamais une salle sans surveillance."
+      },
+      {
+        "q": "MONTARI peut-il parler à nos invités en français ?",
+        "a": "Il parle français et anglais. La plupart des événements monégasques utilisent les deux : une ouverture en français et un message de marque en anglais, ou des répliques alternées tout au long de la soirée. Vous validez le texte avant le jour J, rien n'est improvisé devant vos clients."
+      },
+      {
+        "q": "De quoi MONTARI a-t-il besoin sur place ?",
+        "a": "D'une surface plane, sèche et stable, d'environ trois mètres sur trois pour évoluer, et d'une prise à proximité pour la charge. Il n'intervient ni sous la pluie, ni sur du gravier, ni dans des escaliers de façon répétée. Nous vérifions le sol, le parcours et la lumière avant l'ouverture des portes."
+      },
+      {
+        "q": "Combien de temps le robot se produit-il ?",
+        "a": "Environ deux heures de show actif sur une batterie, changée sur place par notre opérateur. En pratique, nous découpons la soirée en séquences de quinze à trente minutes, ce qui garde le robot disponible et maintient l'attente des invités."
+      }
+    ],
+    "preset": "Activation de marque"
+  },
+  "nova": {
+    "name": "NOVA",
+    "tagline": "Le même humanoïde avec le SDK complet, pour les équipes qui veulent écrire ce qu'il fait.",
+    "teaser": "L'humanoïde des développeurs. Unitree G1 EDU avec SDK complet, comportements sur mesure et recherche.",
+    "alt": "NOVA, robot humanoïde Unitree G1 EDU à louer, utilisé pour du développement logiciel robotique",
+    "title": "NOVA · Location Unitree G1 EDU avec SDK",
+    "desc": "Louez NOVA, un humanoïde Unitree G1 EDU avec le SDK complet, à Monaco et sur la Côte d'Azur. À partir de 3 000 € par jour avec opérateur.",
+    "h1": "L'humanoïde que vous pouvez programmer.",
+    "lead": "NOVA, c'est l'Unitree G1 EDU : le même corps que MONTARI, avec le kit de développement complet ouvert. Nos ingénieurs écrivent de nouveaux comportements, ou votre équipe s'en charge. C'est le robot des démonstrations qui doivent être exactes, de la recherche et de tous ceux qui développent sur ROS 2 et le SDK Unitree.",
+    "specs": [
+      ["Taille", "1,32 m"],
+      ["Batterie", "environ 2 h de show"],
+      ["Logiciel", "SDK Unitree complet"],
+      ["Langues", "français et anglais"]
+    ],
+    "does": {
+      "h2": "Ce que le SDK rend possible.",
+      "items": [
+        { "icon": "code-2", "h": "Comportements sur mesure", "p": "Séquences de mouvement, gestes et réactions écrits pour votre scénario plutôt que choisis dans un répertoire figé." },
+        { "icon": "cpu", "h": "ROS 2 et le SDK Unitree", "p": "Nos ingénieurs travaillent en Python et C++ sur ROS 2 : ce que vous payez est lisible, testable et vous appartient." },
+        { "icon": "workflow", "h": "Conduite de show", "p": "Des tops depuis la console lumière, un timecode ou un simple bouton en coulisses. Le robot arrive sur sa marque en même temps que la musique." },
+        { "icon": "mic", "h": "Voix et parole", "p": "Répliques écrites ou réponses en direct, en français et en anglais, avec le rythme et les pauses réglés pour la salle." },
+        { "icon": "plug", "h": "Intégrations", "p": "Une base produits, un système de réservation, un écran, un parc lumière ou votre API. Le robot cesse d'être une boîte fermée." },
+        { "icon": "graduation-cap", "h": "Recherche et enseignement", "p": "Universités et équipes R et D louent NOVA pour tester locomotion, perception et interaction sur du matériel réel sans l'acheter." }
+      ]
+    },
+    "fit": {
+      "h2": "Quand il vous faut NOVA plutôt que MONTARI.",
+      "lead": "Le corps est identique, choisissez donc NOVA uniquement lorsque quelque chose doit être écrit plutôt que joué.",
+      "list": [
+        "Une démonstration de lancement où le robot doit faire une chose précise, exactement au bon moment",
+        "Une campagne qui demande un comportement que ce robot n'a encore jamais montré",
+        "Recherche, enseignement ou preuve de concept nécessitant du matériel réel pendant quelques jours",
+        "Une intégration avec vos données produits, votre API, votre écran ou votre système de conduite de show",
+        "Une équipe de développeurs à vous qui veut le SDK ouvert pendant ses travaux",
+        "Un pilote avant de décider d'acheter votre propre humanoïde"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Combien coûte la location d'un Unitree G1 EDU à Monaco ?",
+        "a": "NOVA démarre à 3 000 € par jour avec opérateur, au tarif sur plusieurs jours et hors taxes. Ce tarif couvre le matériel EDU et le temps d'ingénierie qui l'entoure. Développements sur mesure, déplacements et scénographie sont chiffrés par projet, jamais facturés par surprise."
+      },
+      {
+        "q": "Nos propres développeurs peuvent-ils écrire du code pour le robot ?",
+        "a": "Oui. C'est tout l'intérêt de la version EDU. Nous donnons accès au SDK, installons l'environnement avec vous et restons présents en tant qu'opérateur. Ce que votre équipe écrit pendant la location vous appartient, et nous pouvons le relire ou le poursuivre ensuite."
+      },
+      {
+        "q": "Avec quels langages et frameworks travaillez-vous ?",
+        "a": "Python et C++ sur ROS 2 et le SDK Unitree. Cela couvre les séquences de mouvement, la voix, le pilotage à distance, le travail sur les capteurs et les intégrations avec vos propres services. Si vous avez déjà une stack, nous développons avec elle plutôt qu'à côté."
+      },
+      {
+        "q": "NOVA vient-il aussi avec un opérateur ?",
+        "a": "Toujours. Le robot n'intervient jamais sans surveillance, y compris lors des journées de développement. Notre opérateur gère le transport, l'installation, les changements de batterie et la sécurité pendant que votre équipe ou la nôtre se concentre sur le logiciel."
+      },
+      {
+        "q": "NOVA peut-il aussi travailler comme robot événementiel ?",
+        "a": "Oui, il fait tout ce que MONTARI fait en salle. Nos clients réservent NOVA quand l'événement demande un comportement sur mesure en plus du répertoire habituel. Si la soirée demande seulement un robot qui accueille, pose et remet un trophée, MONTARI est le choix raisonnable."
+      }
+    ],
+    "preset": "Projet logiciel robotique"
+  },
+  "oryx": {
+    "name": "ORYX",
+    "tagline": "Celui à quatre pattes. Il ouvre la porte, marche sur le tapis et porte un petit objet à vos couleurs.",
+    "teaser": "Le chien robot. Accueils, tapis rouges, photos et une petite charge à vos couleurs dans la foule.",
+    "alt": "ORYX, chien robot Unitree Go2 à louer, marchant sur un tapis rouge lors d'un événement à Monaco",
+    "title": "ORYX · Location de chien robot à Monaco",
+    "desc": "Louez ORYX, notre chien robot Unitree Go2, avec opérateur à Monaco et sur la Côte d'Azur. À partir de 2 000 € par jour pour accueils et photos.",
+    "h1": "L'accueil devant lequel personne ne passe.",
+    "lead": "ORYX est un Unitree Go2 : quatre pattes et pas de mains. Il accueille les invités à la porte, trotte sur un tapis rouge, conduit un groupe jusqu'à la salle et porte une petite charge à vos couleurs. Il est rapide, il est près du sol et il fait s'accroupir les gens, téléphone à la main.",
+    "specs": [
+      ["Poids", "environ 15 kg"],
+      ["Batterie", "environ 2 h de show"],
+      ["Pattes", "quatre, marche et trot"],
+      ["Voix", "français et anglais"]
+    ],
+    "does": {
+      "h2": "Ce que fait le chien robot.",
+      "items": [
+        { "icon": "party-popper", "h": "Il ouvre la soirée", "p": "Il attend à la porte, salue les arrivants et donne le ton avant même la première coupe de champagne." },
+        { "icon": "camera", "h": "Il marche sur le tapis", "p": "Une montée de tapis rouge aux côtés de votre invité d'honneur transforme les photos d'arrivée en images que la presse utilise vraiment." },
+        { "icon": "box", "h": "Il porte une petite charge", "p": "Une mallette à vos couleurs, une bouteille, une enveloppe ou le trophée sur le dos. Charges légères uniquement : c'est un spectacle, pas un porteur." },
+        { "icon": "radar", "h": "Il ouvre la voie", "p": "Il conduit les invités de l'entrée à la salle, le long d'un couloir ou entre deux stands, sans qu'aucune signalétique ne soit nécessaire." },
+        { "icon": "flag", "h": "Il porte vos couleurs", "p": "Une selle personnalisée, un adhésif et votre palette sur les coques. Le chien se lit comme le vôtre d'un bout à l'autre de la salle." },
+        { "icon": "sparkles", "h": "Il enchaîne de courtes routines", "p": "S'asseoir, donner la patte, danser quelques mesures sur la musique. Des séquences brèves, répétées là où la foule est la plus dense." }
+      ]
+    },
+    "fit": {
+      "h2": "Quand le chien l'emporte sur l'humanoïde.",
+      "lead": "ORYX travaille là où un humanoïde ne peut pas aller, et il attire une attention différente, plus chaleureuse.",
+      "list": [
+        "Accueils, arrivées et tapis rouges où la première image décide de la couverture presse",
+        "Stands serrés et allées chargées où un robot bas et rapide circule mieux qu'une silhouette qui marche",
+        "Moments photo avec des invités qui veulent quelque chose à côté de quoi s'accroupir",
+        "Conduire des groupes entre les salles, les stands ou une terrasse pendant la semaine du Grand Prix",
+        "Porter un petit objet à vos couleurs jusqu'à une scène, une table ou un invité d'honneur",
+        "Le duo avec MONTARI, le chien à la porte et l'humanoïde à l'intérieur"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Combien coûte la location d'un chien robot à Monaco ?",
+        "a": "À partir de 2 000 € par jour avec opérateur, au tarif sur plusieurs jours et hors taxes, comme l'humanoïde événementiel. Journées isolées, routines sur mesure, déplacements et scénographie sont chiffrés séparément. Donnez-nous la date et le lieu pour un prix ferme sous 24 heures."
+      },
+      {
+        "q": "Le chien robot est-il sans danger pour les invités et les enfants ?",
+        "a": "Oui, avec la même règle que pour les humanoïdes : un opérateur est toujours à la commande et l'arrête immédiatement. Il se déplace au pas quand il est près des personnes, garde une distance de travail et ne court jamais librement dans une foule."
+      },
+      {
+        "q": "Quelle charge ORYX peut-il porter ?",
+        "a": "Une petite charge légère, à vos couleurs. Une mallette, une bouteille, une enveloppe ou un trophée sur une selle adaptée. Il ne porte pas de charges lourdes et ne remplace pas un membre de votre personnel. Si l'objet compte, une personne le porte et le chien porte l'idée."
+      },
+      {
+        "q": "Peut-il marcher en extérieur sur la Côte d'Azur ?",
+        "a": "Sur une surface plane, sèche et stable, oui : une terrasse, un quai, une entrée moquettée. Pas de pluie, pas de gravier et pas d'escaliers de façon répétée. Nous parcourons le trajet avec vous en amont et contournons tout ce que les pattes n'aimeront pas."
+      },
+      {
+        "q": "Le chien robot peut-il parler ?",
+        "a": "Il peut diffuser des répliques enregistrées en français et en anglais par son haut-parleur, ce qui fonctionne bien pour un accueil court à la porte. Pour une conversation avec les visiteurs, l'un des humanoïdes avec l'assistant IA reste l'outil adapté."
+      }
+    ],
+    "preset": "Lancement de produit"
+  }
+}

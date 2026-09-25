@@ -32,6 +32,7 @@ LANG_META = {
 }
 
 LANG = "en"
+BUILT = ["en"]   # languages this build actually produced: hreflang and the switcher only point at pages that exist
 T = {}          # the current language's content tree
 PAGES = []      # (url path, source mtime) collected for the sitemap
 CUR_PATH = "/"
@@ -207,12 +208,15 @@ def ld_service(name, desc, path, service_type):
 
 # ---------------------------------------------------------------- chrome
 def lang_switch(inline=False):
+    if len(BUILT) < 2:
+        return ""
+
     def href(l):
         return lp(CUR_PATH, l)
     if inline:
-        links = "".join(f'<a href="{href(l)}" hreflang="{l}" lang="{l}"{" aria-current=true" if l == LANG else ""}>{LANG_META[l]["short"]}</a>' for l in LANGS)
+        links = "".join(f'<a href="{href(l)}" hreflang="{l}" lang="{l}"{" aria-current=true" if l == LANG else ""}>{LANG_META[l]["short"]}</a>' for l in BUILT)
         return f'<nav class="lang" aria-label="{e(T["ui"]["language"])}">{links}</nav>'
-    items = "".join(f'<li><a href="{href(l)}" hreflang="{l}" lang="{l}"{" aria-current=true" if l == LANG else ""}><b>{LANG_META[l]["short"]}</b><span>{LANG_META[l]["name"]}</span></a></li>' for l in LANGS)
+    items = "".join(f'<li><a href="{href(l)}" hreflang="{l}" lang="{l}"{" aria-current=true" if l == LANG else ""}><b>{LANG_META[l]["short"]}</b><span>{LANG_META[l]["name"]}</span></a></li>' for l in BUILT)
     return f'<details class="lang-dd"><summary aria-label="{e(T["ui"]["language"])}">{icon("globe")}<span>{LANG_META[LANG]["short"]}</span>{icon("chevron-down")}</summary><ul>{items}</ul></details>'
 
 
@@ -320,8 +324,8 @@ def page(path, title, desc, body, schema, current="", og_image=None, src_files=(
     CUR_PATH = path
     url = DOMAIN + lp(path)
     og_image = og_image or og_for("og-default")
-    alternates = "".join(f'<link rel="alternate" hreflang="{l}" href="{DOMAIN}{lp(path, l)}">' for l in LANGS)
-    alternates += f'<link rel="alternate" hreflang="x-default" href="{DOMAIN}{lp(path, "en")}">'
+    alternates = ("".join(f'<link rel="alternate" hreflang="{l}" href="{DOMAIN}{lp(path, l)}">' for l in BUILT)
+                  + f'<link rel="alternate" hreflang="x-default" href="{DOMAIN}{lp(path, "en")}">') if len(BUILT) > 1 else ""
     doc = f"""<!doctype html>
 <html lang="{LANG}">
 <head>
@@ -375,9 +379,9 @@ def robot_by_slug(slug):
 
 
 def price_line(kind):
-    p = CONFIG["prices"][kind]
     u = T["ui"]
-    return f'<p class="from"><span>{e(u["from"])}</span> <b>{e(p["amount"])}</b> <span>{e(u["perDay"])}</span> <small>{e(u["priceNote"])}</small></p>'
+    amount = u.get("prices", {}).get(kind) or CONFIG["prices"][kind]["amount"]   # each language writes the figure its own way
+    return f'<p class="from"><span>{e(u["from"])}</span> <b>{e(amount)}</b> <span>{e(u["perDay"])}</span> <small>{e(u["priceNote"])}</small></p>'
 
 
 def build_home():
@@ -730,8 +734,13 @@ def build():
         if f.is_file() and f.name != "htaccess.base":
             shutil.copy2(f, DIST / f.name)
     PAGES.clear()
-    only = os.environ.get("LANGS")            # LANGS=en python3 build.py, while a translation is in progress
-    langs = [l for l in LANGS if not only or l in only.split(",")]
+    only = os.environ.get("LANGS")            # LANGS=en python3 build.py, to preview one language
+    # A language ships once its own content tree is complete, so a half-finished translation can never
+    # break the build or advertise hreflang links to pages that do not exist yet.
+    complete = [l for l in LANGS if {p.name for p in (CONTENT / "en").glob("*.json")} <= {p.name for p in (CONTENT / l).glob("*.json")}]
+    langs = [l for l in complete if not only or l in only.split(",")]
+    global BUILT
+    BUILT = langs
     for lang in langs:
         load_lang(lang)
         build_home()

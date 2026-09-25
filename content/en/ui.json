@@ -18,58 +18,150 @@
   "from": "From",
   "perDay": "per day with an operator",
   "priceNote": "Multi-day rate, excluding VAT. Single days quoted on request.",
+  "prices": {
+    "event": "€2,000",
+    "dev": "€3,000"
+  },
   "faqH2": "Questions we get asked.",
   "faqLead": "Anything we have not covered? Write to us and we answer within 24 hours.",
   "faqCta": "Ask us directly",
   "footerClaim": "Humanoid robots that make a room stop.\nOperated, scripted and branded for you.",
   "nav": [
-    { "label": "The fleet", "href": "/robots", "hint": "Two humanoids and a robot dog" },
-    { "label": "Where it works", "href": "/use-cases", "hint": "Launches, galas, yacht shows" },
-    { "label": "Robot software", "href": "/services/robot-software-development", "hint": "Custom behaviour and voice" },
-    { "label": "AI assistant", "href": "/services/ai-assistant-upgrade", "hint": "Turn a robot into a host" },
-    { "label": "Pricing", "href": "/pricing", "hint": "What a day costs" },
-    { "label": "FAQ", "href": "/faq", "hint": "Everything before you book" },
-    { "label": "Contact", "href": "/contact", "hint": "Quote within 24 hours" }
+    {
+      "label": "The fleet",
+      "href": "/robots",
+      "hint": "Two humanoids and a robot dog"
+    },
+    {
+      "label": "Where it works",
+      "href": "/use-cases",
+      "hint": "Launches, galas, yacht shows"
+    },
+    {
+      "label": "Robot software",
+      "href": "/services/robot-software-development",
+      "hint": "Custom behaviour and voice"
+    },
+    {
+      "label": "AI assistant",
+      "href": "/services/ai-assistant-upgrade",
+      "hint": "Turn a robot into a host"
+    },
+    {
+      "label": "Pricing",
+      "href": "/pricing",
+      "hint": "What a day costs"
+    },
+    {
+      "label": "FAQ",
+      "href": "/faq",
+      "hint": "Everything before you book"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact",
+      "hint": "Quote within 24 hours"
+    }
   ],
   "footerCols": [
     {
       "h": "Fleet",
       "items": [
-        { "label": "MONTARI · Unitree G1", "href": "/robots/montari" },
-        { "label": "NOVA · Unitree G1 EDU", "href": "/robots/nova" },
-        { "label": "ORYX · Unitree Go2", "href": "/robots/oryx" },
-        { "label": "All three robots", "href": "/robots" }
+        {
+          "label": "MONTARI · Unitree G1",
+          "href": "/robots/montari"
+        },
+        {
+          "label": "NOVA · Unitree G1 EDU",
+          "href": "/robots/nova"
+        },
+        {
+          "label": "ORYX · Unitree Go2",
+          "href": "/robots/oryx"
+        },
+        {
+          "label": "All three robots",
+          "href": "/robots"
+        }
       ]
     },
     {
       "h": "Where it works",
       "items": [
-        { "label": "Brand activations", "href": "/use-cases/brand-activations" },
-        { "label": "Product launches", "href": "/use-cases/product-launches" },
-        { "label": "Corporate events", "href": "/use-cases/corporate-events" },
-        { "label": "Trade shows", "href": "/use-cases/trade-shows" },
-        { "label": "Yacht shows", "href": "/use-cases/yacht-shows" },
-        { "label": "Grand Prix hospitality", "href": "/use-cases/grand-prix-hospitality" }
+        {
+          "label": "Brand activations",
+          "href": "/use-cases/brand-activations"
+        },
+        {
+          "label": "Product launches",
+          "href": "/use-cases/product-launches"
+        },
+        {
+          "label": "Corporate events",
+          "href": "/use-cases/corporate-events"
+        },
+        {
+          "label": "Trade shows",
+          "href": "/use-cases/trade-shows"
+        },
+        {
+          "label": "Yacht shows",
+          "href": "/use-cases/yacht-shows"
+        },
+        {
+          "label": "Grand Prix hospitality",
+          "href": "/use-cases/grand-prix-hospitality"
+        }
       ]
     },
     {
       "h": "More uses",
       "items": [
-        { "label": "Luxury retail", "href": "/use-cases/luxury-retail" },
-        { "label": "Galas and awards", "href": "/use-cases/galas-and-awards" },
-        { "label": "Private parties", "href": "/use-cases/private-parties" },
-        { "label": "Conferences", "href": "/use-cases/conferences" },
-        { "label": "Every use case", "href": "/use-cases" }
+        {
+          "label": "Luxury retail",
+          "href": "/use-cases/luxury-retail"
+        },
+        {
+          "label": "Galas and awards",
+          "href": "/use-cases/galas-and-awards"
+        },
+        {
+          "label": "Private parties",
+          "href": "/use-cases/private-parties"
+        },
+        {
+          "label": "Conferences",
+          "href": "/use-cases/conferences"
+        },
+        {
+          "label": "Every use case",
+          "href": "/use-cases"
+        }
       ]
     },
     {
       "h": "Company",
       "items": [
-        { "label": "Robot software development", "href": "/services/robot-software-development" },
-        { "label": "AI assistant upgrade", "href": "/services/ai-assistant-upgrade" },
-        { "label": "Pricing", "href": "/pricing" },
-        { "label": "FAQ", "href": "/faq" },
-        { "label": "Contact", "href": "/contact" }
+        {
+          "label": "Robot software development",
+          "href": "/services/robot-software-development"
+        },
+        {
+          "label": "AI assistant upgrade",
+          "href": "/services/ai-assistant-upgrade"
+        },
+        {
+          "label": "Pricing",
+          "href": "/pricing"
+        },
+        {
+          "label": "FAQ",
+          "href": "/faq"
+        },
+        {
+          "label": "Contact",
+          "href": "/contact"
+        }
       ]
     }
   ],

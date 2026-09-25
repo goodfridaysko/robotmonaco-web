@@ -1,0 +1,154 @@
+{
+  "robot-software-development": {
+    "label": "Développement logiciel robotique",
+    "eyebrow": "Développement logiciel robotique",
+    "h1": "Un robot fait ce que quelqu'un a écrit.",
+    "lead": "Nous écrivons des comportements sur mesure pour robots humanoïdes : séquences de mouvement, voix, pilotage à distance, tops de show et intégrations avec vos propres systèmes. Python et C++ sur ROS 2 et le SDK Unitree, développés à Monaco et livrés sous forme de code qui vous appartient.",
+    "title": "Développement logiciel robotique · ROS 2",
+    "desc": "Développement logiciel sur mesure pour robots humanoïdes à Monaco : mouvement, voix, conduite de show et intégrations sur ROS 2 et le SDK Unitree.",
+    "photo": "software",
+    "photo2": "nova-hero",
+    "alt": "Ingénieur travaillant sur un logiciel robotique sur mesure pour un robot humanoïde Unitree",
+    "intro": {
+      "h2": "Sorti de sa caisse, un robot a un répertoire. Écrit pour vous, il a un métier.",
+      "p": [
+        "Chaque robot humanoïde arrive avec une série de mouvements intégrés. Ils suffisent à impressionner une salle une fois. Ils ne suffisent plus quand le robot doit démontrer votre produit, prendre un top depuis la console lumière, lire dans votre base de données ou répéter parfaitement les mêmes douze secondes pendant trois jours sur un stand. C'est là que commence le développement logiciel robotique.",
+        "Nous travaillons sur l'Unitree G1 EDU, la version développeur de l'humanoïde que nous louons sous le nom de NOVA, avec le SDK complet ouvert. Nos ingénieurs écrivent en Python et en C++ au-dessus de ROS 2. Cela couvre les séquences de mouvement, la parole, la gestion des capteurs, le pilotage à distance et les connexions avec tout ce que vous utilisez déjà, d'un catalogue produits à une régie de spectacle.",
+        "Les projets sont chiffrés au projet, jamais selon une grille tarifaire affichée sur une page web, parce que le prix honnête dépend de ce que le robot doit faire et du degré de précision exigé. Les petites missions représentent quelques jours de travail sur un robot que vous louez déjà. Les plus importantes s'étendent sur plusieurs semaines, avec une démonstration à la fin de chacune, pour que vous voyiez la machine bouger plutôt que lire un rapport."
+      ]
+    },
+    "features": {
+      "h2": "Ce que nous développons.",
+      "items": [
+        { "icon": "workflow", "h": "Mouvement sur mesure", "p": "Séquences, gestes et routines écrits pour votre scénario, réglés sur le robot réel et pas seulement en simulation." },
+        { "icon": "mic", "h": "Voix et parole", "p": "Répliques écrites ou voix générée en français et en anglais, avec le rythme, les pauses et les gestes calés sur les mots." },
+        { "icon": "monitor", "h": "Pilotage à distance", "p": "Une interface opérateur conçue pour votre show : une tablette, une télécommande ou un bouton unique qu'un régisseur peut presser." },
+        { "icon": "clapperboard", "h": "Conduite de show", "p": "Des tops pris sur un timecode, une console lumière ou un serveur média, pour que le robot bouge avec la musique et la lumière, et non à côté." },
+        { "icon": "plug", "h": "Intégrations", "p": "Votre API, votre base produits, votre CRM, votre système de réservation, vos écrans ou vos capteurs. Le robot lit des données réelles et agit en conséquence." },
+        { "icon": "cpu", "h": "ROS 2 et le SDK", "p": "Python et C++ sur ROS 2 et le SDK Unitree, versionnés et documentés, pour qu'un autre ingénieur puisse reprendre le travail plus tard." }
+      ]
+    },
+    "scope": {
+      "h2": "Ce que comprend un projet.",
+      "lead": "Chaque mission est cadrée par écrit avant que quiconque n'ouvre un éditeur, pour que vous sachiez ce que vous achetez.",
+      "list": [
+        "Un brief écrit et un périmètre technique validés avec vous avant le début du développement",
+        "Un développement sur matériel réel, pas uniquement en simulation",
+        "Le code source dans votre dépôt, en Python et C++ sur ROS 2",
+        "Une documentation qu'un ingénieur extérieur à notre équipe peut suivre",
+        "Une répétition ou un essai à blanc sur le robot avant la première utilisation publique",
+        "Un opérateur formé au comportement que nous avons écrit, pour les journées de location",
+        "Une période de support après la livraison, pour les corrections et les petits ajustements",
+        "Un devis ferme par projet, avec les déplacements et les journées de location listés séparément"
+      ]
+    },
+    "process": {
+      "h2": "Comment se déroule un projet.",
+      "steps": [
+        { "h": "Cadrage", "p": "Nous passons en revue ce que le robot doit faire, où il doit le faire et avec quelle précision. Vous recevez un périmètre écrit et un prix ferme." },
+        { "h": "Développement", "p": "Nos ingénieurs écrivent le comportement sur le robot réel, par cycles courts, avec une vidéo à la fin de chacun pour que vous voyiez l'avancement au lieu d'en lire le récit." },
+        { "h": "Répétition", "p": "Nous déroulons la séquence complète dans des conditions aussi proches que possible du lieu réel, puis corrigeons ce que le sol, la lumière et le bruit révèlent." },
+        { "h": "Livraison", "p": "Vous recevez le code, la documentation et un opérateur formé. Si vous nous voulez sur place, nous amenons le robot et le pilotons pour vous." }
+      ]
+    },
+    "faq": [
+      {
+        "q": "Combien coûte un développement logiciel robotique ?",
+        "a": "Le chiffrage se fait au projet. Le prix dépend du volume de comportements nouveaux à écrire, de la précision exigée sur le timing et du nombre de systèmes avec lesquels le robot doit dialoguer. Décrivez ce que vous voulez lui faire faire, nous revenons sous 24 heures avec un périmètre et un montant ferme."
+      },
+      {
+        "q": "Pour quels robots développez-vous ?",
+        "a": "L'humanoïde Unitree G1 EDU avant tout, que nous exploitons sous le nom de NOVA, et le chien robot Unitree Go2. Les deux ouvrent leur kit de développement. Si vous possédez un autre robot avec un SDK accessible, envoyez-nous le modèle et nous vous dirons honnêtement si nous sommes la bonne équipe."
+      },
+      {
+        "q": "Sommes-nous propriétaires du code que vous écrivez ?",
+        "a": "Oui. Le code source arrive dans votre dépôt, en Python et C++ sur ROS 2, avec une documentation qu'un autre ingénieur peut suivre. Nous ne gardons pas votre show en otage dans une boîte noire, et nous accueillons volontiers vos développeurs aux côtés des nôtres."
+      },
+      {
+        "q": "Combien de temps dure un projet logiciel robotique ?",
+        "a": "Une séquence de mouvement affinée ou une scène écrite pour un événement prend généralement quelques jours. Une démonstration reliée à vos propres données, avec conduite de show et répétition, demande de deux à six semaines. Nous vous disons dans quel cas vous êtes avant votre engagement, pas après."
+      },
+      {
+        "q": "Pouvez-vous écrire le logiciel et piloter le robot lors de notre événement ?",
+        "a": "C'est l'arrangement habituel. Nous développons le comportement, puis nous vous louons le robot avec un opérateur qui connaît déjà le déroulé. La même équipe a écrit et pilote, rien ne se perd entre les deux."
+      }
+    ],
+    "preset": "Projet logiciel robotique"
+  },
+  "ai-assistant-upgrade": {
+    "label": "Passage à l'assistant IA",
+    "eyebrow": "Passage à l'assistant IA",
+    "h1": "Un robot qui répond, pas un robot qui récite.",
+    "lead": "Le passage à l'assistant IA transforme un robot humanoïde en hôte d'accueil. Il écoute, comprend la question, répond à partir de votre catalogue produits ou des informations de votre lieu, parle français et anglais, et confie le visiteur à un humain dès qu'il ne sait pas.",
+    "title": "Robot assistant IA · Il écoute et répond",
+    "desc": "Transformez un robot humanoïde en assistant IA pour votre stand à Monaco. Il écoute, répond à partir de vos propres contenus et parle français et anglais.",
+    "photo": "ai-assistant",
+    "photo2": "montari-hero",
+    "alt": "Robot humanoïde en assistant IA, répondant à la question d'un visiteur sur un stand",
+    "intro": {
+      "h2": "La plupart des robots répètent une boucle. Le vôtre peut tenir une conversation.",
+      "p": [
+        "Un robot qui récite les mêmes quarante secondes impressionne un après-midi et fatigue dès le deuxième. Un robot assistant IA change la donne : un visiteur s'approche, pose une question avec ses propres mots, et le robot répond à partir de ce que vous lui avez transmis. Les horaires d'ouverture, le prix du modèle exposé sur le socle, le quai où se trouve le yacht, l'emplacement de l'ascenseur, l'usage que la fondation fera des fonds récoltés ce soir.",
+        "Nous construisons ce module au-dessus de l'humanoïde. La parole entre, vos propres contenus y répondent, la parole ressort avec un geste associé. La connaissance vient de votre matériel et non de l'internet ouvert : un catalogue produits, une liste de prix, un guide du lieu, un dossier de presse, une série de questions fréquentes. C'est ce qui garde les réponses justes et fidèles à votre message.",
+        "Le plus important, c'est la limite. Quand le robot ne sait pas, il le dit et confie le visiteur à un membre de votre équipe plutôt que d'inventer une réponse. Rien n'abîme un stand plus vite qu'une machine sûre d'elle qui se trompe devant un client, nous construisons donc le relais avant de construire le charme."
+      ]
+    },
+    "features": {
+      "h2": "Ce que fait l'assistant IA.",
+      "items": [
+        { "icon": "headset", "h": "Il écoute et comprend", "p": "Les visiteurs demandent avec leurs propres mots plutôt que d'appuyer sur un bouton. Le robot gère une salle bruyante et saisit la question réellement posée." },
+        { "icon": "database", "h": "Il connaît vos contenus", "p": "Nous chargeons votre catalogue, votre liste de prix, votre guide du lieu ou votre dossier de presse : les réponses viennent de votre matériel et de nulle part ailleurs." },
+        { "icon": "globe", "h": "Français et anglais", "p": "Il répond dans la langue dans laquelle on s'adresse à lui et change en cours de conversation quand un groupe change." },
+        { "icon": "shield-check", "h": "Il passe la main honnêtement", "p": "Quand il ne sait pas, il le dit et oriente le visiteur vers une personne de votre équipe. Aucun prix inventé, aucun fait inventé." },
+        { "icon": "scan-face", "h": "Il parle avec son corps", "p": "La réponse arrive avec un regard, une rotation et un geste, ce qui est toute la raison de la confier à un humanoïde plutôt qu'à un écran." },
+        { "icon": "eye", "h": "Il rapporte les questions posées", "p": "Vous recevez le relevé des questions réellement posées par les visiteurs. C'est souvent ce qu'un stand ramène de plus utile." }
+      ]
+    },
+    "scope": {
+      "h2": "Ce que comprend le module.",
+      "lead": "Nous le construisons autour de vos contenus et de votre ton, puis nous le testons sur les questions que vos visiteurs posent vraiment.",
+      "list": [
+        "Une base de connaissances construite à partir de votre catalogue, des informations de votre lieu ou de vos contenus presse",
+        "La parole en entrée et en sortie, en français et en anglais",
+        "Un ton de voix validé avec vous, de l'hôte protocolaire au guide décontracté",
+        "Des règles sur ce que le robot ne doit jamais dire, y compris tout ce qui touche aux prix si vous le préférez",
+        "Un relais vers un membre nommé de votre équipe lorsque le robot ne sait pas",
+        "Des tests sur une liste réelle de questions de visiteurs avant le premier jour",
+        "Un relevé des questions posées, remis après l'événement",
+        "Les mises à jour de la base de connaissances entre les événements ou les journées de salon"
+      ]
+    },
+    "process": {
+      "h2": "Comment le module est construit.",
+      "steps": [
+        { "h": "Collecte", "p": "Vous nous envoyez ce que le robot doit connaître : catalogue, prix, guide du lieu, dossier de presse, les questions auxquelles votre équipe répond vingt fois par jour." },
+        { "h": "Mise en forme", "p": "Nous en faisons une base de connaissances, fixons le ton de voix et écrivons les règles sur ce que le robot ne doit ni dire ni deviner." },
+        { "h": "Tests", "p": "Nous lui posons de vraies questions, en français et en anglais, et affinons les réponses jusqu'à ce que les mauvaises disparaissent et que le relais soit net." },
+        { "h": "Exploitation", "p": "Le robot travaille votre stand, votre lieu ou votre hall avec un opérateur à ses côtés. Nous mettons la base à jour d'un jour à l'autre, à mesure que les questions changent." }
+      ]
+    },
+    "faq": [
+      {
+        "q": "Qu'est-ce qu'un robot assistant IA ?",
+        "a": "Un robot humanoïde qui écoute la question d'un visiteur, la comprend et y répond à voix haute à partir de vos propres informations, au lieu de jouer une boucle enregistrée. Sur notre flotte, c'est un module ajouté à l'humanoïde que vous louez, construit autour de votre catalogue ou de votre lieu."
+      },
+      {
+        "q": "Combien coûte le passage à l'assistant IA ?",
+        "a": "Le chiffrage se fait au projet, car le travail dépend du volume de contenus que le robot doit apprendre et du degré de contrôle exigé sur les réponses. La location du robot elle-même est facturée à part, au tarif journalier habituel avec opérateur."
+      },
+      {
+        "q": "D'où le robot tire-t-il ses réponses ?",
+        "a": "Du matériel que vous nous confiez : un catalogue produits, une liste de prix, un guide du lieu, un dossier de presse, une série de questions fréquentes. Nous ne le branchons pas sur l'internet ouvert, parce qu'un stand a besoin de réponses qui sont les vôtres et qui sont justes, pas seulement plausibles."
+      },
+      {
+        "q": "Que se passe-t-il quand le robot ne connaît pas la réponse ?",
+        "a": "Il le dit et confie le visiteur à une personne de votre équipe. Nous validons cette formulation avec vous à l'avance. Un relais honnête maintient la conversation, tandis qu'une réponse fausse assénée devant un client vous coûte le rendez-vous."
+      },
+      {
+        "q": "L'assistant IA peut-il travailler en français comme en anglais ?",
+        "a": "Oui. Il répond dans la langue dans laquelle on s'adresse à lui et sait changer quand un groupe change de langue, ce qui compte sur un stand monégasque où la moitié des visiteurs ouvrent en français et l'autre moitié en anglais."
+      }
+    ],
+    "preset": "Projet d'assistant IA"
+  }
+}

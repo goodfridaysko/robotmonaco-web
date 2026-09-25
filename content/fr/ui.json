@@ -1,0 +1,207 @@
+{
+  "orgDescription": "Location de robot humanoïde avec opérateur pour vos événements, activations de marque et opérations marketing à Monaco et sur toute la Côte d'Azur, ainsi que développement logiciel robotique et assistants IA sur mesure.",
+  "serviceType": "Location de robot humanoïde pour événement",
+  "language": "Langue",
+  "menu": "Menu",
+  "mainNav": "Navigation principale",
+  "breadcrumb": "Fil d'Ariane",
+  "skip": "Aller au contenu",
+  "home": "Accueil",
+  "cta": "Demander un devis",
+  "tagline": "Monaco et la Côte d'Azur · réponse sous 24 heures",
+  "privacy": "Politique de confidentialité",
+  "discover": "Voir le robot",
+  "seeUses": "Où il intervient",
+  "seeFleet": "Voir la flotte",
+  "relatedUses": "D'autres façons dont nos clients l'utilisent.",
+  "dragHint": "Faites glisser pour tourner le robot",
+  "from": "À partir de",
+  "perDay": "par jour, opérateur inclus",
+  "priceNote": "Tarif sur plusieurs jours, hors taxes. Journée isolée sur devis.",
+  "prices": {
+    "event": "2 000 €",
+    "dev": "3 000 €"
+  },
+  "faqH2": "Les questions que l'on nous pose.",
+  "faqLead": "Une question que nous n'avons pas couverte ? Écrivez-nous, nous répondons sous 24 heures.",
+  "faqCta": "Posez-nous la question",
+  "footerClaim": "Des robots humanoïdes qui arrêtent une salle.\nOpérés, scénarisés et à vos couleurs.",
+  "nav": [
+    {
+      "label": "La flotte",
+      "href": "/robots",
+      "hint": "Deux humanoïdes et un chien robot"
+    },
+    {
+      "label": "Où il intervient",
+      "href": "/use-cases",
+      "hint": "Lancements, galas, salons nautiques"
+    },
+    {
+      "label": "Logiciel robotique",
+      "href": "/services/robot-software-development",
+      "hint": "Comportements et voix sur mesure"
+    },
+    {
+      "label": "Assistant IA",
+      "href": "/services/ai-assistant-upgrade",
+      "hint": "Un robot qui reçoit vos visiteurs"
+    },
+    {
+      "label": "Tarifs",
+      "href": "/pricing",
+      "hint": "Le prix d'une journée"
+    },
+    {
+      "label": "FAQ",
+      "href": "/faq",
+      "hint": "Tout savoir avant de réserver"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact",
+      "hint": "Devis sous 24 heures"
+    }
+  ],
+  "footerCols": [
+    {
+      "h": "Flotte",
+      "items": [
+        {
+          "label": "MONTARI · Unitree G1",
+          "href": "/robots/montari"
+        },
+        {
+          "label": "NOVA · Unitree G1 EDU",
+          "href": "/robots/nova"
+        },
+        {
+          "label": "ORYX · Unitree Go2",
+          "href": "/robots/oryx"
+        },
+        {
+          "label": "Les trois robots",
+          "href": "/robots"
+        }
+      ]
+    },
+    {
+      "h": "Où il intervient",
+      "items": [
+        {
+          "label": "Activations de marque",
+          "href": "/use-cases/brand-activations"
+        },
+        {
+          "label": "Lancements de produit",
+          "href": "/use-cases/product-launches"
+        },
+        {
+          "label": "Événements d'entreprise",
+          "href": "/use-cases/corporate-events"
+        },
+        {
+          "label": "Salons professionnels",
+          "href": "/use-cases/trade-shows"
+        },
+        {
+          "label": "Salons nautiques",
+          "href": "/use-cases/yacht-shows"
+        },
+        {
+          "label": "Hospitalité Grand Prix",
+          "href": "/use-cases/grand-prix-hospitality"
+        }
+      ]
+    },
+    {
+      "h": "Autres usages",
+      "items": [
+        {
+          "label": "Commerce de luxe",
+          "href": "/use-cases/luxury-retail"
+        },
+        {
+          "label": "Galas et remises de prix",
+          "href": "/use-cases/galas-and-awards"
+        },
+        {
+          "label": "Soirées privées",
+          "href": "/use-cases/private-parties"
+        },
+        {
+          "label": "Conférences",
+          "href": "/use-cases/conferences"
+        },
+        {
+          "label": "Tous les cas d'usage",
+          "href": "/use-cases"
+        }
+      ]
+    },
+    {
+      "h": "Société",
+      "items": [
+        {
+          "label": "Développement logiciel robotique",
+          "href": "/services/robot-software-development"
+        },
+        {
+          "label": "Passage à l'assistant IA",
+          "href": "/services/ai-assistant-upgrade"
+        },
+        {
+          "label": "Tarifs",
+          "href": "/pricing"
+        },
+        {
+          "label": "FAQ",
+          "href": "/faq"
+        },
+        {
+          "label": "Contact",
+          "href": "/contact"
+        }
+      ]
+    }
+  ],
+  "contact": {
+    "h2": "Dites-nous ce que la salle doit retenir.",
+    "p": "Envoyez-nous la date, le lieu et ce dont vous voulez que vos invités parlent le lendemain. Nous répondons sous 24 heures avec un déroulé et un prix.",
+    "emailLabel": "E-mail",
+    "phoneLabel": "Téléphone",
+    "areaLabel": "Nous couvrons",
+    "areaValue": "Monaco et la Côte d'Azur",
+    "replyLabel": "Réponse",
+    "replyValue": "Sous 24 heures",
+    "name": "Nom",
+    "company": "Société",
+    "email": "E-mail",
+    "phoneField": "Téléphone",
+    "date": "Date de l'événement",
+    "place": "Lieu ou ville",
+    "type": "Type d'événement",
+    "choose": "Faites votre choix",
+    "message": "Message",
+    "messageHint": "Que préparez-vous, et que doit faire le robot le jour J ?",
+    "consent": "J'accepte que mes coordonnées servent à répondre à cette demande, comme l'indique la",
+    "submit": "Envoyer la demande",
+    "ok": "Merci. Nous répondons sous 24 heures.",
+    "err": "Le message n'a pas pu être envoyé. Écrivez-nous à",
+    "types": [
+      "Activation de marque",
+      "Lancement de produit",
+      "Événement d'entreprise",
+      "Salon professionnel",
+      "Salon nautique",
+      "Hospitalité Grand Prix",
+      "Commerce de luxe",
+      "Gala ou remise de prix",
+      "Soirée privée",
+      "Conférence",
+      "Projet logiciel robotique",
+      "Projet d'assistant IA",
+      "Autre demande"
+    ]
+  }
+}
