@@ -8,7 +8,7 @@
   "heroRobot": "montari",
   "heroAlt": "Humanoid robot with the ROBOTMONACO wordmark on its chest, shown in 3D and turnable",
   "stats": [
-    ["3", "robots in the fleet, two humanoids and a dog"],
+    ["2", "humanoids in the fleet, both built on the Unitree G1"],
     ["24 h", "from your enquiry to a plan and a price"],
     ["2", "hours of show on one battery, swapped on site"],
     ["EN/FR", "the robot speaks to your guests in both"]
@@ -26,8 +26,8 @@
     ]
   },
   "fleet": {
-    "h2": "Three robots, three jobs.",
-    "lead": "Two humanoids for the floor and the stage, one four-legged robot for the entrance and the photographs."
+    "h2": "Two humanoids, two jobs.",
+    "lead": "The same body twice. MONTARI is set up to work the floor and the stage, NOVA is opened up so the behaviour can be written from scratch."
   },
   "uses": {
     "h2": "Where clients put it to work.",

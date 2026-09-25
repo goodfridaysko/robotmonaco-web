@@ -396,13 +396,14 @@ def build_home():
 </article>""" for i, r in enumerate(CONFIG["robots"]))
     uses = [{"path": "/use-cases/" + s, "label": T["use-cases"][s]["label"], "teaser": T["use-cases"][s]["teaser"]}
             for s in CONFIG["useCaseOrder"][:6]]
-    body = f"""<section class="phero split"><div class="wrap split-grid">
-<div class="split-copy"><p class="t-eyebrow">{e(d['eyebrow'])}</p>
+    body = f"""<section class="hero"><div class="wrap">
+<p class="t-eyebrow">{e(d['eyebrow'])}</p>
 <h1 class="t-hero">{e(d['h1'])}</h1>
 <p class="t-lead">{e(d['lead'])}</p>
-<div class="actions"><a class="btn" href="{lp('/contact')}">{e(T['ui']['cta'])}</a><a class="link" href="{lp('/use-cases')}">{e(d['ctaSecondary'])}</a></div></div>
-{stage('montari', d['heroAlt'], cls='split-photo') or photo('hero', d['heroAlt'], 'r-45', eager=True, cls='split-photo')}
-</div></section>
+<div class="actions"><a class="btn" href="{lp('/contact')}">{e(T['ui']['cta'])}</a><a class="link" href="{lp('/robots')}">{e(T['ui']['seeFleet'])}</a><a class="link" href="{lp('/use-cases')}">{e(d['ctaSecondary'])}</a></div>
+</div>
+<div class="hero-media">{stage('montari', d['heroAlt'], 'r-219') or photo('hero', d['heroAlt'], 'r-219', eager=True)}</div>
+</section>
 
 <section class="section" style="padding-top:0"><div class="wrap"><div class="stats reveal">{stats(d['stats'])}</div></div></section>
 
@@ -483,6 +484,12 @@ def build_robot(r):
 {photo(r['slug'] + '-tile', d['alt'], 'r-45')}
 <div class="row-copy"><h2 class="t-h2">{e(d['fit']['h2'])}</h2><p class="t-lead">{e(d['fit']['lead'])}</p>
 <ul class="ticks">{''.join(f'<li>{e(x)}</li>' for x in d['fit']['list'])}</ul></div></div></div></section>
+
+<section class="section dark" id="branding"><div class="wrap">
+<div class="section-head reveal"><h2 class="t-h2">{e(T['ui']['branding']['h2'])}</h2><p class="t-lead">{e(T['ui']['branding']['p'])}</p></div>
+</div>
+<div class="hero-media">{stage('montari-branding', T['ui']['branding']['alt'], 'r-219') or photo(r['slug'] + '-hero', T['ui']['branding']['alt'], 'r-219')}</div>
+</section>
 
 {faq_section(d['faq'], bg='tilebg')}
 {contact_section(preset=d.get('preset', ''), dark=True)}"""

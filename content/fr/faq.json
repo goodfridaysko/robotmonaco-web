@@ -11,7 +11,7 @@
       "items": [
         {
           "q": "Combien coûte la location d'un robot humanoïde pour un événement à Monaco ?",
-          "a": "L'humanoïde événementiel et le chien robot démarrent à 2 000 € par jour avec un opérateur. L'humanoïde développeur démarre à 3 000 € par jour avec un opérateur. Ce sont des tarifs plusieurs jours, hors TVA. Les journées isolées, les scripts sur mesure, les déplacements et la scénographie sont chiffrés en plus. Donnez-nous la date, le lieu et la durée approximative pendant laquelle vous voulez le robot dans la salle : vous avez un prix ferme sous 24 heures."
+          "a": "MONTARI, l'humanoïde événementiel, démarre à 2 000 € par jour avec un opérateur. NOVA, l'humanoïde développeur, démarre à 3 000 € par jour avec un opérateur. Ce sont des tarifs plusieurs jours, hors TVA. Les journées isolées, les scripts sur mesure, les déplacements et la scénographie sont chiffrés en plus. Donnez-nous la date, le lieu et la durée approximative pendant laquelle vous voulez le robot dans la salle : vous avez un prix ferme sous 24 heures."
         },
         {
           "q": "Combien de temps à l'avance faut-il réserver un robot à Monaco ?",
@@ -23,7 +23,7 @@
         },
         {
           "q": "Pouvons-nous louer plusieurs robots pour le même événement ?",
-          "a": "Oui, et le rendu est très différent. Deux humanoïdes qui travaillent les deux extrémités d'une salle, ou un humanoïde sur scène avec le chien robot qui parcourt le tapis d'accueil, vous donnent deux moments de contenu au lieu d'un. Chaque robot a besoin de son propre opérateur, et le devis en tient compte."
+          "a": "Oui, et le rendu est très différent. Deux humanoïdes qui travaillent les deux extrémités d'une salle, ou l'un qui accueille les invités sur le tapis d'arrivée pendant que l'autre tient la scène, vous donnent deux moments de contenu au lieu d'un. Chaque robot a besoin de son propre opérateur, et le devis en tient compte."
         },
         {
           "q": "Comment payer et quand le solde est-il dû ?",

@@ -8,7 +8,7 @@
   "heroRobot": "montari",
   "heroAlt": "Robot humanoïde portant le logo ROBOTMONACO sur le torse, présenté en 3D et orientable",
   "stats": [
-    ["3", "robots dans la flotte, deux humanoïdes et un chien"],
+    ["2", "humanoïdes dans la flotte, tous deux sur base Unitree G1"],
     ["24 h", "entre votre demande, un déroulé et un prix"],
     ["2", "heures de show sur une batterie, changée sur place"],
     ["EN/FR", "le robot s'adresse à vos invités dans les deux langues"]
@@ -26,8 +26,8 @@
     ]
   },
   "fleet": {
-    "h2": "Trois robots, trois rôles.",
-    "lead": "Deux humanoïdes pour la salle et la scène, un robot à quatre pattes pour l'accueil et les photos."
+    "h2": "Deux humanoïdes, deux rôles.",
+    "lead": "Le même corps deux fois. MONTARI est préparé pour la salle et la scène, NOVA est ouvert pour que ses comportements soient écrits de zéro."
   },
   "uses": {
     "h2": "Là où nos clients le font travailler.",

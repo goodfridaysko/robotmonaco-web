@@ -11,7 +11,7 @@
       "items": [
         {
           "q": "How much does it cost to hire a humanoid robot for an event in Monaco?",
-          "a": "The event humanoid and the robot dog start at €2,000 per day with an operator. The developer humanoid starts at €3,000 per day with an operator. Both are multi-day rates and exclude VAT. Single days, custom scripts, travel and staging are quoted on top. Give us the date, the venue and roughly how long you want the robot working the room and you have a firm price within 24 hours."
+          "a": "MONTARI, the event humanoid, starts at €2,000 per day with an operator. NOVA, the developer humanoid, starts at €3,000 per day with an operator. Both are multi-day rates and exclude VAT. Single days, custom scripts, travel and staging are quoted on top. Give us the date, the venue and roughly how long you want the robot working the room and you have a firm price within 24 hours."
         },
         {
           "q": "How far in advance should we book a robot in Monaco?",
@@ -23,7 +23,7 @@
         },
         {
           "q": "Can we hire more than one robot at the same event?",
-          "a": "Yes, and it reads very differently. Two humanoids working opposite ends of a room, or a humanoid on the stage with the robot dog walking the arrivals carpet, gives you two content moments instead of one. Each robot needs its own operator, so the quote reflects that."
+          "a": "Yes, and it reads very differently. Two humanoids working opposite ends of a room, or one meeting guests on the arrivals carpet while the other holds the stage, gives you two content moments instead of one. Each robot needs its own operator, so the quote reflects that."
         },
         {
           "q": "How do we pay and when is the balance due?",

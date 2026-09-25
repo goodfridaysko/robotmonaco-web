@@ -8,10 +8,10 @@
   "cards": [
     {
       "k": "01",
-      "h": "Humanoïde événementiel ou chien robot",
+      "h": "Humanoïde événementiel, MONTARI",
       "amount": "2 000 €",
       "unit": "par jour avec un opérateur",
-      "p": "MONTARI, l'humanoïde événementiel, ou ORYX, le robot à quatre pattes. Le tarif affiché est le tarif plusieurs jours et s'entend hors TVA. Une journée isolée est chiffrée à part et coûte davantage, car la préparation est la même pour un jour que pour trois.",
+      "p": "MONTARI, notre humanoïde événementiel Unitree G1, avec un opérateur pendant toute la réservation. Le tarif affiché est le tarif plusieurs jours et s'entend hors TVA. Une journée isolée est chiffrée à part et coûte davantage, car la préparation est la même pour un jour que pour trois.",
       "list": [
         "Un robot, livré, installé et remballé par nos soins",
         "Un opérateur avec le robot pendant toute la réservation",
@@ -68,7 +68,7 @@
   "faq": [
     {
       "q": "Combien coûte la location d'un robot pour un événement à Monaco ?",
-      "a": "L'humanoïde événementiel et le chien robot démarrent à 2 000 € par jour avec un opérateur. L'humanoïde développeur, NOVA, démarre à 3 000 € par jour avec un opérateur. Les deux montants correspondent au tarif plusieurs jours et s'entendent hors TVA. Une journée isolée, un script sur mesure, un déplacement hors de Monaco et la scénographie sont chiffrés à part. Envoyez-nous la date et le lieu : vous avez un prix ferme sous 24 heures."
+      "a": "MONTARI, l'humanoïde événementiel, démarre à 2 000 € par jour avec un opérateur. NOVA, l'humanoïde développeur, démarre à 3 000 € par jour avec un opérateur. Les deux montants correspondent au tarif plusieurs jours et s'entendent hors TVA. Une journée isolée, un script sur mesure, un déplacement hors de Monaco et la scénographie sont chiffrés à part. Envoyez-nous la date et le lieu : vous avez un prix ferme sous 24 heures."
     },
     {
       "q": "Qu'est-ce qui fait monter ou descendre le prix ?",

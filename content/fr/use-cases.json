@@ -8,10 +8,10 @@
     "desc": "Découvrez comment nos clients utilisent un robot humanoïde à Monaco et sur la Côte d'Azur : activations, lancements, salons nautiques, galas et retail.",
     "faq": [
       { "q": "Pour quels types d'événements faites-vous venir un robot à Monaco ?", "a": "Activations de marque, lancements de produit, soirées d'entreprise, salons professionnels, salons nautiques, réceptions du week-end de Grand Prix, ouvertures de boutique, galas et dîners de remise de prix, soirées privées et congrès. Si votre événement ne figure pas dans cette liste, décrivez-le et nous vous dirons franchement si un robot y apporte quelque chose." },
-      { "q": "Combien coûte la location d'un robot pour un événement à Monaco ?", "a": "À partir de 2 000 € par jour avec un opérateur, au tarif plusieurs jours, hors TVA, pour l'humanoïde événementiel ou le chien robot. NOVA, l'humanoïde développeur, démarre à 3 000 € par jour aux mêmes conditions. Les journées isolées, les scripts sur mesure, les déplacements et la scénographie sont chiffrés à part." },
+      { "q": "Combien coûte la location d'un robot pour un événement à Monaco ?", "a": "À partir de 2 000 € par jour avec un opérateur, au tarif plusieurs jours, hors TVA, pour MONTARI, l'humanoïde événementiel. NOVA, l'humanoïde développeur, démarre à 3 000 € par jour aux mêmes conditions. Les journées isolées, les scripts sur mesure, les déplacements et la scénographie sont chiffrés à part." },
       { "q": "Un opérateur est-il inclus dans chaque réservation ?", "a": "Oui. Le robot n'évolue jamais sans surveillance. Un opérateur se déplace avec lui, conduit le spectacle, maintient une distance de sécurité avec les invités et peut arrêter le robot instantanément. C'est ainsi que vous obtenez l'effet sans porter le risque." },
       { "q": "Combien de temps le robot évolue-t-il pendant un événement ?", "a": "Environ deux heures de spectacle actif sur une batterie. Notre opérateur change les batteries sur place : une soirée complète est donc une question de découpage, pas d'autonomie. La plupart des clients utilisent trois ou quatre séquences de vingt minutes." },
-      { "q": "Quel robot convient à mon événement ?", "a": "MONTARI, l'humanoïde événementiel, travaille la foule et la scène. NOVA est le même corps avec le SDK complet, pour les clients qui veulent des comportements sur mesure ou un robot qu'ils peuvent programmer. ORYX, le robot à quatre pattes, excelle sur les arrivées, les tapis rouges et les photos. Nous en recommandons un dès que nous connaissons la salle." }
+      { "q": "Quel robot convient à mon événement ?", "a": "MONTARI, l'humanoïde événementiel, travaille la foule et la scène. NOVA est le même corps avec le SDK complet, pour les clients qui veulent des comportements sur mesure ou un robot qu'ils peuvent programmer. Le corps est identique, le choix se résume donc à savoir si quelqu'un va écrire du code. Nous en recommandons un dès que nous connaissons la salle." }
     ]
   },
   "brand-activations": {
@@ -130,7 +130,7 @@
     "title": "Robot pour événement d'entreprise à Monaco",
     "desc": "Louez un robot humanoïde pour un événement d'entreprise à Monaco ou sur la Côte d'Azur. Il accueille, travaille la salle et donne son moment à la soirée.",
     "photo": "corporate-events",
-    "photo2": "oryx-tile",
+    "photo2": "nova-tile",
     "alt": "Robot humanoïde accueillant des invités lors d'une soirée d'entreprise à Monaco",
     "intro": {
       "h2": "Ce qu'un robot change à une soirée d'entreprise.",
@@ -275,7 +275,7 @@
     "faq": [
       { "q": "Pouvez-vous amener un robot au Monaco Yacht Show ?", "a": "Oui, sur un stand ou à bord lorsque l'espace le permet. Il nous faut une zone plate, sèche et ferme d'environ trois mètres sur trois et l'accord de l'organisateur. Réservez tôt : c'est la semaine la plus chargée de notre année sur la Côte d'Azur." },
       { "q": "Le robot peut-il marcher sur le pont d'un yacht ?", "a": "Sur un pont adapté, oui. Il lui faut une surface ferme, de niveau et sèche, avec un cheminement dégagé. Le teck mouillé, une passerelle, une plage arrière immergée, les escaliers et un pont qui bouge dans la houle sortent de son domaine. Nous visitons le bateau avec vous avant de nous engager." },
-      { "q": "Combien coûte la location d'un robot pendant la semaine du salon nautique ?", "a": "À partir de 2 000 € par jour avec un opérateur, au tarif plusieurs jours, hors TVA, pour l'humanoïde événementiel ou le chien robot. Les déplacements, la scénographie et tout script sur mesure sont chiffrés à part. Vous avez un prix ferme sous 24 heures." },
+      { "q": "Combien coûte la location d'un robot pendant la semaine du salon nautique ?", "a": "À partir de 2 000 € par jour avec un opérateur, au tarif plusieurs jours, hors TVA, pour MONTARI, l'humanoïde événementiel. Les déplacements, la scénographie et tout script sur mesure sont chiffrés à part. Vous avez un prix ferme sous 24 heures." },
       { "q": "Fonctionnera-t-il en extérieur sur le quai ?", "a": "Sous abri, oui. Le robot ne fonctionne pas sous la pluie et ne marche pas sur du gravier instable ou un sol irrégulier. Un stand couvert ou un pont ombragé est la réponse habituelle pour un salon de septembre à Monaco." },
       { "q": "Peut-il s'adresser à une clientèle internationale ?", "a": "Il parle français et anglais. Pour le public mixte d'un salon nautique, nous écrivons en général de courtes phrases dans les deux langues et laissons l'opérateur choisir celle qu'il lance à l'arrivée de chaque groupe." }
     ],
@@ -451,7 +451,7 @@
     "title": "Robot pour soirée privée à Monaco",
     "desc": "Louez un robot humanoïde pour une soirée privée à Monaco ou sur la Côte d'Azur. Anniversaires, soirées en villa et célébrations, pilotées avec discrétion.",
     "photo": "private-parties",
-    "photo2": "oryx-tile",
+    "photo2": "montari-tile",
     "alt": "Robot humanoïde animant une soirée privée dans une villa sur la Côte d'Azur",
     "intro": {
       "h2": "Un robot à une célébration privée.",

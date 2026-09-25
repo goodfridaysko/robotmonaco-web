@@ -2,22 +2,22 @@
   "_hub": {
     "crumb": "La flotte",
     "eyebrow": "La flotte · Monaco et la Côte d'Azur",
-    "h1": "Deux humanoïdes et un chien robot.",
-    "lead": "MONTARI travaille la foule. NOVA est le même corps avec le SDK complet, pour les équipes qui veulent le programmer. ORYX est celui à quatre pattes, qui ouvre une soirée et marche sur le tapis rouge. Chaque location comprend un opérateur, votre logo sur le torse et un scénario écrit avec vous.",
-    "title": "Location de robot humanoïde et chien robot",
-    "desc": "Deux humanoïdes Unitree et un chien robot à louer à Monaco et sur la Côte d'Azur. Opérateur inclus, vos couleurs et un scénario écrit avec vous.",
+    "h1": "Deux humanoïdes, deux rôles.",
+    "lead": "MONTARI travaille la foule. NOVA est le même corps avec le SDK complet ouvert, pour les équipes qui veulent le programmer. Chaque location comprend un opérateur, votre logo sur le torse et un scénario écrit avec vous.",
+    "title": "Location de robot humanoïde à Monaco",
+    "desc": "Deux humanoïdes Unitree G1 à louer avec opérateur à Monaco et sur la Côte d'Azur. Vos couleurs et un scénario écrit avec vous.",
     "faq": [
       {
         "q": "Quel robot louer pour un événement à Monaco ?",
-        "a": "MONTARI pour presque tous les événements. C'est l'humanoïde événementiel : il circule dans la salle, accueille les invités, pose et dit votre texte. Choisissez NOVA lorsque vous voulez des comportements écrits sur mesure ou un robot que vos propres développeurs peuvent programmer. Choisissez ORYX, le chien robot, pour une arrivée, un tapis rouge ou une escorte à quatre pattes dans la foule."
+        "a": "MONTARI pour presque tous les événements. C'est l'humanoïde événementiel : il circule dans la salle, accueille les invités, pose et dit votre texte. Choisissez NOVA lorsque vous voulez des comportements écrits sur mesure ou un robot que vos propres développeurs peuvent programmer. Le corps est identique, le choix porte donc sur le logiciel, pas sur l'allure."
       },
       {
         "q": "Combien coûte la location d'un robot pour un événement à Monaco ?",
-        "a": "L'humanoïde événementiel et le chien robot démarrent à 2 000 € par jour avec opérateur, au tarif sur plusieurs jours et hors taxes. NOVA, l'humanoïde pour développeurs, démarre à 3 000 € par jour aux mêmes conditions. Journées isolées, textes sur mesure, déplacements et scénographie sont chiffrés séparément."
+        "a": "MONTARI, l'humanoïde événementiel, démarre à 2 000 € par jour avec opérateur, au tarif sur plusieurs jours et hors taxes. NOVA, l'humanoïde pour développeurs, démarre à 3 000 € par jour aux mêmes conditions. Journées isolées, textes sur mesure, déplacements et scénographie sont chiffrés séparément."
       },
       {
         "q": "Puis-je louer plusieurs robots pour le même événement ?",
-        "a": "Oui. Le duo le plus courant associe ORYX à l'entrée et MONTARI à l'intérieur : les invités rencontrent le chien à l'arrivée, puis l'humanoïde une fois le verre en main. Chaque robot vient avec son propre opérateur, donnez-nous le déroulé et nous chiffrons les deux ensemble."
+        "a": "Oui. Le duo le plus courant place un humanoïde à l'entrée et l'autre à l'intérieur : les invités rencontrent un robot à l'arrivée, puis le second une fois le verre en main. Chaque robot vient avec son propre opérateur, donnez-nous le déroulé et nous chiffrons les deux ensemble."
       },
       {
         "q": "Quelle est la différence entre l'Unitree G1 et le G1 EDU ?",
@@ -25,7 +25,7 @@
       },
       {
         "q": "Combien de temps chaque robot tient-il sur une batterie ?",
-        "a": "Environ deux heures de show actif. Notre opérateur change la batterie sur place entre les séquences, une soirée est donc une question de découpage des apparitions et non d'autonomie. Les trois robots ont besoin d'une surface plane, sèche et stable d'environ trois mètres sur trois pour évoluer."
+        "a": "Environ deux heures de show actif. Notre opérateur change la batterie sur place entre les séquences, une soirée est donc une question de découpage des apparitions et non d'autonomie. Les deux humanoïdes ont besoin d'une surface plane, sèche et stable d'environ trois mètres sur trois pour évoluer."
       }
     ]
   },
@@ -224,103 +224,5 @@
       }
     ],
     "preset": "Projet logiciel robotique"
-  },
-  "oryx": {
-    "name": "ORYX",
-    "tagline": "Celui à quatre pattes. Il ouvre la porte, marche sur le tapis et porte un petit objet à vos couleurs.",
-    "teaser": "Le chien robot. Accueils, tapis rouges, photos et une petite charge à vos couleurs dans la foule.",
-    "alt": "ORYX, chien robot Unitree Go2 à louer, marchant sur un tapis rouge lors d'un événement à Monaco",
-    "title": "ORYX · Location de chien robot à Monaco",
-    "desc": "Louez ORYX, notre chien robot Unitree Go2, avec opérateur à Monaco et sur la Côte d'Azur. À partir de 2 000 € par jour pour accueils et photos.",
-    "h1": "L'accueil devant lequel personne ne passe.",
-    "lead": "ORYX est un Unitree Go2 : quatre pattes et pas de mains. Il accueille les invités à la porte, trotte sur un tapis rouge, conduit un groupe jusqu'à la salle et porte une petite charge à vos couleurs. Il est rapide, il est près du sol et il fait s'accroupir les gens, téléphone à la main.",
-    "specs": [
-      [
-        "Poids",
-        "15 kg"
-      ],
-      [
-        "Batterie",
-        "2 h"
-      ],
-      [
-        "Pattes",
-        "4"
-      ],
-      [
-        "Voix",
-        "FR, EN"
-      ]
-    ],
-    "does": {
-      "h2": "Ce que fait le chien robot.",
-      "items": [
-        {
-          "icon": "party-popper",
-          "h": "Il ouvre la soirée",
-          "p": "Il attend à la porte, salue les arrivants et donne le ton avant même la première coupe de champagne."
-        },
-        {
-          "icon": "camera",
-          "h": "Il marche sur le tapis",
-          "p": "Une montée de tapis rouge aux côtés de votre invité d'honneur transforme les photos d'arrivée en images que la presse utilise vraiment."
-        },
-        {
-          "icon": "box",
-          "h": "Il porte une petite charge",
-          "p": "Une mallette à vos couleurs, une bouteille, une enveloppe ou le trophée sur le dos. Charges légères uniquement : c'est un spectacle, pas un porteur."
-        },
-        {
-          "icon": "radar",
-          "h": "Il ouvre la voie",
-          "p": "Il conduit les invités de l'entrée à la salle, le long d'un couloir ou entre deux stands, sans qu'aucune signalétique ne soit nécessaire."
-        },
-        {
-          "icon": "flag",
-          "h": "Il porte vos couleurs",
-          "p": "Une selle personnalisée, un adhésif et votre palette sur les coques. Le chien se lit comme le vôtre d'un bout à l'autre de la salle."
-        },
-        {
-          "icon": "sparkles",
-          "h": "Il enchaîne de courtes routines",
-          "p": "S'asseoir, donner la patte, danser quelques mesures sur la musique. Des séquences brèves, répétées là où la foule est la plus dense."
-        }
-      ]
-    },
-    "fit": {
-      "h2": "Quand le chien l'emporte sur l'humanoïde.",
-      "lead": "ORYX travaille là où un humanoïde ne peut pas aller, et il attire une attention différente, plus chaleureuse.",
-      "list": [
-        "Accueils, arrivées et tapis rouges où la première image décide de la couverture presse",
-        "Stands serrés et allées chargées où un robot bas et rapide circule mieux qu'une silhouette qui marche",
-        "Moments photo avec des invités qui veulent quelque chose à côté de quoi s'accroupir",
-        "Conduire des groupes entre les salles, les stands ou une terrasse pendant la semaine du Grand Prix",
-        "Porter un petit objet à vos couleurs jusqu'à une scène, une table ou un invité d'honneur",
-        "Le duo avec MONTARI, le chien à la porte et l'humanoïde à l'intérieur"
-      ]
-    },
-    "faq": [
-      {
-        "q": "Combien coûte la location d'un chien robot à Monaco ?",
-        "a": "À partir de 2 000 € par jour avec opérateur, au tarif sur plusieurs jours et hors taxes, comme l'humanoïde événementiel. Journées isolées, routines sur mesure, déplacements et scénographie sont chiffrés séparément. Donnez-nous la date et le lieu pour un prix ferme sous 24 heures."
-      },
-      {
-        "q": "Le chien robot est-il sans danger pour les invités et les enfants ?",
-        "a": "Oui, avec la même règle que pour les humanoïdes : un opérateur est toujours à la commande et l'arrête immédiatement. Il se déplace au pas quand il est près des personnes, garde une distance de travail et ne court jamais librement dans une foule."
-      },
-      {
-        "q": "Quelle charge ORYX peut-il porter ?",
-        "a": "Une petite charge légère, à vos couleurs. Une mallette, une bouteille, une enveloppe ou un trophée sur une selle adaptée. Il ne porte pas de charges lourdes et ne remplace pas un membre de votre personnel. Si l'objet compte, une personne le porte et le chien porte l'idée."
-      },
-      {
-        "q": "Peut-il marcher en extérieur sur la Côte d'Azur ?",
-        "a": "Sur une surface plane, sèche et stable, oui : une terrasse, un quai, une entrée moquettée. Pas de pluie, pas de gravier et pas d'escaliers de façon répétée. Nous parcourons le trajet avec vous en amont et contournons tout ce que les pattes n'aimeront pas."
-      },
-      {
-        "q": "Le chien robot peut-il parler ?",
-        "a": "Il peut diffuser des répliques enregistrées en français et en anglais par son haut-parleur, ce qui fonctionne bien pour un accueil court à la porte. Pour une conversation avec les visiteurs, l'un des humanoïdes avec l'assistant IA reste l'outil adapté."
-      }
-    ],
-    "preset": "Lancement de produit"
   }
 }

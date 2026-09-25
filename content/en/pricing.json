@@ -8,10 +8,10 @@
   "cards": [
     {
       "k": "01",
-      "h": "Event humanoid or robot dog",
+      "h": "Event humanoid, MONTARI",
       "amount": "€2,000",
       "unit": "per day with an operator",
-      "p": "MONTARI, the event humanoid, or ORYX, the four-legged robot. The rate shown is the multi-day rate and excludes VAT. A single day is quoted separately and costs more, because the setup is the same for one day as for three.",
+      "p": "MONTARI, our Unitree G1 event humanoid, with an operator for the whole booking. The rate shown is the multi-day rate and excludes VAT. A single day is quoted separately and costs more, because the setup is the same for one day as for three.",
       "list": [
         "One robot, delivered, set up and packed away by us",
         "An operator with the robot for the whole booking",
@@ -68,7 +68,7 @@
   "faq": [
     {
       "q": "How much does it cost to hire a robot for an event in Monaco?",
-      "a": "The event humanoid and the robot dog start at €2,000 per day with an operator. The developer humanoid, NOVA, starts at €3,000 per day with an operator. Both figures are the multi-day rate and exclude VAT. A single day, a custom script, travel outside Monaco and staging are quoted separately. Send us the date and the venue and you have a firm price within 24 hours."
+      "a": "MONTARI, the event humanoid, starts at €2,000 per day with an operator. NOVA, the developer humanoid, starts at €3,000 per day with an operator. Both figures are the multi-day rate and exclude VAT. A single day, a custom script, travel outside Monaco and staging are quoted separately. Send us the date and the venue and you have a firm price within 24 hours."
     },
     {
       "q": "What makes the price go up or down?",

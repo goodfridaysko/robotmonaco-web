@@ -58,7 +58,7 @@
       },
       {
         "q": "Which robots do you develop for?",
-        "a": "The Unitree G1 EDU humanoid above all, which we operate as NOVA, and the Unitree Go2 robot dog. Both open their software development kit. If you own a different robot with an accessible SDK, send us the model and we will tell you honestly whether we are the right team."
+        "a": "The Unitree G1 EDU humanoid above all, which we operate as NOVA, because it opens the full software development kit. The work carries across to MONTARI, the standard G1, wherever the platform allows it. If you own a different robot with an accessible SDK, send us the model and we will tell you honestly whether we are the right team."
       },
       {
         "q": "Do we own the code you write?",

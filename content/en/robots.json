@@ -2,22 +2,22 @@
   "_hub": {
     "crumb": "The fleet",
     "eyebrow": "The fleet · Monaco and the Riviera",
-    "h1": "Two humanoids and a robot dog.",
-    "lead": "MONTARI works the crowd. NOVA is the same body with the full SDK, for teams who want to programme it. ORYX is the four-legged one that opens a room and walks a red carpet. Every hire comes with an operator, your logo on the chest and a script written with you.",
-    "title": "Humanoid Robot and Robot Dog Hire in Monaco",
-    "desc": "Two Unitree humanoids and a robot dog for hire in Monaco and across the French Riviera. Operator included, your branding, a script written with you.",
+    "h1": "Two humanoids, two jobs.",
+    "lead": "MONTARI works the crowd. NOVA is the same body with the full software development kit open, for teams who want to programme it. Every hire comes with an operator, your logo on the chest and a script written with you.",
+    "title": "Humanoid Robot Hire in Monaco · The Fleet",
+    "desc": "Two Unitree G1 humanoids for hire with an operator in Monaco and across the French Riviera. Your branding, and a script written with you.",
     "faq": [
       {
         "q": "Which robot should I hire for an event in Monaco?",
-        "a": "MONTARI for almost every event. It is the event humanoid: it walks the room, greets guests, poses and delivers your lines. Choose NOVA when you want custom behaviour written for you or a robot your own developers can programme. Choose ORYX, the robot dog, when you want an entrance, a red carpet walk or a four-legged escort through a crowd."
+        "a": "MONTARI for almost every event. It is the event humanoid: it walks the room, greets guests, poses and delivers your lines. Choose NOVA when you want custom behaviour written for you, or a robot your own developers can programme. The body is the same, so the choice is about software rather than about how it looks."
       },
       {
         "q": "How much does it cost to hire a robot for an event in Monaco?",
-        "a": "The event humanoid and the robot dog start from €2,000 per day with an operator, at the multi-day rate and excluding VAT. NOVA, the developer humanoid, starts from €3,000 per day on the same terms. Single days, custom scripts, travel and staging are quoted separately."
+        "a": "MONTARI, the event humanoid, starts from €2,000 per day with an operator, at the multi-day rate and excluding VAT. NOVA, the developer humanoid, starts from €3,000 per day on the same terms. Single days, custom scripts, travel and staging are quoted separately."
       },
       {
         "q": "Can I hire more than one robot for the same event?",
-        "a": "Yes. A common pairing is ORYX at the door and MONTARI inside, so guests meet the dog on arrival and the humanoid once they have a glass in hand. Each robot travels with its own operator, so tell us the running order and we price the pair together."
+        "a": "Yes. A common pairing puts one humanoid at the entrance and the other inside, so guests meet a robot on arrival and again once they have a glass in hand. Each robot travels with its own operator, so tell us the running order and we price the pair together."
       },
       {
         "q": "What is the difference between the Unitree G1 and the G1 EDU?",
@@ -25,7 +25,7 @@
       },
       {
         "q": "How long does each robot perform on one battery?",
-        "a": "About two hours of active show. Our operator swaps the battery on site between blocks, so an evening is a question of planning the appearances rather than of the robot running out. All three robots need a flat, dry, firm surface of roughly three by three metres to work in."
+        "a": "About two hours of active show. Our operator swaps the battery on site between blocks, so an evening is a question of planning the appearances rather than of the robot running out. Both humanoids need a flat, dry, firm surface of roughly three by three metres to work in."
       }
     ]
   },
@@ -224,103 +224,5 @@
       }
     ],
     "preset": "Robot software project"
-  },
-  "oryx": {
-    "name": "ORYX",
-    "tagline": "The four-legged one. Opens the door, walks the carpet and carries something small and branded.",
-    "teaser": "The robot dog. Entrances, red carpets, photographs and a small branded load through a crowd.",
-    "alt": "ORYX, a Unitree Go2 robot dog for hire, walking a red carpet at a Monaco event",
-    "title": "ORYX · Robot Dog Hire in Monaco",
-    "desc": "Hire ORYX, our Unitree Go2 robot dog, with an operator in Monaco and the French Riviera. From €2,000 per day for entrances, carpets and photographs.",
-    "h1": "The entrance nobody walks past.",
-    "lead": "ORYX is a Unitree Go2, four legs and no hands. It meets guests at the door, trots a red carpet, leads a group to the room and carries a small branded load. It is quick, it is close to the ground and it makes people crouch down with a phone.",
-    "specs": [
-      [
-        "Weight",
-        "15 kg"
-      ],
-      [
-        "Battery",
-        "2 h"
-      ],
-      [
-        "Legs",
-        "4"
-      ],
-      [
-        "Voice",
-        "EN, FR"
-      ]
-    ],
-    "does": {
-      "h2": "What the robot dog does.",
-      "items": [
-        {
-          "icon": "party-popper",
-          "h": "Opens the evening",
-          "p": "It waits at the door, greets arrivals and sets the tone before anyone reaches the first glass of champagne."
-        },
-        {
-          "icon": "camera",
-          "h": "Walks the carpet",
-          "p": "A red carpet run alongside your guest of honour turns the arrival photographs into something the press actually uses."
-        },
-        {
-          "icon": "box",
-          "h": "Carries a small load",
-          "p": "A branded case, a bottle, an envelope or the award on its back. Light loads only: it is a show, not a porter."
-        },
-        {
-          "icon": "radar",
-          "h": "Leads the way",
-          "p": "It walks guests from the entrance to the room, down a corridor or between two stands, so nobody needs a sign."
-        },
-        {
-          "icon": "flag",
-          "h": "Carries your colours",
-          "p": "A branded saddle, a decal and your palette on the panels. The dog reads as yours from across the room."
-        },
-        {
-          "icon": "sparkles",
-          "h": "Performs short routines",
-          "p": "Sitting, shaking a paw, dancing a few bars with the music. Short beats, repeated where the crowd is thickest."
-        }
-      ]
-    },
-    "fit": {
-      "h2": "When the dog beats the humanoid.",
-      "lead": "ORYX works in places a humanoid cannot, and it draws a different, warmer kind of attention.",
-      "list": [
-        "Entrances, arrivals and red carpets where the first image decides the coverage",
-        "Tight stands and busy aisles where a fast, low robot moves better than a walking figure",
-        "Photo moments with guests who want something to crouch beside",
-        "Leading groups between rooms, stands or a terrace during race week",
-        "Carrying a small branded item to a stage, a table or a guest of honour",
-        "Pairing with MONTARI, the dog at the door and the humanoid inside"
-      ]
-    },
-    "faq": [
-      {
-        "q": "How much does it cost to hire a robot dog in Monaco?",
-        "a": "From €2,000 per day with an operator, at the multi-day rate and excluding VAT, the same as the event humanoid. Single days, custom routines, travel and staging are quoted separately. Tell us the date and the venue for a firm price within 24 hours."
-      },
-      {
-        "q": "Is the robot dog safe around guests and children?",
-        "a": "Yes, with the same rule as the humanoids: an operator is always on the controller and stops it instantly. It moves at a walking pace when it is near people, it keeps a working distance and it never runs loose through a crowd."
-      },
-      {
-        "q": "How much can ORYX carry?",
-        "a": "A small, light, branded load. A case, a bottle, an envelope or a trophy on a fitted saddle. It does not lift heavy loads and it does not replace a member of your staff. If something matters, a person still carries it and the dog carries the idea."
-      },
-      {
-        "q": "Can it walk outdoors on the Riviera?",
-        "a": "On a flat, dry, firm surface, yes: a terrace, a pontoon apron, a carpeted entrance. No rain, no loose gravel and no stairs as a routine. We walk the route with you in advance and plan around anything the legs will not like."
-      },
-      {
-        "q": "Can the robot dog speak?",
-        "a": "It can play scripted speech in English and French through its speaker, which works well for a short greeting at the door. For a conversation with visitors, one of the humanoids with the AI assistant upgrade is the better tool."
-      }
-    ],
-    "preset": "Product launch"
   }
 }

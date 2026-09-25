@@ -15,6 +15,11 @@
   "seeFleet": "See the fleet",
   "relatedUses": "Other ways clients use it.",
   "dragHint": "Drag to turn the robot",
+  "branding": {
+    "h2": "Your brand, on the robot.",
+    "p": "The plate on its chest and the board on its back are yours. Turn the robot to see both. We print your artwork and fit it before the doors open, so the robot walks in already wearing your campaign.",
+    "alt": "Humanoid robot in 3D showing where a client logo goes on the chest and an advertising board on the back"
+  },
   "from": "From",
   "perDay": "per day with an operator",
   "priceNote": "Multi-day rate, excluding VAT. Single days quoted on request.",
@@ -30,7 +35,7 @@
     {
       "label": "The fleet",
       "href": "/robots",
-      "hint": "Two humanoids and a robot dog"
+      "hint": "Two humanoids, MONTARI and NOVA"
     },
     {
       "label": "Where it works",
@@ -76,11 +81,7 @@
           "href": "/robots/nova"
         },
         {
-          "label": "ORYX · Unitree Go2",
-          "href": "/robots/oryx"
-        },
-        {
-          "label": "All three robots",
+          "label": "Both humanoids",
           "href": "/robots"
         }
       ]

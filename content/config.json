@@ -11,8 +11,7 @@
   },
   "robots": [
     { "slug": "montari", "model": "Unitree G1", "tone": "light", "priceKind": "event" },
-    { "slug": "nova", "model": "Unitree G1 EDU", "tone": "dark", "priceKind": "dev" },
-    { "slug": "oryx", "model": "Unitree Go2", "tone": "light", "priceKind": "event" }
+    { "slug": "nova", "model": "Unitree G1 EDU", "tone": "dark", "priceKind": "dev" }
   ],
   "useCaseOrder": [
     "brand-activations",

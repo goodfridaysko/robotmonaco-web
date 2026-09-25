@@ -8,10 +8,10 @@
     "desc": "See how clients use a humanoid robot in Monaco and the French Riviera: activations, launches, yacht shows, race week hospitality, galas and retail.",
     "faq": [
       { "q": "What kinds of events do you bring a robot to in Monaco?", "a": "Brand activations, product launches, corporate evenings, trade shows, the yacht shows, race week hospitality, boutique openings, galas and award dinners, private parties and conferences. If your event is not on that list, describe it and we will tell you honestly whether a robot adds anything." },
-      { "q": "How much does it cost to hire a robot for an event in Monaco?", "a": "From €2,000 per day with an operator at the multi-day rate, excluding VAT, for the event humanoid or the robot dog. NOVA, the developer humanoid, starts at €3,000 per day on the same terms. Single days, custom scripts, travel and staging are quoted separately." },
+      { "q": "How much does it cost to hire a robot for an event in Monaco?", "a": "From €2,000 per day with an operator at the multi-day rate, excluding VAT, for MONTARI, the event humanoid. NOVA, the developer humanoid, starts at €3,000 per day on the same terms. Single days, custom scripts, travel and staging are quoted separately." },
       { "q": "Does every booking include an operator?", "a": "Yes. The robot never performs unattended. An operator travels with it, runs the show, keeps a safe distance from guests and can stop the robot instantly. That is how you get the spectacle without carrying the risk." },
       { "q": "How long does the robot perform during an event?", "a": "About two hours of active show on one battery. Our operator swaps batteries on site, so a full evening is a question of planning the blocks, not of the robot running out. Most clients use three or four bursts of twenty minutes." },
-      { "q": "Which robot suits my event?", "a": "MONTARI, the event humanoid, works crowds and stages. NOVA is the same body with the full SDK for clients who want custom behaviour or a robot they can programme. ORYX, the four-legged robot, is best for entrances, red carpets and photographs. We recommend one once we know the room." }
+      { "q": "Which robot suits my event?", "a": "MONTARI, the event humanoid, works crowds and stages. NOVA is the same body with the full SDK for clients who want custom behaviour or a robot they can programme. The body is identical, so the choice comes down to whether anyone is going to write code. We recommend one once we know the room." }
     ]
   },
   "brand-activations": {
@@ -130,7 +130,7 @@
     "title": "Corporate Event Robot Hire in Monaco",
     "desc": "Hire a humanoid robot for a corporate event in Monaco or the French Riviera. It welcomes guests, works the room and gives the night its moment.",
     "photo": "corporate-events",
-    "photo2": "oryx-tile",
+    "photo2": "nova-tile",
     "alt": "Humanoid robot welcoming guests at a corporate evening in Monaco",
     "intro": {
       "h2": "What a robot changes at a corporate evening.",
@@ -275,7 +275,7 @@
     "faq": [
       { "q": "Can you bring a robot to the Monaco Yacht Show?", "a": "Yes, on a stand or on board where the space allows. We need a flat, dry, firm area of about three metres by three metres and the organiser's approval. Book early: that week is the busiest of our year on the Riviera." },
       { "q": "Can the robot walk on a yacht deck?", "a": "On a suitable deck, yes. It needs a firm, level, dry surface with a clear route. Wet teak, a passerelle, a swim platform, stairs and a moving deck in swell are all outside what it does. We survey the boat with you before we commit." },
-      { "q": "How much does robot hire cost during yacht show week?", "a": "From €2,000 per day with an operator at the multi-day rate, excluding VAT, for the event humanoid or the robot dog. Travel, staging and any custom script are quoted separately. You get a firm price within 24 hours." },
+      { "q": "How much does robot hire cost during yacht show week?", "a": "From €2,000 per day with an operator at the multi-day rate, excluding VAT, for MONTARI, the event humanoid. Travel, staging and any custom script are quoted separately. You get a firm price within 24 hours." },
       { "q": "Will it work outdoors on the quay?", "a": "Under cover, yes. The robot does not work in rain and does not walk on loose gravel or uneven ground. A covered stand or a shaded deck is the normal answer for a September show in Monaco." },
       { "q": "Can it speak to international clients?", "a": "It speaks English and French. For the mixed audience of a yacht show we usually script short lines in both and let the operator choose which to run as each group arrives." }
     ],
@@ -451,7 +451,7 @@
     "title": "Private Party Robot Hire in Monaco",
     "desc": "Hire a humanoid robot for a private party in Monaco or the French Riviera. Birthdays, villa evenings and celebrations, discreetly operated all night.",
     "photo": "private-parties",
-    "photo2": "oryx-tile",
+    "photo2": "montari-tile",
     "alt": "Humanoid robot entertaining guests at a private party at a villa on the Riviera",
     "intro": {
       "h2": "A robot at a private celebration.",

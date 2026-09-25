@@ -58,7 +58,7 @@
       },
       {
         "q": "Pour quels robots développez-vous ?",
-        "a": "L'humanoïde Unitree G1 EDU avant tout, que nous exploitons sous le nom de NOVA, et le chien robot Unitree Go2. Les deux ouvrent leur kit de développement. Si vous possédez un autre robot avec un SDK accessible, envoyez-nous le modèle et nous vous dirons honnêtement si nous sommes la bonne équipe."
+        "a": "L'humanoïde Unitree G1 EDU avant tout, que nous exploitons sous le nom de NOVA, parce qu'il ouvre l'intégralité de son kit de développement. Le travail se reporte sur MONTARI, le G1 standard, partout où la plateforme le permet. Si vous possédez un autre robot avec un SDK accessible, envoyez-nous le modèle et nous vous dirons honnêtement si nous sommes la bonne équipe."
       },
       {
         "q": "Sommes-nous propriétaires du code que vous écrivez ?",

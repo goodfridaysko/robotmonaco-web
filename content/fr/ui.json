@@ -15,6 +15,11 @@
   "seeFleet": "Voir la flotte",
   "relatedUses": "D'autres façons dont nos clients l'utilisent.",
   "dragHint": "Faites glisser pour tourner le robot",
+  "branding": {
+    "h2": "Votre marque, sur le robot.",
+    "p": "La plaque sur le torse et le panneau dans le dos sont les vôtres. Faites tourner le robot pour voir les deux. Nous imprimons vos visuels et les posons avant l'ouverture, pour que le robot entre déjà aux couleurs de votre campagne.",
+    "alt": "Robot humanoïde en 3D montrant l'emplacement du logo client sur le torse et du panneau publicitaire dans le dos"
+  },
   "from": "À partir de",
   "perDay": "par jour, opérateur inclus",
   "priceNote": "Tarif sur plusieurs jours, hors taxes. Journée isolée sur devis.",
@@ -30,7 +35,7 @@
     {
       "label": "La flotte",
       "href": "/robots",
-      "hint": "Deux humanoïdes et un chien robot"
+      "hint": "Deux humanoïdes, MONTARI et NOVA"
     },
     {
       "label": "Où il intervient",
@@ -76,11 +81,7 @@
           "href": "/robots/nova"
         },
         {
-          "label": "ORYX · Unitree Go2",
-          "href": "/robots/oryx"
-        },
-        {
-          "label": "Les trois robots",
+          "label": "Les deux humanoïdes",
           "href": "/robots"
         }
       ]
