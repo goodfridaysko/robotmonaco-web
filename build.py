@@ -136,8 +136,8 @@ def photo(name, alt, ratio="r-169", eager=False, label=None, cls=""):
 def stage(model, alt, ratio="r-45", label="", cls=""):
     """Interactive 3D robot. The viewer script and the GLB load only once the stage nears the viewport.
     The .glb is committed, so every build machine renders the stage, not a placeholder."""
-    if not (SRC / "models" / f"{model}.glb").exists():
-        return None
+    if os.environ.get("NO_3D") or not (SRC / "models" / f"{model}.glb").exists():
+        return None      # NO_3D=1: a preview host that cannot serve .glb falls back to the hero photo
     classes = " ".join(c for c in ("ph", "stage", ratio, cls) if c)
     return (f'<div class="{classes}" data-model="/assets/models/{model}.glb?v={VER}" data-alt="{e(alt)}">'
             f'<span class="stage-hint">{e(label or T["ui"]["dragHint"])}</span></div>')

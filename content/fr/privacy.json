@@ -1,0 +1,68 @@
+{
+  "title": "Politique de confidentialité | ROBOTMONACO",
+  "desc": "Comment ROBOTMONACO traite les informations envoyées via le formulaire de contact : ce que nous collectons, pourquoi, combien de temps et vos droits RGPD.",
+  "crumb": "Politique de confidentialité",
+  "eyebrow": "Confidentialité",
+  "h1": "Politique de confidentialité.",
+  "sections": [
+    {
+      "h2": "Qui nous sommes",
+      "p": [
+        "Ce site appartient à ROBOTMONACO, qui loue des robots humanoïdes avec opérateur et développe des logiciels pour robots, basé à Monaco et intervenant sur toute la Côte d'Azur.",
+        "Nous sommes responsables du traitement des données personnelles décrites sur cette page. Pour toute question relative à vos données, écrivez à info@robotmonaco.com : une personne vous répondra, normalement sous quelques jours ouvrés."
+      ]
+    },
+    {
+      "h2": "Ce que nous collectons",
+      "p": [
+        "Uniquement ce que vous saisissez dans le formulaire de contact et nous envoyez : votre nom, votre société si vous l'indiquez, votre adresse e-mail, votre numéro de téléphone si vous l'indiquez, la date de votre événement, le lieu ou la ville, le type d'événement et votre message.",
+        "Nous ne demandons rien de sensible et nous préférons que vous ne nous en envoyiez pas. Merci de laisser hors du message les coordonnées bancaires, les pièces d'identité et tout élément relatif à la santé d'une personne. Si vous devez nous transmettre ce type d'information, nous conviendrons d'abord avec vous d'un canal plus sûr.",
+        "Notre hébergeur enregistre les informations techniques ordinaires lorsqu'une page est servie, comme l'adresse IP à l'origine de la requête et le navigateur utilisé. Cela sert à la sécurité et au bon fonctionnement du site, et nous ne l'utilisons pas pour établir un profil vous concernant."
+      ]
+    },
+    {
+      "h2": "Pourquoi nous les utilisons et sur quelle base",
+      "p": [
+        "Nous utilisons vos informations dans un seul but : répondre à votre demande, préparer un devis et, si vous donnez suite, organiser la prestation. Rien d'autre. Nous ne vendons pas vos données et nous ne vous inscrivons pas sur une liste de diffusion parce que vous avez posé une question.",
+        "La base légale est notre intérêt légitime à répondre à une personne qui nous a contactés au sujet de nos services et, une fois le devis accepté, l'exécution de notre contrat avec vous. La case à cocher du formulaire enregistre votre accord pour cet usage. Nous conservons également les éléments que la loi impose de conserver, par exemple les factures à des fins comptables."
+      ]
+    },
+    {
+      "h2": "Combien de temps nous les conservons",
+      "p": [
+        "Les demandes qui ne débouchent pas sur une prestation sont conservées jusqu'à vingt-quatre mois, afin de reprendre le fil si vous revenez vers nous au sujet du même événement ou d'un suivant. Passé ce délai, nous les supprimons.",
+        "Lorsqu'une demande devient une prestation, le contrat et les pièces de facturation sont conservés aussi longtemps que les règles comptables et fiscales l'exigent, puis supprimés. Vous pouvez nous demander d'effacer une demande plus tôt et nous le ferons, sauf obligation de conservation."
+      ]
+    },
+    {
+      "h2": "Qui y a accès",
+      "p": [
+        "Dans notre équipe, uniquement les personnes qui traitent votre demande et la prestation.",
+        "À l'extérieur, uniquement les prestataires qui font fonctionner le site et notre messagerie, c'est-à-dire notre hébergeur et notre fournisseur d'e-mail. Ils traitent les données sur nos instructions et n'ont pas le droit de les utiliser à leurs propres fins. Si un tel prestataire se trouve hors de l'Espace économique européen, le transfert s'appuie sur les garanties prévues par le RGPD, telles que les clauses contractuelles types.",
+        "Nous ne communiquons pas vos informations à d'autres clients, à des régies publicitaires ni à des courtiers en données."
+      ]
+    },
+    {
+      "h2": "Cookies et mesure d'audience",
+      "p": [
+        "Ce site ne dépose aucun cookie de suivi, aucun cookie publicitaire et aucun outil de mesure tiers. Rien ici ne vous suit vers un autre site, et c'est pourquoi aucune bannière de consentement ne vous accueille.",
+        "Votre navigateur peut conserver une petite quantité d'informations nécessaires à l'affichage correct du site, comme votre choix de langue. Cela reste sur votre appareil."
+      ]
+    },
+    {
+      "h2": "Vos droits",
+      "p": [
+        "Vous pouvez nous demander une copie des données personnelles que nous détenons sur vous, leur rectification si elles sont inexactes, leur effacement, la limitation de leur traitement, vous opposer à leur utilisation et les recevoir dans un format portable. Lorsque nous nous appuyons sur votre consentement, vous pouvez le retirer à tout moment.",
+        "Écrivez à info@robotmonaco.com en indiquant votre souhait. Nous ne facturons rien pour cela et nous ne vous compliquerons pas la tâche. Nous pourrons vous poser une question pour confirmer votre identité avant d'agir, afin que personne d'autre n'obtienne vos données en se faisant passer pour vous.",
+        "Si vous estimez que nous avons mal traité vos données, dites-le nous d'abord afin que nous puissions corriger. Vous avez aussi le droit de saisir l'autorité de protection des données de votre lieu de résidence ou de travail, ou à Monaco la Commission de Contrôle des Informations Nominatives."
+      ]
+    },
+    {
+      "h2": "Modifications de cette politique",
+      "p": [
+        "Si nous modifions le fonctionnement du formulaire de contact ou si nous faisons appel à un nouveau prestataire, nous mettrons cette page à jour.",
+        "La version en vigueur est toujours celle publiée ici. Si un changement affecte sensiblement des personnes qui nous ont déjà écrit, nous les en informerons directement plutôt que de compter sur le fait qu'elles le remarquent."
+      ]
+    }
+  ]
+}

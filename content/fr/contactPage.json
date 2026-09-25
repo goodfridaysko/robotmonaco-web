@@ -1,0 +1,28 @@
+{
+  "title": "Contact ROBOTMONACO | Robot à Monaco",
+  "desc": "Parlons de la location d'un robot humanoïde à Monaco ou sur la Côte d'Azur. Envoyez la date et le lieu, recevez un plan et un prix sous 24 heures.",
+  "crumb": "Contact",
+  "eyebrow": "Contact · réponse sous 24 heures",
+  "h1": "Parlez-nous de l'événement.",
+  "lead": "Une date, un lieu et une phrase sur ce dont vous voulez que les invités parlent ensuite suffisent à commencer. Nous revenons vers vous sous 24 heures avec un plan, un déroulé et un prix. S'il est plus rapide de se parler, appelez-nous au +377 37 73 06 01.",
+  "formH2": "Envoyez le brief.",
+  "formP": "Remplissez ce que vous savez. Rien n'est définitif ici, et nous préférons voir un plan approximatif tôt qu'un plan parfait la semaine précédant l'événement.",
+  "faq": [
+    {
+      "q": "En combien de temps répondez-vous à une demande ?",
+      "a": "Sous 24 heures, week-ends compris pendant la saison événementielle monégasque. La réponse est une vraie réponse, avec les disponibilités et un prix, pas un accusé de réception. Si votre événement a lieu dans moins d'une semaine, dites-le dans le message et nous vous appellerons plutôt que d'écrire."
+    },
+    {
+      "q": "Que faut-il indiquer dans le premier message ?",
+      "a": "La date, la ville ou le lieu, le type d'événement et le nombre approximatif d'invités. Si vous savez déjà ce que vous voulez que le robot fasse, dites-le nous. Sinon, décrivez le moment que vous cherchez à créer et nous vous proposerons la scène. Le budget est utile mais pas obligatoire."
+    },
+    {
+      "q": "Pouvons-nous voir le robot avant de réserver ?",
+      "a": "Oui. Nous organisons des démonstrations à Monaco et sur la Côte d'Azur, chez nous ou chez vous lors d'une visite de site. Le voir marcher et l'entendre parler règle la plupart des questions en dix minutes. Demandez une démonstration dans votre message et nous trouverons un créneau."
+    },
+    {
+      "q": "Avec qui traitons-nous une fois la réservation confirmée ?",
+      "a": "Une seule personne, de la première réponse à la facture. Elle écrit le déroulé avec vous, coordonne votre équipe de production et le lieu, et se trouve sur place le jour J. Vous ne passerez pas de service en service."
+    }
+  ]
+}

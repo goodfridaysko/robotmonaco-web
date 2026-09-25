@@ -1,0 +1,94 @@
+{
+  "title": "Tarifs de location de robot humanoïde",
+  "desc": "Ce que coûte la location d'un robot humanoïde avec opérateur à Monaco et sur la Côte d'Azur. Tarifs journaliers, ce qui est inclus, ce qui s'ajoute.",
+  "crumb": "Tarifs",
+  "eyebrow": "Tarifs · Monaco et la Côte d'Azur",
+  "h1": "Ce que coûte une journée avec le robot.",
+  "lead": "Trois façons de travailler avec nous : louer un robot avec un opérateur pour votre événement, louer l'humanoïde développeur quand vous voulez le programmer, ou commander du logiciel et un assistant IA. Chaque tarif ci-dessous comprend un opérateur, parce que le robot n'évolue jamais sans surveillance.",
+  "cards": [
+    {
+      "k": "01",
+      "h": "Humanoïde événementiel ou chien robot",
+      "amount": "2 000 €",
+      "unit": "par jour avec un opérateur",
+      "p": "MONTARI, l'humanoïde événementiel, ou ORYX, le robot à quatre pattes. Le tarif affiché est le tarif plusieurs jours et s'entend hors TVA. Une journée isolée est chiffrée à part et coûte davantage, car la préparation est la même pour un jour que pour trois.",
+      "list": [
+        "Un robot, livré, installé et remballé par nos soins",
+        "Un opérateur avec le robot pendant toute la réservation",
+        "Environ deux heures de spectacle actif par batterie, changée sur place",
+        "Votre logo imprimé sur le sticker de poitrine",
+        "Un déroulé validé avec vous avant le jour J",
+        "Des prises de parole en français, en anglais ou dans les deux langues"
+      ]
+    },
+    {
+      "k": "02",
+      "h": "Humanoïde développeur, NOVA",
+      "amount": "3 000 €",
+      "unit": "par jour avec un opérateur",
+      "p": "Le même corps que MONTARI avec le SDK complet ouvert, pour les journées de recherche, les démonstrations que vous voulez piloter vous-même et les clients qui construisent leurs propres comportements. Tarif plusieurs jours, hors TVA, journées isolées chiffrées à part.",
+      "list": [
+        "NOVA avec le SDK Unitree disponible sur place",
+        "Un opérateur et un ingénieur qui connaissent la plateforme",
+        "Un accès développeur pour votre équipe pendant la réservation",
+        "Espace sécurisé, sécurisation et tests organisés avec le lieu",
+        "Marquage et prises de parole comme sur l'humanoïde événementiel",
+        "Les séquences enregistrées remises en fin de journée"
+      ]
+    },
+    {
+      "k": "03",
+      "h": "Projets logiciels et IA",
+      "amount": "Sur demande",
+      "unit": "par projet",
+      "p": "Comportements sur mesure, séquences de mouvement, voix, conduite de spectacle, intégrations et développement d'assistants IA. Chaque projet est cadré et chiffré pour lui-même, car un accueil de trois phrases et un robot qui répond sur votre catalogue ne sont pas le même travail.",
+      "list": [
+        "Un cadrage écrit avant la moindre ligne de code",
+        "Un prix de projet fixe, pas un compteur ouvert",
+        "Mouvement, voix et conduite de spectacle sur mesure",
+        "Un assistant IA entraîné sur votre lieu ou votre catalogue",
+        "ROS 2, le SDK Unitree, Python et C++",
+        "Transfert, documentation et une période de support"
+      ]
+    }
+  ],
+  "includes": {
+    "h2": "Ce que contient chaque réservation",
+    "list": [
+      "La livraison du robot sur votre lieu, l'installation et le retrait ensuite",
+      "Un opérateur qui conduit le spectacle et reste avec le robot du début à la fin",
+      "Les batteries et la charge, changées sur place entre les séquences",
+      "Votre logo sur la poitrine à la place de notre marquage",
+      "Un déroulé écrit avec vous, avec les phrases que le robot prononce",
+      "Une reconnaissance du sol, du cheminement et de l'éclairage avant l'ouverture des portes",
+      "Une assurance responsabilité civile pour le robot et l'opérateur",
+      "Un interlocuteur unique qui répond sous 24 heures, de la demande à la facture"
+    ]
+  },
+  "faq": [
+    {
+      "q": "Combien coûte la location d'un robot pour un événement à Monaco ?",
+      "a": "L'humanoïde événementiel et le chien robot démarrent à 2 000 € par jour avec un opérateur. L'humanoïde développeur, NOVA, démarre à 3 000 € par jour avec un opérateur. Les deux montants correspondent au tarif plusieurs jours et s'entendent hors TVA. Une journée isolée, un script sur mesure, un déplacement hors de Monaco et la scénographie sont chiffrés à part. Envoyez-nous la date et le lieu : vous avez un prix ferme sous 24 heures."
+    },
+    {
+      "q": "Qu'est-ce qui fait monter ou descendre le prix ?",
+      "a": "Quatre choses. Le nombre de jours, parce que des jours consécutifs reviennent moins cher par jour qu'une journée isolée. Le nombre de robots, puisque deux humanoïdes qui travaillent une salle demandent deux opérateurs. Le volume de sur-mesure, c'est-à-dire des mouvements spécifiques, un script écrit ou un assistant IA plutôt que notre répertoire standard. Et le lieu, car une terrasse au-dessus du circuit pendant la semaine de course demande plus de préparation d'accès qu'une boutique du Carré d'Or."
+    },
+    {
+      "q": "Prenez-vous un acompte pour bloquer la date ?",
+      "a": "Oui. Nous bloquons une date sur un devis signé et un acompte de cinquante pour cent, le solde étant dû après l'événement à trente jours. Tant que l'acompte ne nous est pas parvenu, la date reste ouverte à d'autres clients, ce qui compte à Monaco pendant la semaine du Grand Prix et celle du Yacht Show, où la flotte est réservée des mois à l'avance."
+    },
+    {
+      "q": "Que se passe-t-il si nous annulons ou si l'événement est reporté ?",
+      "a": "Déplacez la date et nous reportons l'acompte sur la nouvelle si la flotte est libre, sans pénalité. En cas d'annulation à plus de trente jours, l'acompte est remboursé, déduction faite du développement sur mesure déjà réalisé. À moins de trente jours, l'acompte est conservé, car le robot et l'opérateur sont retenus hors calendrier pour vous. Les conditions exactes figurent dans le devis, pour qu'il n'y ait aucune surprise."
+    },
+    {
+      "q": "Facturez-vous les déplacements hors de Monaco ?",
+      "a": "Nice, Cannes, Antibes, Menton, Villefranche-sur-Mer et Èze sont un trajet court pour nous et le déplacement représente en général une ligne modeste sur le devis. Saint-Tropez et au-delà, ou une réservation qui impose à l'équipe de passer la nuit sur place, entraînent des frais de déplacement et d'hébergement au coût réel. Ils apparaissent toujours comme une ligne distincte, jamais dissimulée dans le tarif journalier."
+    },
+    {
+      "q": "Vos prix sont-ils avec ou sans TVA ?",
+      "a": "Tous les montants de cette page s'entendent hors TVA. La TVA est ajoutée sur la facture au taux applicable à votre réservation et à votre société. Si vous êtes une entreprise établie hors de Monaco et de France, dites-le nous lors de votre demande et nous confirmerons le traitement applicable avant toute signature."
+    }
+  ]
+}

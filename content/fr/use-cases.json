@@ -182,7 +182,7 @@
     "h1": "Le stand le plus fréquenté du hall.",
     "lead": "Un robot humanoïde sur votre stand sort les visiteurs de l'allée, explique ce que vous faites et garde l'espace plein pendant que votre équipe parle aux personnes qui comptent.",
     "title": "Robot pour salon professionnel à Monaco",
-    "desc": "Louez un robot humanoïde pour un stand de salon à Monaco ou sur la Côte d'Azur. Il capte l'allée, explique votre offre et maintient le flux toute la journée.",
+    "desc": "Louez un robot humanoïde pour un stand de salon à Monaco ou sur la Côte d'Azur. Il capte l'allée, explique votre offre et fait monter le flux.",
     "photo": "trade-shows",
     "photo2": "nova-tile",
     "alt": "Robot humanoïde attirant des visiteurs vers un stand d'exposition à Monaco",
@@ -333,7 +333,7 @@
       { "q": "Est-il trop bruyant pour une suite pendant la course ?", "a": "Non. Les prises de parole du robot passent par une petite enceinte que nous réglons sur la salle, et nous programmons les séquences pour qu'il ne concurrence jamais les voitures ni votre hôte quand il parle." }
     ],
     "related": ["yacht-shows", "private-parties", "corporate-events"],
-    "preset": "Réception Grand Prix"
+    "preset": "Hospitalité Grand Prix"
   },
   "luxury-retail": {
     "label": "Retail de luxe",
@@ -386,7 +386,7 @@
       { "q": "Sera-t-il au ton d'une marque de luxe ?", "a": "Cela dépend entièrement du script, et c'est pourquoi nous l'écrivons avec vous. Le robot peut être calme et formel plutôt que démonstratif. Nous préférons quelques très bons moments dans une boutique à un spectacle continu." }
     ],
     "related": ["brand-activations", "product-launches", "private-parties"],
-    "preset": "Retail de luxe"
+    "preset": "Commerce de luxe"
   },
   "galas-and-awards": {
     "label": "Galas et remises de prix",
@@ -503,7 +503,7 @@
     "h1": "Une plénière avec un co-présentateur.",
     "lead": "Un robot humanoïde ouvre votre congrès, présente le premier intervenant, puis anime le foyer pendant chaque pause café. Une seule réservation, deux métiers très différents.",
     "title": "Robot pour conférence et congrès à Monaco",
-    "desc": "Louez un robot humanoïde pour une conférence ou un congrès à Monaco et sur la Côte d'Azur. Ouverture de plénière, animation du foyer et pauses, avec opérateur.",
+    "desc": "Louez un robot humanoïde pour une conférence ou un congrès à Monaco et sur la Côte d'Azur. Ouverture de plénière et animation du foyer.",
     "photo": "conferences",
     "photo2": "nova-hero",
     "alt": "Robot humanoïde sur scène ouvrant une conférence à Monaco",
