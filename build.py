@@ -183,7 +183,9 @@ def ld_org():
         "name": CONFIG["brand"], "url": DOMAIN + "/", "email": CONFIG["email"], "telephone": CONFIG["phone"],
         "logo": DOMAIN + "/assets/img/logo.png",
         "description": T["ui"]["orgDescription"],
-        "address": {"@type": "PostalAddress", "addressLocality": "Monaco", "addressCountry": "MC"},
+        "address": {"@type": "PostalAddress", "streetAddress": CONFIG["address"]["street"],
+                    "postalCode": CONFIG["address"]["zip"], "addressLocality": CONFIG["address"]["city"],
+                    "addressCountry": "MC"},
         "areaServed": [{"@type": "Country", "name": a[0]}] + [{"@type": "City", "name": c} for c in a[1:]],
         "knowsLanguage": ["en", "fr"],
     }
@@ -235,7 +237,7 @@ def nav(current):
 
 
 def footer():
-    u = T["ui"]
+    u, A = T["ui"], CONFIG["address"]
     cols = "".join(
         f'<div><h3>{e(c["h"])}</h3><ul>' + "".join(f'<li><a href="{lp(i["href"])}">{e(i["label"])}</a></li>' for i in c["items"]) + "</ul></div>"
         for c in u["footerCols"])
@@ -252,6 +254,7 @@ def footer():
 <div class="wrap footer-brand">
 <a class="footer-mark" href="{lp('/')}" aria-label="{e(CONFIG['brand'])}"><img src="/assets/img/logo-white.png" alt="{e(CONFIG['brand'])}" width="{LOGO[0]}" height="{LOGO[1]}" loading="lazy"></a>
 </div>
+<div class="wrap footer-company"><p><span>{e(A['street'])}, {e(A['zip'])} {e(A['city'])}</span> · <span>{e(A['region'])}</span> · <a href="tel:{e(CONFIG['phoneHref'])}">{e(CONFIG['phone'])}</a></p></div>
 <div class="wrap footer-legal"><span>© {year} {e(CONFIG['brand'])}</span><span>{e(u['tagline'])}</span><a href="{lp('/privacy')}">{e(u['privacy'])}</a><a href="mailto:{e(CONFIG['email'])}">{e(CONFIG['email'])}</a></div>
 </footer>"""
 
@@ -405,16 +408,19 @@ def build_home():
 <div class="hero-media">{stage('montari', d['heroAlt'], 'r-219') or photo('hero', d['heroAlt'], 'r-219', eager=True)}</div>
 </section>
 
+<section class="section" id="fleet" style="padding-top:clamp(48px,6vw,88px)"><div class="wrap">
+<div class="section-head reveal center"><h2 class="t-h2">{e(d['fleet']['h2'])}</h2><p class="t-lead">{e(d['fleet']['lead'])}</p></div>
+</div>
+<div class="tiles">{tiles}</div>
+<div class="wrap center reveal" style="margin-top:clamp(32px,4vw,56px)">
+<div class="actions"><a class="btn" href="{lp('/contact')}">{e(T['ui']['rentCta'])}</a><a class="link" href="{lp('/pricing')}">{e(T['ui']['seePricing'])}</a></div>
+</div></section>
+
 <section class="section" style="padding-top:0"><div class="wrap"><div class="stats reveal">{stats(d['stats'])}</div></div></section>
 
 <section class="section tilebg" id="why"><div class="wrap">
 <div class="section-head reveal"><h2 class="t-h2">{e(d['why']['h2'])}</h2><p class="t-lead">{e(d['why']['lead'])}</p></div>
 <div class="grid-3">{cells(d['why']['items'])}</div>
-</div></section>
-
-<section class="section" id="fleet"><div class="wrap">
-<div class="section-head reveal"><h2 class="t-h2">{e(d['fleet']['h2'])}</h2><p class="t-lead">{e(d['fleet']['lead'])}</p></div>
-<div class="tiles three">{tiles}</div>
 </div></section>
 
 <section class="section dark" id="use-cases"><div class="wrap">

@@ -2,27 +2,63 @@
   "title": "Location robot humanoïde Monaco · Événements",
   "desc": "Louez un robot humanoïde avec opérateur pour vos événements, lancements et activations de marque à Monaco et sur la Côte d'Azur. À vos couleurs.",
   "eyebrow": "Location de robot humanoïde · Monaco",
-  "h1": "L'invité que tout le monde filme.",
-  "lead": "Un robot humanoïde qui entre dans votre événement, salue vos invités, pose pour les photos et remet le trophée. Nous l'amenons, nous l'opérons, nous écrivons la scène autour de votre marque. Monaco, Monte-Carlo et toute la Côte d'Azur.",
+  "h1": "La première publicité qui marche à Monaco.",
+  "lead": "Un robot humanoïde entre dans votre événement aux couleurs de votre marque, accueille vos invités et pose pour leurs photos. Nous l'amenons, nous le pilotons et nous écrivons la scène autour de votre campagne. Monaco, Monte-Carlo et toute la Côte d'Azur.",
   "ctaSecondary": "Voir où il intervient",
   "heroRobot": "montari",
   "heroAlt": "Robot humanoïde portant le logo ROBOTMONACO sur le torse, présenté en 3D et orientable",
   "stats": [
-    ["2", "humanoïdes dans la flotte, tous deux sur base Unitree G1"],
-    ["24 h", "entre votre demande, un déroulé et un prix"],
-    ["2", "heures de show sur une batterie, changée sur place"],
-    ["EN/FR", "le robot s'adresse à vos invités dans les deux langues"]
+    [
+      "2",
+      "humanoïdes dans la flotte, tous deux sur base Unitree G1"
+    ],
+    [
+      "24 h",
+      "entre votre demande, un déroulé et un prix"
+    ],
+    [
+      "2",
+      "heures de show sur une batterie, changée sur place"
+    ],
+    [
+      "EN/FR",
+      "le robot s'adresse à vos invités dans les deux langues"
+    ]
   ],
   "why": {
     "h2": "Pourquoi un robot vaut mieux qu'un nouveau mur photo.",
     "lead": "Les invités d'un événement à Monaco ont vu tous les décors, toutes les pyramides de champagne et tous les écrans LED. Ils n'ont jamais serré la main d'un humanoïde.",
     "items": [
-      { "icon": "sparkles", "h": "Il arrête la salle", "p": "Les invités posent leur verre et lèvent leur téléphone. Le robot crée le seul moment de la soirée que personne ne fait défiler." },
-      { "icon": "megaphone", "h": "Il génère le contenu", "p": "Chaque invité le filme. Vous repartez avec des centaines de séquences portant votre logo, tournées et publiées par les personnes que vous avez invitées." },
-      { "icon": "scan-face", "h": "Il travaille la foule", "p": "Le robot marche, salue, pose, danse et remet des objets. Il circule dans la salle au lieu d'attendre dans un coin." },
-      { "icon": "mic", "h": "Il dit votre texte", "p": "Les mots d'ouverture, le message de marque, le nom du lauréat. En français, en anglais ou dans les deux langues, écrits avec vous avant le jour J." },
-      { "icon": "flag", "h": "Il porte votre marque", "p": "Votre logo sur le torse, vos couleurs sur les coques, votre film sur l'écran derrière lui. Le robot devient votre campagne." },
-      { "icon": "headset", "h": "Il n'est jamais seul", "p": "Un opérateur reste avec lui en permanence, pilote le show et surveille le public. Vous avez le spectacle sans le risque." }
+      {
+        "icon": "sparkles",
+        "h": "Il arrête la salle",
+        "p": "Les invités posent leur verre et lèvent leur téléphone. Le robot crée le seul moment de la soirée que personne ne fait défiler."
+      },
+      {
+        "icon": "megaphone",
+        "h": "Il génère le contenu",
+        "p": "Chaque invité le filme. Vous repartez avec des centaines de séquences portant votre logo, tournées et publiées par les personnes que vous avez invitées."
+      },
+      {
+        "icon": "scan-face",
+        "h": "Il travaille la foule",
+        "p": "Le robot marche, salue, pose, danse et remet des objets. Il circule dans la salle au lieu d'attendre dans un coin."
+      },
+      {
+        "icon": "mic",
+        "h": "Il dit votre texte",
+        "p": "Les mots d'ouverture, le message de marque, le nom du lauréat. En français, en anglais ou dans les deux langues, écrits avec vous avant le jour J."
+      },
+      {
+        "icon": "flag",
+        "h": "Il porte votre marque",
+        "p": "Votre logo sur le torse, vos couleurs sur les coques, votre film sur l'écran derrière lui. Le robot devient votre campagne."
+      },
+      {
+        "icon": "headset",
+        "h": "Il n'est jamais seul",
+        "p": "Un opérateur reste avec lui en permanence, pilote le show et surveille le public. Vous avez le spectacle sans le risque."
+      }
     ]
   },
   "fleet": {
@@ -37,10 +73,22 @@
   "how": {
     "h2": "Comment la journée se construit.",
     "steps": [
-      { "h": "Donnez-nous le brief", "p": "La date, le lieu, le public et ce que vos invités doivent retenir. Un appel suffit généralement." },
-      { "h": "Nous écrivons la scène", "p": "Vous recevez un déroulé : où le robot apparaît, ce qu'il dit, ce qu'il fait et la durée de chaque séquence." },
-      { "h": "Nous répétons et personnalisons", "p": "Votre logo est posé, le texte est chargé et nous testons le parcours, le sol et la lumière avant l'ouverture des portes." },
-      { "h": "Nous menons le show", "p": "Notre opérateur travaille la salle avec le robot, change la batterie entre les séquences et remballe une fois la soirée terminée." }
+      {
+        "h": "Donnez-nous le brief",
+        "p": "La date, le lieu, le public et ce que vos invités doivent retenir. Un appel suffit généralement."
+      },
+      {
+        "h": "Nous écrivons la scène",
+        "p": "Vous recevez un déroulé : où le robot apparaît, ce qu'il dit, ce qu'il fait et la durée de chaque séquence."
+      },
+      {
+        "h": "Nous répétons et personnalisons",
+        "p": "Votre logo est posé, le texte est chargé et nous testons le parcours, le sol et la lumière avant l'ouverture des portes."
+      },
+      {
+        "h": "Nous menons le show",
+        "p": "Notre opérateur travaille la salle avec le robot, change la batterie entre les séquences et remballe une fois la soirée terminée."
+      }
     ]
   },
   "software": {
@@ -50,11 +98,29 @@
     "alt": "Robot humanoïde en marche, utilisé pour du développement logiciel robotique sur mesure"
   },
   "faq": [
-    { "q": "Combien coûte la location d'un robot humanoïde à Monaco ?", "a": "À partir de 2 000 € par jour avec opérateur, au tarif sur plusieurs jours et hors taxes. Une journée isolée, un texte sur mesure, les déplacements et la scénographie sont chiffrés en plus. Donnez-nous la date et le lieu, vous avez un prix ferme sous 24 heures." },
-    { "q": "Le robot vient-il avec quelqu'un pour le piloter ?", "a": "Toujours. Un opérateur fait partie de chaque location. Le robot n'intervient jamais sans surveillance : notre opérateur mène le show, garde une distance de sécurité avec les invités et l'arrête immédiatement si quelqu'un s'approche trop." },
-    { "q": "Le robot peut-il porter notre logo et notre message ?", "a": "Oui. Le logo sur le torse est un adhésif imprimé que nous remplaçons par le vôtre, et les coques peuvent reprendre vos couleurs. Les répliques, les gestes et le déroulé sont écrits autour de votre campagne." },
-    { "q": "Où intervenez-vous ?", "a": "Monaco et Monte-Carlo sont notre base. Nous nous déplaçons régulièrement sur la Côte d'Azur, à Nice, Cannes, Antibes, Saint-Tropez, Menton et Villefranche-sur-Mer, et plus loin sur accord." },
-    { "q": "Combien de temps le robot peut-il se produire ?", "a": "Environ deux heures de show actif sur une batterie. Notre opérateur change les batteries sur place, une soirée complète est donc une question de découpage des séquences, pas d'autonomie." },
-    { "q": "Que ne fait pas le robot ?", "a": "Il ne fonctionne pas sans opérateur, ne porte pas de charges lourdes, ne marche ni sous la pluie ni sur du gravier, et il ne remplace pas votre personnel. C'est une machine à spectacle et à contenu, pas un serveur." }
+    {
+      "q": "Combien coûte la location d'un robot humanoïde à Monaco ?",
+      "a": "À partir de 2 000 € par jour avec opérateur, au tarif sur plusieurs jours et hors taxes. Une journée isolée, un texte sur mesure, les déplacements et la scénographie sont chiffrés en plus. Donnez-nous la date et le lieu, vous avez un prix ferme sous 24 heures."
+    },
+    {
+      "q": "Le robot vient-il avec quelqu'un pour le piloter ?",
+      "a": "Toujours. Un opérateur fait partie de chaque location. Le robot n'intervient jamais sans surveillance : notre opérateur mène le show, garde une distance de sécurité avec les invités et l'arrête immédiatement si quelqu'un s'approche trop."
+    },
+    {
+      "q": "Le robot peut-il porter notre logo et notre message ?",
+      "a": "Oui. Le logo sur le torse est un adhésif imprimé que nous remplaçons par le vôtre, et les coques peuvent reprendre vos couleurs. Les répliques, les gestes et le déroulé sont écrits autour de votre campagne."
+    },
+    {
+      "q": "Où intervenez-vous ?",
+      "a": "Monaco et Monte-Carlo sont notre base. Nous nous déplaçons régulièrement sur la Côte d'Azur, à Nice, Cannes, Antibes, Saint-Tropez, Menton et Villefranche-sur-Mer, et plus loin sur accord."
+    },
+    {
+      "q": "Combien de temps le robot peut-il se produire ?",
+      "a": "Environ deux heures de show actif sur une batterie. Notre opérateur change les batteries sur place, une soirée complète est donc une question de découpage des séquences, pas d'autonomie."
+    },
+    {
+      "q": "Que ne fait pas le robot ?",
+      "a": "Il ne fonctionne pas sans opérateur, ne porte pas de charges lourdes, ne marche ni sous la pluie ni sur du gravier, et il ne remplace pas votre personnel. C'est une machine à spectacle et à contenu, pas un serveur."
+    }
   ]
 }

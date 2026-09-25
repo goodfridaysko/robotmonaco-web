@@ -2,27 +2,63 @@
   "title": "Humanoid Robot Hire in Monaco | Events and Brands",
   "desc": "Hire a humanoid robot with an operator for events, launches and brand activations in Monaco and the French Riviera. Scripted, branded and walking among your guests.",
   "eyebrow": "Humanoid robot hire · Monaco",
-  "h1": "The guest everyone films.",
-  "lead": "A humanoid robot that walks into your event, greets people, poses for photographs and hands over the award. We bring it, we operate it, we write the scene around your brand. Monaco, Monte-Carlo and the whole Riviera.",
+  "h1": "Monaco's first walking billboard.",
+  "lead": "A humanoid robot walks into your event wearing your brand, greets your guests and poses for their photographs. We bring it, we operate it and we write the scene around your campaign. Monaco, Monte-Carlo and the whole Riviera.",
   "ctaSecondary": "See where it works",
   "heroRobot": "montari",
   "heroAlt": "Humanoid robot with the ROBOTMONACO wordmark on its chest, shown in 3D and turnable",
   "stats": [
-    ["2", "humanoids in the fleet, both built on the Unitree G1"],
-    ["24 h", "from your enquiry to a plan and a price"],
-    ["2", "hours of show on one battery, swapped on site"],
-    ["EN/FR", "the robot speaks to your guests in both"]
+    [
+      "2",
+      "humanoids in the fleet, both built on the Unitree G1"
+    ],
+    [
+      "24 h",
+      "from your enquiry to a plan and a price"
+    ],
+    [
+      "2",
+      "hours of show on one battery, swapped on site"
+    ],
+    [
+      "EN/FR",
+      "the robot speaks to your guests in both"
+    ]
   ],
   "why": {
     "h2": "Why a robot beats another photo wall.",
     "lead": "Guests at a Monaco event have seen every backdrop, every champagne tower and every LED screen. They have not shaken hands with a humanoid.",
     "items": [
-      { "icon": "sparkles", "h": "It stops the room", "p": "People put their glass down and lift their phone. The robot creates the one moment of the evening that nobody scrolls past." },
-      { "icon": "megaphone", "h": "It earns the content", "p": "Every guest films it. You leave the night with hundreds of clips carrying your logo, filmed and posted by the people you invited." },
-      { "icon": "scan-face", "h": "It works the crowd", "p": "The robot walks, waves, poses, dances and hands things over. It moves through the room instead of standing in a corner." },
-      { "icon": "mic", "h": "It speaks your script", "p": "Opening lines, the brand message, the winner's name. In English, French or both, written with you before the day." },
-      { "icon": "flag", "h": "It wears your brand", "p": "Your logo goes on the chest, your colours on the panels, your film on the screen behind it. The robot becomes your campaign." },
-      { "icon": "headset", "h": "It is never alone", "p": "An operator is always with it, steering the show and watching the crowd. You get the spectacle without the risk." }
+      {
+        "icon": "sparkles",
+        "h": "It stops the room",
+        "p": "People put their glass down and lift their phone. The robot creates the one moment of the evening that nobody scrolls past."
+      },
+      {
+        "icon": "megaphone",
+        "h": "It earns the content",
+        "p": "Every guest films it. You leave the night with hundreds of clips carrying your logo, filmed and posted by the people you invited."
+      },
+      {
+        "icon": "scan-face",
+        "h": "It works the crowd",
+        "p": "The robot walks, waves, poses, dances and hands things over. It moves through the room instead of standing in a corner."
+      },
+      {
+        "icon": "mic",
+        "h": "It speaks your script",
+        "p": "Opening lines, the brand message, the winner's name. In English, French or both, written with you before the day."
+      },
+      {
+        "icon": "flag",
+        "h": "It wears your brand",
+        "p": "Your logo goes on the chest, your colours on the panels, your film on the screen behind it. The robot becomes your campaign."
+      },
+      {
+        "icon": "headset",
+        "h": "It is never alone",
+        "p": "An operator is always with it, steering the show and watching the crowd. You get the spectacle without the risk."
+      }
     ]
   },
   "fleet": {
@@ -37,10 +73,22 @@
   "how": {
     "h2": "How the day is built.",
     "steps": [
-      { "h": "Tell us the brief", "p": "The date, the venue, the audience and what you want people to remember. A phone call is usually enough." },
-      { "h": "We write the scene", "p": "You get a running order: where the robot appears, what it says, what it does and how long each moment lasts." },
-      { "h": "We rehearse and brand", "p": "Your logo goes on, the script is loaded and we test the route, the floor and the lighting before doors open." },
-      { "h": "We run the show", "p": "Our operator works the room with the robot, swaps the battery between blocks and packs it away when you are done." }
+      {
+        "h": "Tell us the brief",
+        "p": "The date, the venue, the audience and what you want people to remember. A phone call is usually enough."
+      },
+      {
+        "h": "We write the scene",
+        "p": "You get a running order: where the robot appears, what it says, what it does and how long each moment lasts."
+      },
+      {
+        "h": "We rehearse and brand",
+        "p": "Your logo goes on, the script is loaded and we test the route, the floor and the lighting before doors open."
+      },
+      {
+        "h": "We run the show",
+        "p": "Our operator works the room with the robot, swaps the battery between blocks and packs it away when you are done."
+      }
     ]
   },
   "software": {
@@ -50,11 +98,29 @@
     "alt": "Humanoid robot walking, used for custom robot software development"
   },
   "faq": [
-    { "q": "How much does it cost to hire a humanoid robot in Monaco?", "a": "From €2,000 per day with an operator at the multi-day rate, excluding VAT. A single day, a custom script, travel and staging are quoted on top. Tell us the date and the venue and you get a firm price within 24 hours." },
-    { "q": "Does the robot come with someone to run it?", "a": "Always. An operator is part of every booking. The robot never performs unattended: our operator drives the show, keeps a safe distance from guests and stops it instantly if anyone gets too close." },
-    { "q": "Can the robot carry our logo and our message?", "a": "Yes. The wordmark on its chest is a printed decal we replace with yours, and panels can carry your colours. The spoken lines, the gestures and the running order are written around your campaign." },
-    { "q": "Where do you work?", "a": "Monaco and Monte-Carlo are home. We regularly travel along the Riviera to Nice, Cannes, Antibes, Saint-Tropez, Menton and Villefranche-sur-Mer, and further by arrangement." },
-    { "q": "How long can the robot perform?", "a": "About two hours of active show on one battery. Our operator swaps batteries on site, so a full evening is a matter of planning the blocks, not of the robot running out." },
-    { "q": "What does the robot not do?", "a": "It does not work without an operator, does not lift heavy loads, does not walk in rain or on loose gravel, and it does not replace your staff. It is a show and a content machine, not a waiter." }
+    {
+      "q": "How much does it cost to hire a humanoid robot in Monaco?",
+      "a": "From €2,000 per day with an operator at the multi-day rate, excluding VAT. A single day, a custom script, travel and staging are quoted on top. Tell us the date and the venue and you get a firm price within 24 hours."
+    },
+    {
+      "q": "Does the robot come with someone to run it?",
+      "a": "Always. An operator is part of every booking. The robot never performs unattended: our operator drives the show, keeps a safe distance from guests and stops it instantly if anyone gets too close."
+    },
+    {
+      "q": "Can the robot carry our logo and our message?",
+      "a": "Yes. The wordmark on its chest is a printed decal we replace with yours, and panels can carry your colours. The spoken lines, the gestures and the running order are written around your campaign."
+    },
+    {
+      "q": "Where do you work?",
+      "a": "Monaco and Monte-Carlo are home. We regularly travel along the Riviera to Nice, Cannes, Antibes, Saint-Tropez, Menton and Villefranche-sur-Mer, and further by arrangement."
+    },
+    {
+      "q": "How long can the robot perform?",
+      "a": "About two hours of active show on one battery. Our operator swaps batteries on site, so a full evening is a matter of planning the blocks, not of the robot running out."
+    },
+    {
+      "q": "What does the robot not do?",
+      "a": "It does not work without an operator, does not lift heavy loads, does not walk in rain or on loose gravel, and it does not replace your staff. It is a show and a content machine, not a waiter."
+    }
   ]
 }

@@ -4,14 +4,44 @@
   "email": "info@robotmonaco.com",
   "phone": "+377 37 73 06 01",
   "phoneHref": "+37737730601",
-  "areaServed": ["Monaco", "Monte-Carlo", "Nice", "Cannes", "Antibes", "Saint-Tropez", "Menton", "Villefranche-sur-Mer", "Èze"],
+  "address": {
+    "street": "9 Avenue J.F. Kennedy",
+    "zip": "98000",
+    "city": "Monaco",
+    "region": "Côte d'Azur"
+  },
+  "areaServed": [
+    "Monaco",
+    "Monte-Carlo",
+    "Nice",
+    "Cannes",
+    "Antibes",
+    "Saint-Tropez",
+    "Menton",
+    "Villefranche-sur-Mer",
+    "Èze"
+  ],
   "prices": {
-    "event": { "amount": "€2,000" },
-    "dev": { "amount": "€3,000" }
+    "event": {
+      "amount": "€2,000"
+    },
+    "dev": {
+      "amount": "€3,000"
+    }
   },
   "robots": [
-    { "slug": "montari", "model": "Unitree G1", "tone": "light", "priceKind": "event" },
-    { "slug": "nova", "model": "Unitree G1 EDU", "tone": "dark", "priceKind": "dev" }
+    {
+      "slug": "montari",
+      "model": "Unitree G1",
+      "tone": "light",
+      "priceKind": "event"
+    },
+    {
+      "slug": "nova",
+      "model": "Unitree G1 EDU",
+      "tone": "dark",
+      "priceKind": "dev"
+    }
   ],
   "useCaseOrder": [
     "brand-activations",
@@ -25,5 +55,8 @@
     "private-parties",
     "conferences"
   ],
-  "serviceOrder": ["robot-software-development", "ai-assistant-upgrade"]
+  "serviceOrder": [
+    "robot-software-development",
+    "ai-assistant-upgrade"
+  ]
 }
