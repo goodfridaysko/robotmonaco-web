@@ -393,9 +393,10 @@ def build_home():
     tiles = "".join(
         f"""<article class="tile{' is-dark' if r['tone'] == 'dark' else ''} reveal" style="--i:{i}">
 <div class="tile-copy"><p class="t-eyebrow">{e(r['model'])}</p><h3>{e(T['robots'][r['slug']]['name'])}</h3><p>{e(T['robots'][r['slug']]['tagline'])}</p>
-<div class="actions"><a class="link" href="{lp('/robots/' + r['slug'])}">{e(T['ui']['discover'])}</a></div></div>
+<p class="from"><span>{e(T['ui']['rentFrom'])}</span> <b>{e(T['ui']['prices'][r['priceKind']])}</b> <span>{e(T['ui']['perDayShort'])}</span></p>
+<p class="t-small">{e(T['ui']['robotValue'])} {e(T['ui']['values'][r['slug']])}</p>
+<div class="actions"><a class="btn" href="{lp('/contact')}">{e(T['ui']['rentCta'])}</a><a class="link" href="{lp('/robots/' + r['slug'])}">{e(T['ui']['discover'])}</a></div></div>
 {photo(r['slug'] + '-tile', T['robots'][r['slug']]['alt'], 'r-43', cls='on-dark' if r['tone'] == 'dark' else '')}
-<a class="tile-cover" href="{lp('/robots/' + r['slug'])}" tabindex="-1" aria-hidden="true"></a>
 </article>""" for i, r in enumerate(CONFIG["robots"]))
     uses = [{"path": "/use-cases/" + s, "label": T["use-cases"][s]["label"], "teaser": T["use-cases"][s]["teaser"]}
             for s in CONFIG["useCaseOrder"][:6]]
@@ -410,11 +411,10 @@ def build_home():
 
 <section class="section" id="fleet" style="padding-top:clamp(48px,6vw,88px)"><div class="wrap">
 <div class="section-head reveal center"><h2 class="t-h2">{e(d['fleet']['h2'])}</h2><p class="t-lead">{e(d['fleet']['lead'])}</p></div>
-</div>
 <div class="tiles">{tiles}</div>
-<div class="wrap center reveal" style="margin-top:clamp(32px,4vw,56px)">
+<div class="center reveal" style="margin-top:clamp(32px,4vw,56px)">
 <div class="actions"><a class="btn" href="{lp('/contact')}">{e(T['ui']['rentCta'])}</a><a class="link" href="{lp('/pricing')}">{e(T['ui']['seePricing'])}</a></div>
-</div></section>
+</div></div></section>
 
 <section class="section" style="padding-top:0"><div class="wrap"><div class="stats reveal">{stats(d['stats'])}</div></div></section>
 
@@ -481,21 +481,21 @@ def build_robot(r):
 
 <section class="section" style="padding-top:0"><div class="wrap"><div class="stats reveal">{specs}</div></div></section>
 
+<section class="section dark" id="branding" style="padding-top:clamp(48px,6vw,88px)"><div class="wrap">
+<div class="section-head reveal center"><h2 class="t-h2">{e(T['ui']['branding']['h2'])}</h2><p class="t-lead">{e(T['ui']['branding']['p'])}</p></div>
+</div>
+<div class="hero-media">{stage('montari-branding', T['ui']['branding']['alt'], 'r-219') or photo(r['slug'] + '-hero', T['ui']['branding']['alt'], 'r-219')}</div>
+</section>
+
 <section class="section tilebg"><div class="wrap">
 <div class="section-head reveal"><h2 class="t-h2">{e(d['does']['h2'])}</h2></div>
 <div class="grid-3">{cells(d['does']['items'])}</div>
 </div></section>
 
 <section class="section"><div class="wrap"><div class="row reveal">
-{photo(r['slug'] + '-tile', d['alt'], 'r-45')}
+{photo(r['slug'] + '-hero', d['alt'], 'r-45')}
 <div class="row-copy"><h2 class="t-h2">{e(d['fit']['h2'])}</h2><p class="t-lead">{e(d['fit']['lead'])}</p>
 <ul class="ticks">{''.join(f'<li>{e(x)}</li>' for x in d['fit']['list'])}</ul></div></div></div></section>
-
-<section class="section dark" id="branding"><div class="wrap">
-<div class="section-head reveal"><h2 class="t-h2">{e(T['ui']['branding']['h2'])}</h2><p class="t-lead">{e(T['ui']['branding']['p'])}</p></div>
-</div>
-<div class="hero-media">{stage('montari-branding', T['ui']['branding']['alt'], 'r-219') or photo(r['slug'] + '-hero', T['ui']['branding']['alt'], 'r-219')}</div>
-</section>
 
 {faq_section(d['faq'], bg='tilebg')}
 {contact_section(preset=d.get('preset', ''), dark=True)}"""

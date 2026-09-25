@@ -34,13 +34,15 @@
       "slug": "montari",
       "model": "Unitree G1",
       "tone": "light",
-      "priceKind": "event"
+      "priceKind": "event",
+      "value": "18000"
     },
     {
       "slug": "nova",
       "model": "Unitree G1 EDU",
       "tone": "dark",
-      "priceKind": "dev"
+      "priceKind": "dev",
+      "value": "56000"
     }
   ],
   "useCaseOrder": [

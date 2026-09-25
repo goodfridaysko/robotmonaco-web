@@ -10,6 +10,13 @@
   "cta": "Demander un devis",
   "rentCta": "Louez votre robot",
   "seePricing": "Voir les tarifs",
+  "rentFrom": "À partir de",
+  "perDayShort": "par jour",
+  "robotValue": "Valeur du robot",
+  "values": {
+    "montari": "18 000 €",
+    "nova": "56 000 €"
+  },
   "tagline": "Monaco et la Côte d'Azur · réponse sous 24 heures",
   "privacy": "Politique de confidentialité",
   "discover": "Voir le robot",

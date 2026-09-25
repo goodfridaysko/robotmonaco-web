@@ -329,6 +329,9 @@ span.plogo svg{display:block;height:100%;width:auto}
 .tile .ph img{object-fit:contain;object-position:center bottom;padding:0 6% 4%}
 .tile:hover .ph{transform:scale(1.025)}
 .tile-cover{position:absolute;inset:0;z-index:2}
+.tile.is-dark .btn{background:var(--on-dark);color:var(--ink)}
+.tile.is-dark .from b{color:var(--on-dark)}
+.tile-copy .actions{justify-content:center;margin-top:20px}
 .tile .actions a{position:relative;z-index:3}
 @media (max-width:1000px){.tiles.three{grid-template-columns:1fr 1fr}.tiles.three .tile:first-child{grid-column:1/-1}}
 @media (max-width:760px){.tiles,.tiles.three{grid-template-columns:1fr}}

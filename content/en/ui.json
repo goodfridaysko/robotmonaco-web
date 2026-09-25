@@ -10,6 +10,13 @@
   "cta": "Request a quote",
   "rentCta": "Rent your robot",
   "seePricing": "See pricing",
+  "rentFrom": "Rent from",
+  "perDayShort": "per day",
+  "robotValue": "Robot value",
+  "values": {
+    "montari": "€18,000",
+    "nova": "€56,000"
+  },
   "tagline": "Monaco and the French Riviera · reply within 24 hours",
   "privacy": "Privacy policy",
   "discover": "See the robot",
