@@ -110,7 +110,7 @@ body.is-loading{overflow:hidden}
 .nav.is-scrolled{box-shadow:0 1px 0 rgba(0,0,0,.08)}
 .nav>.wrap{position:relative;z-index:2;height:100%;display:grid;grid-template-columns:1fr auto 1fr;align-items:center}
 .logo{justify-self:center;display:inline-flex;align-items:center}
-.logo img{height:30px;width:auto;display:block;transition:filter .3s var(--ease)}
+.logo img{width:196px;height:auto;display:block;transition:filter .3s var(--ease)}
 .nav-end{justify-self:end;display:flex;align-items:center;gap:clamp(12px,1.6vw,22px)}
 .lang-dd{position:relative;font-size:12px;font-weight:600;letter-spacing:.04em}
 .lang-dd summary{list-style:none;display:flex;align-items:center;gap:6px;padding:7px 10px;border-radius:980px;color:var(--ink);cursor:pointer;transition:background .2s;user-select:none}
@@ -156,7 +156,7 @@ body.is-loading{overflow:hidden}
 .menu-open .menu{opacity:1;visibility:visible;transition-delay:0s}
 .menu-open .menu-links a{transform:none}
 .menu-open .menu-links li:nth-child(1) a{transition-delay:.08s}.menu-open .menu-links li:nth-child(2) a{transition-delay:.14s}.menu-open .menu-links li:nth-child(3) a{transition-delay:.2s}.menu-open .menu-links li:nth-child(4) a{transition-delay:.26s}.menu-open .menu-links li:nth-child(5) a{transition-delay:.32s}
-@media (max-width:860px){:root{--nav-h:64px}.logo img{height:24px}.nav-end .btn{display:none}}
+@media (max-width:860px){:root{--nav-h:64px}.logo img{width:156px}.nav-end .btn{display:none}}
 @media (prefers-reduced-motion:reduce){.menu-links a{transition:none}.menu{transition:none}}
 
 /* ---------- breadcrumbs ---------- */
@@ -596,7 +596,7 @@ span.plogo svg{display:block;height:100%;width:auto}
 .footer-brand{display:flex;align-items:center;justify-content:space-between;gap:24px;padding-block:clamp(20px,3vw,32px);border-top:1px solid var(--line-d)}
 @media (max-width:560px){.footer-brand{flex-direction:column;align-items:flex-start;gap:20px}}
 .footer-mark{display:block;line-height:0}
-.footer-mark img{height:22px;width:auto;opacity:.92;display:block}
+.footer-mark img{width:150px;height:auto;opacity:.92;display:block}
 .socials{display:flex;gap:8px}
 .socials a{display:grid;place-items:center;width:40px;height:40px;border-radius:50%;box-shadow:inset 0 0 0 1px rgba(255,255,255,.14);color:var(--on-dark);transition:background .2s,box-shadow .2s,transform .1s ease-out}
 .socials a:hover{background:rgba(255,255,255,.1);box-shadow:inset 0 0 0 1px rgba(255,255,255,.3)}

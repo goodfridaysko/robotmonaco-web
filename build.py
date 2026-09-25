@@ -725,8 +725,14 @@ def build():
     if DIST.exists():
         shutil.rmtree(DIST)
     (DIST / "assets" / "photos").mkdir(parents=True)
+    # src/img/robots holds the 4K renders tools/make_images.py composes from, and logo-chest.png is the
+    # texture tools/brand_glb.py bakes in. Both are source art the site never links, so they stay out of dist.
+    skip = {"robots", "logo-chest.png"}
     for f in SRC.glob("*"):
-        shutil.copytree(f, DIST / "assets" / f.name) if f.is_dir() else shutil.copy2(f, DIST / "assets" / f.name)
+        if f.is_dir():
+            shutil.copytree(f, DIST / "assets" / f.name, ignore=shutil.ignore_patterns(*skip))
+        else:
+            shutil.copy2(f, DIST / "assets" / f.name)
     for f in PHOTOS.glob("*"):
         if f.suffix.lower() in (".jpg", ".jpeg", ".png", ".webp", ".avif", ".mp4"):
             shutil.copy2(f, DIST / "assets" / "photos" / f.name)
