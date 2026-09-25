@@ -225,16 +225,6 @@
         "caption": "Open on the bench. Every robot is serviced and checked before it travels."
       },
       {
-        "file": "real-lab",
-        "alt": "Humanoid robot resting in a workshop between bookings",
-        "caption": "In the workshop between bookings."
-      },
-      {
-        "file": "real-demo-hand",
-        "alt": "Visitor reaching out to take the hand of a humanoid robot",
-        "caption": "A hand goes out, a phone comes up. That is the whole moment."
-      },
-      {
         "file": "real-expo-floor",
         "alt": "Humanoid robot walking an exhibition floor past visitors",
         "caption": "Walking an exhibition floor."

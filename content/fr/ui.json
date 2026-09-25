@@ -225,16 +225,6 @@
         "caption": "Ouvert sur l'établi. Chaque robot est révisé et contrôlé avant de partir."
       },
       {
-        "file": "real-lab",
-        "alt": "Robot humanoïde au repos dans l'atelier entre deux prestations",
-        "caption": "À l'atelier, entre deux prestations."
-      },
-      {
-        "file": "real-demo-hand",
-        "alt": "Un visiteur tend la main vers un robot humanoïde",
-        "caption": "Une main se tend, un téléphone se lève. Tout le moment est là."
-      },
-      {
         "file": "real-expo-floor",
         "alt": "Robot humanoïde marchant dans une allée de salon devant des visiteurs",
         "caption": "En marche dans une allée de salon."

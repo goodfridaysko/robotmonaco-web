@@ -1,9 +1,11 @@
-"""Mirror dist/ to the robotmonaco.com web root over FTPS. Adds and overwrites, never deletes.
+"""Mirror dist/ to the robotmonaco.com web root over FTPS.
 
     FTP_HOST=... FTP_USER=... FTP_PASS=... python3 tools/deploy.py [--dry]
 
-Server-side files we must not touch (the mail script and the old blog generator) are listed in
-PROTECTED; anything else on the server that is not in dist/ is left alone.
+Server-side files we must not touch are listed in PROTECTED. Outside the directories in SWEPT,
+anything on the server that is not in dist/ is left alone; inside them it is deleted, because those
+directories are generated whole from the repository and a file dropped from the build should stop
+being reachable rather than linger at its old URL.
 """
 import ftplib
 import os
@@ -13,6 +15,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DIST = ROOT / "dist"
 PROTECTED = set()      # this site ships its own send.php, so nothing on the server is left alone
+# Directories build.py writes in full. Nothing else puts files here, so a remote file that the build
+# no longer produces is a leftover, not somebody's upload.
+SWEPT = ("assets/photos", "assets/models", "assets/img")
 DRY = "--dry" in sys.argv
 
 
@@ -79,8 +84,32 @@ def main():
         up += 1
         total += size
         print(("would upload" if DRY else "uploaded"), rel, f"{size / 1024:.0f} kB")
+
+    # Sweep the generated directories, so a photo taken out of the gallery stops answering at its URL.
+    shipped = {p.relative_to(DIST).as_posix() for p in files}
+    gone = 0
+    for d in SWEPT:
+        try:
+            remote = ftp.nlst(d)
+        except ftplib.error_perm:
+            continue                                # the directory does not exist on the server yet
+        for entry in remote:
+            rel = entry.split("/", 1)[1] if entry.startswith("/") else entry
+            rel = rel if rel.startswith(d) else f"{d}/{rel.rsplit('/', 1)[-1]}"
+            if rel in shipped or rel in PROTECTED or remote_size(rel) is None:
+                continue                            # still built, protected, or a subdirectory
+            if not DRY:
+                try:
+                    ftp.delete(rel)
+                except ftplib.error_perm as ex:
+                    print("could not delete", rel, ex)
+                    continue
+            gone += 1
+            print(("would delete" if DRY else "deleted"), rel)
+
     ftp.quit()
-    print(f"done: {up} uploaded ({total / 1e6:.1f} MB), {skip} unchanged, {len(files)} files in dist")
+    print(f"done: {up} uploaded ({total / 1e6:.1f} MB), {skip} unchanged, {gone} deleted, "
+          f"{len(files)} files in dist")
 
 
 if __name__ == "__main__":

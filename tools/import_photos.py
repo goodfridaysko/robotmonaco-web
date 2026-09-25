@@ -29,8 +29,6 @@ MAX_W = 1200
 MANIFEST = {
     # our own, shot on a phone: the subject is upright and centred, so the default crop is right
     "image_2026-09-26_01-09-11.png": ("real-internals", 0.5, 0.06),
-    "image_2026-09-26_01-09-14.png": ("real-lab", 0.5, 0.06),
-    "image_2026-09-26_01-09-15 (2).png": ("real-demo-hand", 0.5, 0.06),
     "image_2026-09-26_01-09-15 (3).png": ("real-expo-floor", 0.5, 0.06),
     "image_2026-09-26_01-09-15 (5).png": ("real-audience", 0.5, 0.06),
     "image_2026-09-26_01-09-15 (6).png": ("real-testing", 0.5, 0.06),
