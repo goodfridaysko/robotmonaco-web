@@ -19,6 +19,7 @@ import re
 import shutil
 import struct
 import sys
+import urllib.parse
 
 ROOT = pathlib.Path(__file__).parent
 CONTENT, SRC, PHOTOS, STATIC, DIST = (ROOT / d for d in ("content", "src", "photos", "static", "dist"))
@@ -262,6 +263,17 @@ def footer():
 
 
 # ---------------------------------------------------------------- shared sections
+def whatsapp_fab():
+    """A floating WhatsApp button on every page. The number is the office one, and the message is
+    prefilled so an enquiry arrives with its context instead of a bare hello."""
+    w = T["ui"].get("whatsapp")
+    if not w:
+        return ""
+    href = "https://wa.me/" + CONFIG["phoneHref"].lstrip("+") + "?text=" + urllib.parse.quote(w["text"])
+    return (f'<a class="wa-fab" href="{href}" target="_blank" rel="noopener" aria-label="{e(w["label"])}">'
+            f'{icon("whatsapp")}<span>{e(w["label"])}</span></a>')
+
+
 def crumbs_html(crumbs):
     items = "".join(f"<li>{e(n)}</li>" if i == len(crumbs) - 1 else f'<li><a href="{lp(h)}">{e(n)}</a></li>' for i, (n, h) in enumerate(crumbs))
     return f'<nav aria-label="{e(T["ui"]["breadcrumb"])}" class="wrap"><ol class="crumbs">{items}</ol></nav>'
@@ -412,6 +424,7 @@ def page(path, title, desc, body, schema, current="", og_image=None, src_files=(
 {body}
 </main>
 {footer()}
+{whatsapp_fab()}
 </body>
 </html>
 """

@@ -312,5 +312,9 @@
     "alt": "The Unitree G1 humanoid robot walking and balancing",
     "credit": "Film by Mashable, on YouTube. It shows the G1 platform we hire out, not one of our own events."
   },
-  "partner": "A RobotRental partner site"
+  "partner": "A RobotRental partner site",
+  "whatsapp": {
+    "label": "WhatsApp",
+    "text": "Hello, I would like to hire a robot in Monaco."
+  }
 }

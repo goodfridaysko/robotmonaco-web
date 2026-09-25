@@ -777,3 +777,13 @@ span.plogo svg{display:block;height:100%;width:auto}
 .scale-item.is-ours .sil svg{opacity:.85}
 .scale-h{display:block;font-size:12px;font-weight:600;margin-top:10px;white-space:nowrap}
 .scale-n{display:block;font-size:11px;color:var(--mute);line-height:1.25;margin-top:2px}
+
+/* ---------- floating WhatsApp button ---------- */
+.wa-fab{position:fixed;right:clamp(16px,2.4vw,28px);bottom:clamp(16px,2.4vw,28px);z-index:60;display:inline-flex;align-items:center;gap:0;height:58px;padding:0 17px;border-radius:29px;background:#25d366;color:#0b2e18;text-decoration:none;box-shadow:0 6px 24px rgba(0,0,0,.24);transition:gap .3s var(--ease-out),padding .3s var(--ease-out),transform .2s var(--ease-out),box-shadow .3s}
+.wa-fab .ic{width:26px;height:26px;flex:0 0 auto}
+.wa-fab span{max-width:0;overflow:hidden;white-space:nowrap;font-weight:600;font-size:16px;transition:max-width .3s var(--ease-out)}
+.wa-fab:hover,.wa-fab:focus-visible{transform:translateY(-2px);box-shadow:0 10px 30px rgba(0,0,0,.3);gap:10px;padding-right:22px}
+.wa-fab:hover span,.wa-fab:focus-visible span{max-width:150px}
+.wa-fab:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
+.wa-fab:active{transform:translateY(0)}
+@media (prefers-reduced-motion:reduce){.wa-fab,.wa-fab span{transition:none}}

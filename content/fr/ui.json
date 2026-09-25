@@ -312,5 +312,9 @@
     "alt": "Le robot humanoïde Unitree G1 en marche et en équilibre",
     "credit": "Vidéo de Mashable, sur YouTube. Elle montre la plateforme G1 que nous louons, et non l'un de nos événements."
   },
-  "partner": "Site partenaire de RobotRental"
+  "partner": "Site partenaire de RobotRental",
+  "whatsapp": {
+    "label": "WhatsApp",
+    "text": "Bonjour, je souhaite louer un robot à Monaco."
+  }
 }
