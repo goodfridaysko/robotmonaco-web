@@ -1,0 +1,8 @@
+# Generated output, rebuilt by build.py
+dist/
+
+# Python and editor noise
+__pycache__/
+*.pyc
+.DS_Store
+.venv/

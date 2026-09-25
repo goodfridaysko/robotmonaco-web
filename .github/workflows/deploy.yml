@@ -1,0 +1,44 @@
+# Build the static site and mirror dist/ to the production web root over FTPS (tools/deploy.py).
+# Needs FTP_HOST, FTP_USER, FTP_PASS as repository secrets
+# (Settings > Secrets and variables > Actions > New repository secret).
+name: Deploy robotmonaco.com
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-production
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Build
+        run: python build.py
+
+      - name: Check secrets
+        env:
+          FTP_HOST: ${{ secrets.FTP_HOST }}
+          FTP_USER: ${{ secrets.FTP_USER }}
+          FTP_PASS: ${{ secrets.FTP_PASS }}
+        run: |
+          for v in FTP_HOST FTP_USER FTP_PASS; do
+            [ -n "${!v}" ] || { echo "::error::Missing repository secret $v"; exit 1; }
+          done
+
+      - name: Upload over FTPS
+        env:
+          FTP_HOST: ${{ secrets.FTP_HOST }}
+          FTP_USER: ${{ secrets.FTP_USER }}
+          FTP_PASS: ${{ secrets.FTP_PASS }}
+        run: python tools/deploy.py

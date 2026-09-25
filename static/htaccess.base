@@ -1,0 +1,45 @@
+DirectoryIndex index.html
+
+RewriteEngine On
+
+# http -> https
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+Options -Indexes
+DirectorySlash Off
+
+# /robots and /use-cases are pages and at the same time the folders holding their subpages. The clean-URL
+# rule at the bottom skips anything that is a directory, so without these two lines they would 403.
+RewriteRule ^(fr/)?robots/?$ /$1robots.html [L]
+RewriteRule ^(fr/)?use-cases/?$ /$1use-cases.html [L]
+
+# language root: /fr -> /fr/ (index.html inside)
+RewriteRule ^(fr)$ /$1/ [R=301,L]
+
+# /x.html -> /x (one canonical URL per page)
+RewriteCond %{THE_REQUEST} \s/([^?\s]+)\.html[\s?]
+RewriteRule ^ /%1 [L,R=301]
+
+# clean URLs: /x -> /x.html
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.+?)/?$ $1.html [L]
+
+<IfModule mod_headers.c>
+  <FilesMatch "\.(html|xml|txt)$">
+    Header set Cache-Control "no-cache, must-revalidate"
+  </FilesMatch>
+  # styles.css / app.js are versioned with ?v=<hash>, so they can be cached hard
+  <FilesMatch "\.(css|js)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  <FilesMatch "\.(avif|webp|jpg|jpeg|png|svg|mp4|woff2|glb)$">
+    Header set Cache-Control "public, max-age=2592000"
+  </FilesMatch>
+</IfModule>
+
+<IfModule mod_deflate.c>
+  AddType model/gltf-binary .glb
+  AddOutputFilterByType DEFLATE model/gltf-binary text/html text/css application/javascript application/json application/xml image/svg+xml
+</IfModule>

@@ -1,0 +1,68 @@
+{
+  "title": "Privacy Policy | ROBOTMONACO",
+  "desc": "How ROBOTMONACO handles the details you send through the enquiry form: what we collect, why, how long we keep it and your rights under the GDPR.",
+  "crumb": "Privacy policy",
+  "eyebrow": "Privacy",
+  "h1": "Privacy policy.",
+  "sections": [
+    {
+      "h2": "Who we are",
+      "p": [
+        "This site belongs to ROBOTMONACO, which hires out humanoid robots with an operator and builds robot software, based in Monaco and working across the French Riviera.",
+        "We are the controller of the personal data described on this page. For anything to do with your data, write to info@robotmonaco.com and a person will answer, normally within a few working days."
+      ]
+    },
+    {
+      "h2": "What we collect",
+      "p": [
+        "Only what you type into the enquiry form and send to us: your name, your company if you give one, your e-mail address, your phone number if you give one, the date of your event, the venue or city, the type of event and your message.",
+        "We do not ask for anything sensitive and we would rather you did not send it. Please keep financial details, identity documents and anything about a person's health out of the message. If you need to send something like that, we will agree a safer route with you first.",
+        "Our hosting provider records ordinary technical information when a page is served, such as the requesting IP address and the browser used. That happens for security and to keep the site running, and we do not use it to build a profile of you."
+      ]
+    },
+    {
+      "h2": "Why we use it and on what basis",
+      "p": [
+        "We use your details for one purpose: to answer your enquiry, prepare a quote and, if you go ahead, organise the booking. That is it. We do not sell your data and we do not add you to a marketing list because you asked a question.",
+        "The legal basis is our legitimate interest in replying to someone who has contacted us about our services, and, once you accept a quote, the performance of our contract with you. The tick box on the form records that you agreed to us using your details this way. We also keep records where the law requires it, for example invoices for accounting."
+      ]
+    },
+    {
+      "h2": "How long we keep it",
+      "p": [
+        "Enquiries that do not turn into a booking are kept for up to twenty four months, so we can pick up the thread if you come back to us about the same event or a later one. After that we delete them.",
+        "Where an enquiry becomes a booking, the contract and the invoicing records are kept for as long as accounting and tax rules require, then deleted. You can ask us to erase an enquiry sooner and we will, unless we are obliged to keep it."
+      ]
+    },
+    {
+      "h2": "Who sees it",
+      "p": [
+        "Inside our team, only the people handling your enquiry and the booking.",
+        "Outside it, only the suppliers who make the site and our e-mail work, which means our web host and our e-mail provider. They process the data on our instructions and are not allowed to use it for their own purposes. If such a supplier is outside the European Economic Area, the transfer relies on the safeguards the GDPR provides, such as standard contractual clauses.",
+        "We do not share your details with other clients, with advertising networks or with data brokers."
+      ]
+    },
+    {
+      "h2": "Cookies and analytics",
+      "p": [
+        "This site sets no tracking cookies, no advertising cookies and no third party analytics. There is nothing here that follows you to another website, which is why you are not greeted with a consent banner.",
+        "Your browser may store a small amount of information needed to display the site correctly, such as your choice of language. That stays on your device."
+      ]
+    },
+    {
+      "h2": "Your rights",
+      "p": [
+        "You can ask us for a copy of the personal data we hold about you, ask us to correct it if it is wrong, ask us to delete it, ask us to restrict what we do with it, object to our use of it, and ask for it in a portable format. Where we rely on your consent, you can withdraw it at any time.",
+        "Write to info@robotmonaco.com and say what you would like. We do not charge for this and we will not make it difficult. We may ask a question to confirm who you are before acting, so that nobody else can obtain your data by pretending to be you.",
+        "If you think we have handled your data badly, please tell us first so we can put it right. You also have the right to complain to the data protection authority where you live or work, or in Monaco to the Commission de Contrôle des Informations Nominatives."
+      ]
+    },
+    {
+      "h2": "Changes to this policy",
+      "p": [
+        "If we change how the enquiry form works or start using a new supplier, we will update this page.",
+        "The current version is always the one published here. If a change materially affects people who have already written to us, we will tell those people directly rather than rely on them noticing."
+      ]
+    }
+  ]
+}

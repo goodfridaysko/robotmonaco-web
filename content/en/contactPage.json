@@ -1,0 +1,28 @@
+{
+  "title": "Contact ROBOTMONACO | Robot Hire in Monaco",
+  "desc": "Talk to us about hiring a humanoid robot in Monaco or on the French Riviera. Send the date and the venue and get a plan and a price within 24 hours.",
+  "crumb": "Contact",
+  "eyebrow": "Contact · reply within 24 hours",
+  "h1": "Tell us about the event.",
+  "lead": "A date, a venue and a sentence about what you want guests talking about afterwards is enough to start. We come back within 24 hours with a plan, a running order and a price. If it is faster to talk, call us on +377 37 73 06 01.",
+  "formH2": "Send the brief.",
+  "formP": "Fill in what you know. Nothing here is final, and we would rather see a rough plan early than a perfect one the week before the event.",
+  "faq": [
+    {
+      "q": "How quickly do you reply to an enquiry?",
+      "a": "Within 24 hours, including at weekends during the Monaco event season. The reply is a real answer with availability and a price, not an acknowledgement. If your event is inside a week, say so in the message and we will call you rather than write."
+    },
+    {
+      "q": "What should we include in the first message?",
+      "a": "The date, the city or venue, the kind of event and roughly how many guests. If you already know what you want the robot to do, tell us. If you do not, describe the moment you are trying to create and we will propose the scene. Budget is useful but not required."
+    },
+    {
+      "q": "Can we see the robot before we book?",
+      "a": "Yes. We arrange demonstrations in Monaco and along the Riviera, either at our place or at your venue during a site visit. Seeing it walk and hearing it speak settles most questions in ten minutes. Ask for a demonstration in your message and we will find a slot."
+    },
+    {
+      "q": "Who do we deal with once the booking is confirmed?",
+      "a": "One person, from the first reply to the invoice. They write the running order with you, coordinate with your production team and venue, and are on site on the day. You will not be handed between departments."
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "robot-software-development": {
+    "label": "Robot software development",
+    "eyebrow": "Robot software development",
+    "h1": "Robots do what somebody wrote.",
+    "lead": "We write custom behaviour for humanoid robots: motion sequences, voice, remote control, show cues and integrations with your own systems. Python and C++ on ROS 2 and the Unitree SDK, built in Monaco and delivered as code you keep.",
+    "title": "Robot Software Development · Unitree and ROS 2",
+    "desc": "Custom robot software development for humanoid robots in Monaco: motion, voice, show control and integrations on ROS 2 and the Unitree SDK.",
+    "photo": "software",
+    "photo2": "nova-hero",
+    "alt": "Engineer working on custom robot software development for a Unitree humanoid robot",
+    "intro": {
+      "h2": "Off the shelf, a robot has a repertoire. Written for you, it has a job.",
+      "p": [
+        "Every humanoid robot arrives with a set of built-in moves. They are enough to impress a room once. They are not enough when the robot has to demonstrate your product, hit a cue from the lighting desk, read from your database or repeat the same twelve seconds perfectly for three days on a stand. That is where robot software development starts.",
+        "We work on the Unitree G1 EDU, the developer version of the humanoid we hire out as NOVA, with the full SDK open. Our engineers write in Python and C++ on top of ROS 2. That means motion sequences, speech, sensor handling, remote control and connections to whatever you already run, from a product catalogue to a show control desk.",
+        "Projects are quoted per project, never by a rate card on a web page, because the honest price depends on what the robot has to do and how exact it has to be. Small jobs are a few days of work on a robot you are already hiring. Larger ones run for weeks, with a demonstration at the end of each one so you can see the thing move rather than read a report."
+      ]
+    },
+    "features": {
+      "h2": "What we build.",
+      "items": [
+        { "icon": "workflow", "h": "Custom motion", "p": "Sequences, gestures and routines written for your scenario, tuned on the real robot rather than only in simulation." },
+        { "icon": "mic", "h": "Voice and speech", "p": "Scripted lines or generated speech in English and French, with the pacing, pauses and gestures matched to the words." },
+        { "icon": "monitor", "h": "Remote control", "p": "An operator interface built for your show: a tablet, a handheld controller or a single button that a stage manager can press." },
+        { "icon": "clapperboard", "h": "Show control", "p": "Cues taken from timecode, a lighting desk or a media server, so the robot moves with the music and the lights instead of near them." },
+        { "icon": "plug", "h": "Integrations", "p": "Your API, product database, CRM, booking system, screens or sensors. The robot reads real data and acts on it." },
+        { "icon": "cpu", "h": "ROS 2 and the SDK", "p": "Python and C++ on ROS 2 and the Unitree SDK, version controlled and documented, so another engineer can pick it up later." }
+      ]
+    },
+    "scope": {
+      "h2": "What a project includes.",
+      "lead": "Every engagement is scoped in writing before anyone opens an editor, so you know what you are buying.",
+      "list": [
+        "A written brief and a technical scope agreed with you before development begins",
+        "Development on real hardware, not only in simulation",
+        "Source code in your repository, in Python and C++ on ROS 2",
+        "Documentation an engineer outside our team can follow",
+        "A rehearsal or dry run on the robot before the first public use",
+        "An operator trained on the behaviour we wrote, for the days you hire the robot",
+        "A support window after handover for fixes and small adjustments",
+        "A fixed quotation per project, with travel and hire days listed separately"
+      ]
+    },
+    "process": {
+      "h2": "How a project runs.",
+      "steps": [
+        { "h": "Scope", "p": "We talk through what the robot must do, where it must do it and how exact it has to be. You get a written scope and a fixed price." },
+        { "h": "Build", "p": "Our engineers write the behaviour on the real robot, in short cycles, with a video at the end of each one so you see progress instead of reading about it." },
+        { "h": "Rehearse", "p": "We run the whole sequence in conditions as close to the real venue as we can get, then fix what the floor, the light and the noise expose." },
+        { "h": "Hand over", "p": "You get the code, the documentation and a trained operator. If you want us on site, we bring the robot and run it for you." }
+      ]
+    },
+    "faq": [
+      {
+        "q": "How much does robot software development cost?",
+        "a": "It is quoted per project. The price depends on how much new behaviour has to be written, how precise the timing must be and how many systems the robot has to talk to. Describe what you want the robot to do and we come back within 24 hours with a scope and a fixed figure."
+      },
+      {
+        "q": "Which robots do you develop for?",
+        "a": "The Unitree G1 EDU humanoid above all, which we operate as NOVA, and the Unitree Go2 robot dog. Both open their software development kit. If you own a different robot with an accessible SDK, send us the model and we will tell you honestly whether we are the right team."
+      },
+      {
+        "q": "Do we own the code you write?",
+        "a": "Yes. The source lands in your repository, in Python and C++ on ROS 2, with documentation another engineer can follow. We do not hold your show hostage in a black box, and we are happy for your own developers to work alongside ours."
+      },
+      {
+        "q": "How long does a robot software project take?",
+        "a": "A tightened motion sequence or a scripted scene for one event is usually a few days. A demonstration tied to your own data, with show control and a rehearsal, runs two to six weeks. We say which one you are looking at before you commit, not after."
+      },
+      {
+        "q": "Can you write the software and run the robot at our event?",
+        "a": "That is the usual arrangement. We develop the behaviour, then hire you the robot with an operator who already knows the script. One team wrote it and one team runs it, so nothing is lost between the two."
+      }
+    ],
+    "preset": "Robot software project"
+  },
+  "ai-assistant-upgrade": {
+    "label": "AI assistant upgrade",
+    "eyebrow": "AI assistant upgrade",
+    "h1": "A robot that answers, not a robot that recites.",
+    "lead": "The AI assistant upgrade turns a humanoid robot into a host. It listens, understands the question, answers from your product catalogue or your venue information, speaks English and French, and hands the visitor to a human the moment it does not know.",
+    "title": "AI Assistant Robot · Listens and Answers",
+    "desc": "Turn a humanoid robot into an AI assistant for your stand or venue in Monaco. It listens, answers from your own content and speaks English and French.",
+    "photo": "ai-assistant",
+    "photo2": "montari-hero",
+    "alt": "Humanoid robot working as an AI assistant, answering a visitor's question at a stand",
+    "intro": {
+      "h2": "Most robots repeat a loop. Yours can hold a conversation.",
+      "p": [
+        "A robot reciting the same forty seconds is impressive for one afternoon and tiring by the second. An AI assistant robot is a different proposition: a visitor walks up, asks a question in their own words, and the robot answers from what you have told it. Opening hours, the price of the model on the plinth, which berth the yacht is on, where the lift is, what the foundation does with the money raised tonight.",
+        "We build that upgrade on top of the humanoid. Speech goes in, your own content answers it, speech comes back with a gesture attached. The knowledge comes from your material, not from the open internet: a product catalogue, a price list, a venue guide, a press pack, a set of frequently asked questions. That is what keeps the answers correct and on message.",
+        "The most important part is the limit. When the robot does not know, it says so and hands the visitor to a member of your team rather than inventing an answer. Nothing damages a stand faster than a confident machine being wrong in front of a client, so we build the handover before we build the charm."
+      ]
+    },
+    "features": {
+      "h2": "What the AI assistant does.",
+      "items": [
+        { "icon": "headset", "h": "Listens and understands", "p": "Visitors ask in their own words rather than pressing a button. The robot handles a noisy room and picks up the question it was actually asked." },
+        { "icon": "database", "h": "Knows your content", "p": "We load your catalogue, price list, venue guide or press pack, so the answers come from your material and nowhere else." },
+        { "icon": "globe", "h": "English and French", "p": "It answers in the language it was addressed in and switches mid-conversation when a group does." },
+        { "icon": "shield-check", "h": "Hands over honestly", "p": "When it does not know, it says so and points the visitor to a person on your team. No invented prices, no invented facts." },
+        { "icon": "scan-face", "h": "Speaks with its body", "p": "The answer arrives with a look, a turn and a gesture, which is the whole reason for putting it in a humanoid rather than a screen." },
+        { "icon": "eye", "h": "Reports what was asked", "p": "You get a log of the questions visitors actually asked. It is usually the most useful thing a stand brings home." }
+      ]
+    },
+    "scope": {
+      "h2": "What the upgrade includes.",
+      "lead": "We build it around your content and your tone of voice, then test it against the questions your visitors really ask.",
+      "list": [
+        "A knowledge base built from your catalogue, venue information or press material",
+        "Speech in and speech out, in English and French",
+        "A tone of voice agreed with you, from formal host to relaxed guide",
+        "Rules for what the robot must never say, including anything about price if you prefer",
+        "A handover to a named member of your team when the robot does not know",
+        "Testing against a real list of visitor questions before the first day",
+        "A log of questions asked, handed to you after the event",
+        "Updates to the knowledge base between events or show days"
+      ]
+    },
+    "process": {
+      "h2": "How the upgrade is built.",
+      "steps": [
+        { "h": "Collect", "p": "You send the material the robot should know: catalogue, prices, venue guide, press pack, the questions your team answers twenty times a day." },
+        { "h": "Shape", "p": "We turn it into a knowledge base, set the tone of voice and write the rules for what the robot must not say or guess." },
+        { "h": "Test", "p": "We put real questions to it, in English and French, and tighten the answers until the wrong ones are gone and the handover is clean." },
+        { "h": "Run", "p": "The robot works your stand, venue or lobby with an operator alongside it. We update the knowledge base between days as the questions change." }
+      ]
+    },
+    "faq": [
+      {
+        "q": "What is an AI assistant robot?",
+        "a": "A humanoid robot that listens to a visitor's question, understands it and answers out loud from your own information, instead of playing a recorded loop. On our fleet it is an upgrade added to the humanoid you hire, built around your catalogue or your venue."
+      },
+      {
+        "q": "How much does the AI assistant upgrade cost?",
+        "a": "It is quoted per project, because the work depends on how much content the robot has to learn and how tightly the answers must be controlled. The robot hire itself is charged separately at the usual day rate with an operator."
+      },
+      {
+        "q": "Where does the robot get its answers?",
+        "a": "From material you give us: a product catalogue, a price list, a venue guide, a press pack, a set of frequently asked questions. We do not point it at the open internet, because a stand needs answers that are yours and correct rather than plausible."
+      },
+      {
+        "q": "What happens when the robot does not know the answer?",
+        "a": "It says so and hands the visitor to a person on your team. We agree that wording with you in advance. An honest handover keeps the conversation going, while a confident wrong answer in front of a client costs you the meeting."
+      },
+      {
+        "q": "Can the AI assistant work in French as well as English?",
+        "a": "Yes. It answers in the language it was addressed in and can switch when a group changes language, which matters at a Monaco stand where half the visitors open in French and the other half in English."
+      }
+    ],
+    "preset": "AI assistant project"
+  }
+}
