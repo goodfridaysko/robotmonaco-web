@@ -8,6 +8,7 @@ directories are generated whole from the repository and a file dropped from the 
 being reachable rather than linger at its old URL.
 """
 import ftplib
+import io
 import os
 import sys
 from pathlib import Path
@@ -19,6 +20,38 @@ PROTECTED = set()      # this site ships its own send.php, so nothing on the ser
 # no longer produces is a leftover, not somebody's upload.
 SWEPT = ("assets/photos", "assets/models", "assets/img")
 DRY = "--dry" in sys.argv
+
+
+def put_mail_ini(ftp):
+    """Place the mailbox credentials send.php needs, when MAIL_PASS is in the environment.
+
+    The file never enters the repository: it is assembled here from a secret and written straight to
+    the server. Above the web root is where it belongs, so it cannot be served at all; accounts whose
+    FTP login is chrooted to the web root get it beside send.php instead, where .htaccess denies it.
+    """
+    pw = os.environ.get("MAIL_PASS", "").strip()
+    if not pw:
+        print("mail.ini: MAIL_PASS is not set, leaving the server's copy alone")
+        return
+    ini = ("host = {}\nport = {}\nuser = {}\npass = {}\n".format(
+        os.environ.get("MAIL_HOST", "smtp.websupport.sk").strip(),
+        os.environ.get("MAIL_PORT", "465").strip(),
+        os.environ.get("MAIL_USER", "no-reply@robotmonaco.com").strip(),
+        pw,
+    )).encode("utf-8")
+    if DRY:
+        print("would write mail.ini above the web root")
+        return
+    for target in ("../mail.ini", "mail.ini"):
+        try:
+            ftp.voidcmd("TYPE I")
+            ftp.storbinary(f"STOR {target}", io.BytesIO(ini))
+        except (ftplib.error_perm, ftplib.error_temp) as ex:
+            print(f"mail.ini: could not write {target} ({ex})")
+            continue
+        print(f"mail.ini: written to {target}")
+        return
+    print("mail.ini: could not be written anywhere; the form will answer error=config")
 
 
 def main():
@@ -34,6 +67,8 @@ def main():
     ftp.prot_p()
     ftp.set_pasv(True)
     known_dirs = {""}
+
+    put_mail_ini(ftp)
 
     def ensure_dir(rel):
         if rel in known_dirs:

@@ -6,3 +6,6 @@ __pycache__/
 *.pyc
 .DS_Store
 .venv/
+
+# mailbox credentials: written straight to the server from a secret, never stored here
+mail.ini

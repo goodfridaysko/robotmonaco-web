@@ -158,8 +158,16 @@ if ($replyTo) {
     $headers[] = 'Reply-To: ' . ($name !== '' ? $name . ' <' . $replyTo . '>' : $replyTo);
 }
 
-$ini = __DIR__ . '/../mail.ini';
-if (!is_readable($ini) || !($cfg = @parse_ini_file($ini)) || empty($cfg['host']) || empty($cfg['user'])) {
+// Above the web root is where it belongs; beside the script is the fallback for accounts whose FTP
+// login cannot reach the parent directory, and .htaccess denies .ini there.
+$cfg = null;
+foreach ([__DIR__ . '/../mail.ini', __DIR__ . '/mail.ini'] as $ini) {
+    if (is_readable($ini) && ($parsed = @parse_ini_file($ini)) && !empty($parsed['host']) && !empty($parsed['user'])) {
+        $cfg = $parsed;
+        break;
+    }
+}
+if (!$cfg) {
     fail('config', 'mail.ini is missing or incomplete, so nothing was sent');
 }
 

@@ -1,6 +1,10 @@
 # Build the static site and mirror dist/ to the production web root over FTPS (tools/deploy.py).
 # Needs FTP_HOST, FTP_USER, FTP_PASS as repository secrets
 # (Settings > Secrets and variables > Actions > New repository secret).
+#
+# MAIL_PASS is the password of the no-reply mailbox the contact form sends through. When it is set,
+# the deploy writes mail.ini onto the server for send.php; without it the form answers error=config.
+# MAIL_HOST, MAIL_PORT and MAIL_USER are optional overrides of the defaults in tools/deploy.py.
 name: Deploy robotmonaco.com
 
 on:
@@ -41,4 +45,8 @@ jobs:
           FTP_HOST: ${{ secrets.FTP_HOST }}
           FTP_USER: ${{ secrets.FTP_USER }}
           FTP_PASS: ${{ secrets.FTP_PASS }}
+          MAIL_PASS: ${{ secrets.MAIL_PASS }}
+          MAIL_HOST: ${{ vars.MAIL_HOST }}
+          MAIL_PORT: ${{ vars.MAIL_PORT }}
+          MAIL_USER: ${{ vars.MAIL_USER }}
         run: python tools/deploy.py
