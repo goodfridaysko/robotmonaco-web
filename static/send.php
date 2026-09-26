@@ -158,13 +158,38 @@ if ($replyTo) {
     $headers[] = 'Reply-To: ' . ($name !== '' ? $name . ' <' . $replyTo . '>' : $replyTo);
 }
 
-// Above the web root is where it belongs; beside the script is the fallback for accounts whose FTP
-// login cannot reach the parent directory, and .htaccess denies .ini there.
+/**
+ * Read key = value lines. Deliberately not parse_ini_file: ?{}|&~!()^" are reserved there, so a
+ * password containing any of them makes the whole file fail to parse and the form answers config.
+ * Here the value is whatever follows the first '=', trimmed, with one optional layer of quotes.
+ */
+function read_config(string $path): array {
+    $cfg = [];
+    foreach (file($path, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES) ?: [] as $line) {
+        $line = trim($line);
+        if ($line === '' || $line[0] === ';' || $line[0] === '#' || !str_contains($line, '=')) {
+            continue;
+        }
+        [$k, $v] = explode('=', $line, 2);
+        $v = trim($v);
+        if (strlen($v) > 1 && ($v[0] === '"' || $v[0] === "'") && $v[-1] === $v[0]) {
+            $v = substr($v, 1, -1);
+        }
+        $cfg[trim($k)] = $v;
+    }
+    return $cfg;
+}
+
+// Above the web root is where it belongs; beside the script is the copy PHP can actually read when
+// open_basedir confines it to the document root, and .htaccess denies .ini there.
 $cfg = null;
 foreach ([__DIR__ . '/../mail.ini', __DIR__ . '/mail.ini'] as $ini) {
-    if (is_readable($ini) && ($parsed = @parse_ini_file($ini)) && !empty($parsed['host']) && !empty($parsed['user'])) {
-        $cfg = $parsed;
-        break;
+    if (is_readable($ini)) {
+        $parsed = read_config($ini);
+        if (!empty($parsed['host']) && !empty($parsed['user']) && !empty($parsed['pass'])) {
+            $cfg = $parsed;
+            break;
+        }
     }
 }
 if (!$cfg) {
