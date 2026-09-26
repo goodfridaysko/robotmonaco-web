@@ -47,7 +47,10 @@ def main():
         known_dirs.add(rel)
 
     def remote_size(rel):
+        # Listing a directory (MLSD, NLST) leaves the connection in ASCII mode, and servers answer
+        # SIZE with 550 there, which reads exactly like "no such file". Ask in binary every time.
         try:
+            ftp.voidcmd("TYPE I")
             return ftp.size(rel)
         except ftplib.error_perm:
             return None
