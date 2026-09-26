@@ -45,6 +45,9 @@ $body = implode("\n", $lines)
 $headers = [
     'From: ROBOTMONACO <' . FROM . '>',
     'Content-Type: text/plain; charset=utf-8',
+    'MIME-Version: 1.0',
+    'Content-Transfer-Encoding: 8bit',
+    'Message-ID: <' . bin2hex(random_bytes(12)) . '@robotmonaco.com>',
     'X-Mailer: robotmonaco-form',
 ];
 if ($replyTo) {
@@ -52,9 +55,21 @@ if ($replyTo) {
 }
 
 $subject = SUBJECT . ($name !== '' ? ' from ' . $name : '');
-$sent = @mail(TO, '=?UTF-8?B?' . base64_encode($subject) . '?=', $body, implode("\r\n", $headers));
+
+// The fifth argument sets the envelope sender. Without it the message leaves under the hosting
+// account's own address, which does not match the From header: SPF is then checked against the
+// wrong domain and a bounce goes somewhere nobody reads. -f puts both on this domain.
+$sent = @mail(
+    TO,
+    '=?UTF-8?B?' . base64_encode($subject) . '?=',
+    $body,
+    implode("\r\n", $headers),
+    '-f' . FROM
+);
 
 if (!$sent) {
+    $err = error_get_last();
+    error_log('robotmonaco form: mail() refused the message: ' . ($err['message'] ?? 'no detail'));
     http_response_code(500);
     echo json_encode(['ok' => false, 'error' => 'send']);
     exit;
