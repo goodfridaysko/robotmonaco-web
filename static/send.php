@@ -2,8 +2,8 @@
 // Contact form endpoint for robotmonaco.com. The form posts here and expects {"ok":true} back.
 //
 // Delivery goes through authenticated SMTP, not mail(). The host accepts mail() and returns true
-// while the message never leaves the machine, so enquiries were being lost silently. SMTP either
-// delivers or says why.
+// while the message never leaves the machine, so enquiries were lost silently for as long as the
+// form existed. SMTP either delivers or says why.
 //
 // Credentials live in mail.ini, one directory ABOVE the web root, so it is never served:
 //
@@ -27,7 +27,7 @@ if (($_SERVER['REQUEST_METHOD'] ?? '') !== 'POST') {
 const TO        = 'info@robotmonaco.com';
 const FROM      = 'no-reply@robotmonaco.com';   // a mailbox on our own domain, so SPF and DMARC pass
 const SUBJECT   = 'Website enquiry';
-const DIAG_COPY = 'juraj@goodfridays.sk';       // TEMPORARY while delivery is being confirmed; '' switches it off
+const DIAG_COPY = '';                           // a second recipient, if enquiries should also go elsewhere
 
 /** Header fields must never carry a line break, or a sender could inject extra headers. */
 function header_safe(string $v): string {
