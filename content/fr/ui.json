@@ -27,8 +27,9 @@
   "dragHint": "Faites glisser pour tourner le robot",
   "branding": {
     "h2": "Votre marque, sur le robot.",
-    "p": "La plaque sur le torse et le panneau dans le dos sont les vôtres. Faites tourner le robot pour voir les deux. Nous imprimons vos visuels et les posons avant l'ouverture, pour que le robot entre déjà aux couleurs de votre campagne.",
-    "alt": "Robot humanoïde en 3D montrant l'emplacement du logo client sur le torse et du panneau publicitaire dans le dos"
+    "p": "Une plaque sur le torse, d'environ 15 sur 10 cm, et un panneau A3 dans le dos : les deux portent vos visuels. Ici, un robot montre l'avant, l'autre le dos ; faites-les pivoter pour en faire le tour. Nous imprimons et posons le tout avant l'ouverture, pour que le robot entre déjà aux couleurs de votre campagne.",
+    "alt": "Deux robots humanoïdes en 3D côte à côte, l'un de face avec une plaque logo sur le torse, l'autre de dos avec un panneau publicitaire A3",
+    "hint": "Faites glisser pour en faire le tour"
   },
   "from": "À partir de",
   "perDay": "par jour, opérateur inclus",

@@ -185,6 +185,13 @@ body.is-loading{overflow:hidden}
 .stage-fallback{position:absolute;inset:6% 0 0 0;width:100%;height:94%;object-fit:contain;object-position:center bottom;animation:loader-in .9s var(--ease-out) forwards;opacity:0}
 .stage.is-fallback .stage-hint{display:none}
 @media (max-width:700px){.stage{min-height:64vh}}
+/* the branding still: a lit showroom, so black artwork reads against it */
+.stage.is-light{background:radial-gradient(95% 75% at 50% 100%,#fff 0%,#f2f2f5 48%,#e3e3e8 100%)}
+.stage.is-light .stage-hint{background:rgba(0,0,0,.06);box-shadow:inset 0 0 0 1px rgba(0,0,0,.08);color:rgba(0,0,0,.62)}
+/* A pair is about as wide as it is tall, so on a phone the tall default stage is mostly empty floor. */
+@media (max-width:700px){.ph.stage[data-still]{min-height:0;aspect-ratio:1/1.05}}
+/* The still has floor under the feet and heads near the top, so its hint sits on the floor, on one line. */
+.stage[data-still] .stage-hint{top:auto;bottom:16px;white-space:nowrap}
 
 /* product cutout on a dark stage (robot pages) */
 .ph.cutout{background:radial-gradient(90% 70% at 50% 108%,#2c2d32 0%,#17181b 45%,#0a0a0c 100%)}

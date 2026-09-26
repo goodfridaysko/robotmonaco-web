@@ -73,10 +73,41 @@
   const stages = document.querySelectorAll('.stage[data-model]');
   if (stages.length) {
     let lib;
+    // A still, for reading artwork: no clip and no camera direction, just the pair framed to fit the stage
+    // at whatever shape the stage has, and turnable by hand.
+    const stillStage = (el, mv) => {
+      const attrs = {
+        src: el.dataset.model, alt: el.dataset.alt, 'camera-controls': '', 'disable-zoom': '', 'disable-pan': '',
+        'touch-action': 'pan-y', 'interaction-prompt': 'none', 'shadow-intensity': '1.1', 'shadow-softness': '0.8',
+        exposure: '1.0', 'tone-mapping': 'commerce', 'environment-image': '/assets/env/studio.hdr',
+        'field-of-view': '24deg', 'min-camera-orbit': 'auto 70deg 1m', 'max-camera-orbit': 'auto 95deg 14m',
+        'interpolation-decay': '140'
+      };
+      Object.entries(attrs).forEach(([k, v]) => mv.setAttribute(k, v));
+      const K = Math.tan(12 * Math.PI / 180);                  // half of the 24deg vertical field of view
+      const frame = jump => {
+        const aspect = el.clientWidth / Math.max(1, el.clientHeight);
+        // The pair stands about 1.34 m tall and 1.4 m across. Height gets a fifth of the frame as margin,
+        // so the heads clear the hint; width gets less, because a portrait phone is width-bound anyway.
+        const r = Math.max(0.89 / K, 0.72 / (K * aspect));
+        const turned = el.classList.contains('is-touched') && mv.getCameraOrbit;
+        mv.cameraTarget = '0m 0.66m 0m';
+        mv.cameraOrbit = `${turned ? mv.getCameraOrbit().theta + 'rad' : '0deg'} 84deg ${r.toFixed(2)}m`;
+        if (jump) { try { mv.jumpCameraToGoal(); } catch (e) {} }
+      };
+      frame(true);
+      mv.addEventListener('load', () => {
+        frame(true);
+        el.classList.add('is-ready', 'is-wide');
+        setTimeout(() => el.classList.add('hint-off'), 9000);
+      }, { once: true });
+      if ('ResizeObserver' in window) new ResizeObserver(() => frame(false)).observe(el);
+    };
     const mount = el => {
       lib = lib || import('/assets/vendor/model-viewer.min.js');
       lib.then(() => {
         const mv = document.createElement('model-viewer');
+        if ('still' in el.dataset) stillStage(el, mv); else {
         const attrs = {
           src: el.dataset.model, alt: el.dataset.alt, 'camera-controls': '', 'disable-zoom': '', 'disable-pan': '',
           'touch-action': 'pan-y', 'interaction-prompt': 'none', 'shadow-intensity': '1.6', 'shadow-softness': '0.55',
@@ -154,6 +185,7 @@
           }, { threshold: 0.45 });
           seen.observe(el);
         }, { once: true });
+        }
         mv.addEventListener('pointerdown', () => el.classList.add('is-touched'), { once: true });
         // If WebGL, the network or the file lets us down, show the product photo instead of a dark box.
         const fallback = () => {
