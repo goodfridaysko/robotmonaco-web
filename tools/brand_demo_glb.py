@@ -8,9 +8,10 @@ Reads src/models/montari.glb and writes src/models/montari-branding.glb.
 What changes against the source model:
 
 * The chest. The source carries its wordmark on a strip 13 by 2.7 cm, too small to read from across a
-  room. That strip is removed and replaced by a plate 15 by 9.8 cm that follows the curve of the chest
+  room. That strip is removed and replaced by a plate 17 cm wide that follows the curve of the chest
   shell, sampled from the shell itself, so it sits on the robot like a printed patch instead of
-  floating off it as a flat card would.
+  floating off it as a flat card would. 17 cm is as wide as the chest faces forward: past about 8.5 cm
+  either side of centre the shell turns away into the shoulders.
 * The back. A real A3 board, 297 by 420 mm, mounted behind the torso.
 * A second robot. It is a copy of the node tree turned half a turn, so the camera sees the chest of one
   and the board of the other at once. The copy shares every mesh with the first, so it costs a few
@@ -35,7 +36,7 @@ OUT = ROOT / "src" / "models" / "montari-branding.glb"
 FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
 # Coordinates below are in the torso link's own frame: x forward, y to the robot's left, z up.
-CHEST = {"half_width": 0.075, "z_bottom": 0.130, "z_top": 0.228, "lift": 0.0018, "grid": (28, 18)}
+CHEST = {"half_width": 0.085, "z_bottom": 0.130, "z_top": 0.228, "lift": 0.0018, "grid": (32, 18)}
 A3_W, A3_H = 0.297, 0.420
 BOARD = {"x": -0.075, "half_width": A3_W / 2, "z_top": 0.29, "z_bottom": 0.29 - A3_H}
 SPACING = 0.42          # metres from the centre of the pair to each robot
@@ -154,9 +155,14 @@ def quat_mul(a, b):
 
 
 # ---------------------------------------------------------------- chest geometry
-def chest_surface(shell):
+def chest_art_size(chest, width_px=1600):
+    """Pixel size for chest artwork with the plate's own proportions, so nothing is stretched."""
+    w = 2 * chest["half_width"]
+    return width_px, round(width_px * (chest["z_top"] - chest["z_bottom"]) / w)
+
+
+def chest_surface(shell, c):
     """A grid over the chest that follows the shell, lifted a hair off it so it never z-fights."""
-    c = CHEST
     nx, nz = c["grid"]
     front = [p for p in shell if p[0] > 0.04]              # only the front face, never the back of the shell
     ys = [-c["half_width"] + 2 * c["half_width"] * i / (nx - 1) for i in range(nx)]
@@ -214,7 +220,8 @@ def chest_surface(shell):
 
 
 # ---------------------------------------------------------------- build
-def build(chest_art, back_art, out=OUT, src=SRC):
+def build(chest_art, back_art, out=OUT, src=SRC, chest=None):
+    chest = {**CHEST, **(chest or {})}
     gltf, binary = read_glb(src)
     gltf.pop("animations", None)                      # a still: the clips only cost bytes here
 
@@ -299,7 +306,7 @@ def build(chest_art, back_art, out=OUT, src=SRC):
                                    "indices": idx, "material": material})
 
     # chest: the decal material, which already points at the image we just swapped
-    add_primitive(*chest_surface(shell), decal_mat)
+    add_primitive(*chest_surface(shell, chest), decal_mat)
 
     # back: a flat A3 board. The print faces outwards only; the side against the robot is plain black,
     # because a double-sided print shows its artwork mirrored past the edges of the torso from the front.
@@ -341,8 +348,8 @@ def build(chest_art, back_art, out=OUT, src=SRC):
     gltf["buffers"] = [{"byteLength": len(packed)}]
     gltf.setdefault("asset", {})["generator"] = "brand_demo_glb"
     write_glb(out, gltf, packed)
-    print(f"{out.name}: two robots, chest plate {2 * CHEST['half_width'] * 100:.0f} x "
-          f"{(CHEST['z_top'] - CHEST['z_bottom']) * 100:.1f} cm, A3 board, {out.stat().st_size / 1e6:.2f} MB")
+    print(f"{out.name}: two robots, chest plate {2 * chest['half_width'] * 100:.0f} x "
+          f"{(chest['z_top'] - chest['z_bottom']) * 100:.1f} cm, A3 board, {out.stat().st_size / 1e6:.2f} MB")
 
 
 def _board_material(gltf, image_view):
@@ -366,5 +373,5 @@ def _backing_material(gltf):
 
 if __name__ == "__main__":
     # Placeholders, not our own mark: the demo shows a client where their artwork goes.
-    build(chest_art=plate((1536, 1004), ["YOUR", "LOGO"], pad=8, radius=70, tracking=30),
+    build(chest_art=plate(chest_art_size(CHEST), ["YOUR", "LOGO"], pad=8, radius=70, tracking=30),
           back_art=plate((1754, 2480), ["YOUR", "AD"], pad=10, radius=34, tracking=40))   # A3 at 150 dpi
