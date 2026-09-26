@@ -33,10 +33,12 @@ def put_mail_ini(ftp):
     if not pw:
         print("mail.ini: MAIL_PASS is not set, leaving the server's copy alone")
         return
+    # `or`, not a get() default: the workflow always defines these, as the empty string when the
+    # matching repository variable is unset, and an empty host is how mail.ini ended up unusable.
     ini = ("host = {}\nport = {}\nuser = {}\npass = {}\n".format(
-        os.environ.get("MAIL_HOST", "smtp.websupport.sk").strip(),
-        os.environ.get("MAIL_PORT", "465").strip(),
-        os.environ.get("MAIL_USER", "no-reply@robotmonaco.com").strip(),
+        os.environ.get("MAIL_HOST", "").strip() or "smtp.websupport.sk",
+        os.environ.get("MAIL_PORT", "").strip() or "465",
+        os.environ.get("MAIL_USER", "").strip() or "no-reply@robotmonaco.com",
         pw,
     )).encode("utf-8")
     if DRY:
