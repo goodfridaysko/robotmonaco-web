@@ -42,6 +42,10 @@ def put_mail_ini(ftp):
     if DRY:
         print("would write mail.ini above the web root")
         return
+    # Both places, because writing above the web root can succeed while PHP still cannot read it:
+    # shared hosting usually confines PHP to the document root with open_basedir. The copy beside
+    # send.php is the one that works there, and .htaccess answers 403 for it.
+    written = []
     for target in ("../mail.ini", "mail.ini"):
         try:
             ftp.voidcmd("TYPE I")
@@ -49,9 +53,11 @@ def put_mail_ini(ftp):
         except (ftplib.error_perm, ftplib.error_temp) as ex:
             print(f"mail.ini: could not write {target} ({ex})")
             continue
-        print(f"mail.ini: written to {target}")
-        return
-    print("mail.ini: could not be written anywhere; the form will answer error=config")
+        written.append(target)
+    if written:
+        print("mail.ini: written to " + " and ".join(written))
+    else:
+        print("mail.ini: could not be written anywhere; the form will answer error=config")
 
 
 def main():
