@@ -43,3 +43,9 @@ RewriteRule ^(.+?)/?$ $1.html [L]
   AddType model/gltf-binary .glb
   AddOutputFilterByType DEFLATE model/gltf-binary text/html text/css application/javascript application/json application/xml image/svg+xml
 </IfModule>
+
+# mail.ini belongs one level above the web root. Deny it here too, so a copy left in the wrong
+# place is never served with the mailbox password in it.
+<FilesMatch "\.(ini|env)$">
+  Require all denied
+</FilesMatch>
