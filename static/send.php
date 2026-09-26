@@ -13,6 +13,7 @@ if (($_SERVER['REQUEST_METHOD'] ?? '') !== 'POST') {
 const TO      = 'info@robotmonaco.com';
 const FROM    = 'no-reply@robotmonaco.com';   // a mailbox on our own domain, so SPF and DMARC pass
 const SUBJECT = 'Website enquiry';
+const DIAG_COPY = 'juraj@goodfridays.sk';   // TEMPORARY, see below; set to '' to switch the copy off
 
 /** Header fields must never carry a line break, or a sender could inject extra headers. */
 function header_safe(string $v): string {
@@ -50,6 +51,13 @@ $headers = [
     'Message-ID: <' . bin2hex(random_bytes(12)) . '@robotmonaco.com>',
     'X-Mailer: robotmonaco-form',
 ];
+// TEMPORARY, remove once delivery is confirmed: enquiries reach the MTA but never arrive at
+// info@robotmonaco.com. A copy to a mailbox on another provider separates the two possibilities —
+// if it arrives there, sending works and the fault is that one mailbox; if it does not, the host
+// is dropping the message on its way out.
+if (DIAG_COPY !== '') {
+    $headers[] = 'Cc: ' . DIAG_COPY;
+}
 if ($replyTo) {
     $headers[] = 'Reply-To: ' . ($name !== '' ? $name . ' <' . $replyTo . '>' : $replyTo);
 }
